@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Blog | Phillip Büchler</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Forged in the fires of Enterprise IT">
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[{
+            "@type":"ListItem",
+            "position":  1 ,
+            "name": "Seilschaft",
+            "description": "Die Ausrüstung aller Mitarbeitenden der SBB mit digitalen Arbeitsmitteln, beinhaltet als Projekt an sich schon viele Herausforderungen. Eine weitere Herausforderung kommt erst im Betrieb. Ich spreche jetzt nicht vom offensichtlichen Support von 30’000 Smartphones verschiedener Betriebssystem(-stände), sondern von der Weiterentwicklung von Services.\nSchon vor der Zuschüttung des «digitalen Grabens» hatten wir eine breite Anwenderschaft. Abseits von Bezeichnungen wie digitalen Immigranten oder Eingeborenen, arbeiten bei SBB Leute mit hoher Affinität zu Informatikmitteln. Und eben andere1. Mit Ausrüstung aller Mitarbeitenden strapazieren wir diese Spannbreite noch mehr.",
+            "url": "/posts/2016-01-06_seilschaft-5e4b7bd55eb0/"
+        },{
+            "@type":"ListItem",
+            "position":  2 ,
+            "name": "Crazy Ones",
+            "description": "So lautete die Werbung von Apple. Damals war Apple noch meilenweit davon entfernt in Unternehmen eine Relevanz zu haben. Die Aussagen waren auch globaler gemeint als Einfluss in Unternehmen. Aber die “crazy ones” in Unternehmen interessieren mich.\nDie Leute ohne Respekt für Status Quo. Leute die Dinge einfacher machen wollen. Leute die sich von Prozessen und schleppenden Entscheidungswegen nicht entmutigen lassen. Leute die Dinge aus der Consumer-Welt nehmen und sie für Unternehmen tauglich machen. Und diese Kombination, diese Iteration bringt uns weiter.",
+            "url": "/posts/2016-01-06_crazy-ones-22d1a78375ad/"
+        },{
+            "@type":"ListItem",
+            "position":  3 ,
+            "name": "Was ist «Collaboration»?",
+            "description": "Der Markt für Unternehmenssoftware wirbt seit Jahren mit den Schlagworten «Collaboration». In diesem Dunstkreis wird auf einmal alles interaktiv, sozial und effizienter. Doch was ist denn diese oft besungene «Collaboration» überhaupt?\nZum Einen ist es die englische Übersetzung des Begriffs Zusammenarbeit. Einfach genug. Zusammenarbeit findet auf verschiedenen Ebenen und in verschiedenen Formaten statt. Für meinen Erklärungsversuch habe ich folgendes erstellt:\nIn der obersten Zeile findet man die Phasen der Zusammenarbeit, gekürzt aber basierend auf der Definition von AIIM.",
+            "url": "/posts/2016-01-06_was-ist-collaboration-c24b41b4e906/"
+        },{
+            "@type":"ListItem",
+            "position":  4 ,
+            "name": "Brutales Follow Up - Ideenkultur",
+            "description": "Brutales Feedback lässt mich nicht los. Nicht weil wir es inzwischen praktizieren würden, nein. Ein weiterer empfehlenswerter Podcast widmete sich dem Thema. Darin sprechen Ben Thompson und James Allworth über eine Kultur von «brutalem Feedback» und der Hervorbringung der besten Ideen. Und die besten Ideen wollen wir doch alle hervorbringen, oder?\nDie beiden sprechen von dem Konflikt der Kulturen welche Ideen hervorbringen und Kulturen die eher ein Miteinander fördern. Am Beispiel von MBTI ist dies der Entscheid zwischen einer T- oder F-Typen dominierten Kultur.",
+            "url": "/posts/2016-01-06_brutales-follow-up-ideenkultur/"
+        },{
+            "@type":"ListItem",
+            "position":  5 ,
+            "name": "Brutal!",
+            "description": "“Lasst uns brutales und schonungsloses Feedback üben”. So eröffnete unser Abteilungsleiter die erweiterte Führungsklausur. Ich schmunzelte. Ich habe eine eher direkte Art. Gemäss Feedback verstörend für die Einen, erfrischend für die Anderen. Wir versuchten es, kamen aber nicht sonderlich weit. Zu tief drin sind antrainierten Zurückhaltungsregeln.\nBrutales Feedback fiel mir seit da immer wieder auf. Ausgelöst durch einen Artikel über die Arbeitsumstände bei Amazon, diskutierten Ben Thompson und John Gruber in der letzten «The Talk Show» über Arbeitskultur bei Apple und Microsoft wo Ben Thompson gearbeitet hat.",
+            "url": "/posts/2016-01-06_brutal/"
+        },{
+            "@type":"ListItem",
+            "position":  6 ,
+            "name": "Weekend Reader Woche 29",
+            "description": "Die Zukunft der Collaboration - Microsoft will mitreden Ich versuchte «Collaboration» schon mal zu erklären und kam zum Schluss, dass wir heute noch nicht auf dem Punkt sind wenn wir es als einzelne Plattform-/Applikationsaufgabe ansehen. Microsoft als wohl aktuell dominantester Player in dem Markt, will sich aber nicht auf seinen Lorbeeren ausruhen und warten bis die Distuption von Sharepoint und Office einschlägt, sondern will die Zukunft aktiv mitgestalten.\nGigJam soll dabei helfen:\n GigJam, which was code-named \u0026ldquo;Magic Glass\u0026rdquo; during development, is a genuinely new idea.",
+            "url": "/posts/weekendreader2015-29/"
+        },{
+            "@type":"ListItem",
+            "position":  7 ,
+            "name": "Weekend Reader Woche 28",
+            "description": "«from the Latin taking care» Menschen die Werke aussuchen und anderen Menschen präsentieren. Eine alte Kunst, welche mit immer mächtigeren Algorithmen langsam in Bedrängnis geriet. Google ist ein Vorreiter und Experte auf Algorithmen. Nur normal, dass Apple einen anderen Weg geht und nicht versucht auf Googles Heimfeld zu konkurrenzieren. Für Apple Music werden bekannte Experten engagiert, die Musik scannen und im hauseigenen Radio «Beats 1» publizieren.\nJean-Louis Gassée findet der Ansatz liesse sich auch auf den App Store ausweiten:",
+            "url": "/posts/weekendreader2015-28/"
+        },{
+            "@type":"ListItem",
+            "position":  8 ,
+            "name": "Weekend Reader Woche 27",
+            "description": "«Connect» in der Kritik Mit iOS 8.4 kam auch Apple Music welches reichlich kritisiert, gelobt und analysiert wurde. Selber nicht sonderlich Musik-Affin spare ich es mir momentan noch und vertraue auf meine Offline-Musik.\nDave Whiskus, iOS-App-Designer, Podcaster und anscheinend auch Musiker, schaute sich allerdings «Connect» an. Ein Service, der gemäss Apple Bands und Musikern dabei helfen soll, sich mit ihren Fans zu verbinden. Dave prüfte das Versprechen und fand allerlei Ungereimtheiten. Eigentlich nicht der Weekend-Reader-Rede wert, doch der Artikel fand etwas Gehör.",
+            "url": "/posts/weekendreader2015-27/"
+        },{
+            "@type":"ListItem",
+            "position":  9 ,
+            "name": "Weekend Reader Woche 26",
+            "description": "![]({{ \u0026ldquo;IMG_0168.png\u0026rdquo; | asset_url }})\nAuf vielfachen Wunsch Der CEO von Evernote Phil Libin stand Rafael Zeier Rede und Antwort. Der Artikel erschien, zu recht, mehrfach in meiner Twitter Timeline. Er spricht über seine Suche nach dem Nachfolger, die Produktvisionen von Evernote und eben auch über Ansätze plattformübergreifend zu entwickeln:\n Wenn man sagt, es kommt nicht darauf an, ob es ein Fernseher, ein Telefon, eine Uhr, iOS oder Android ist, dann bekommt man den kleinsten gemeinsamen Nenner.",
+            "url": "/posts/weekendreader2015-26/"
+        },{
+            "@type":"ListItem",
+            "position":  10 ,
+            "name": "Weekend Reader Woche 23",
+            "description": "![]({{ \u0026ldquo;wr1523.png\u0026rdquo; | asset_url }})\nApple Watch Erfahrung einer «Taubblinden» Wie befreiend kann eine Apple Watch und die belächelte Telefoniefunktion für Behinderte sein? Sehr befreiend wie uns Molly Watt erzählt. Hat nur am Rande mit der Apple Watch zu tun, ehrlicherweise kann sie das selbe auch mit dem iPhone machen, aber es zeigt die Wichtigkeit des Kontexts. Kein Gerät aus der Tasche fischen zu müssen kann ein Riesenvorteil sein.\nWork Anywhere in extremis Karin reist um die Welt und macht die Welt zu ihrem Arbeitsplatz.",
+            "url": "/posts/weekendreader2015-23/"
+        },{
+            "@type":"ListItem",
+            "position":  11 ,
+            "name": "Consumerization in der Gebäudesicherheit?",
+            "description": "Mit dem Umzug in ein ruhiges Häuschen (der korrekte Begriff ist Doppelhaushälfte) stellten sich neue Fragen. Die ruhige Lage zum Beispiel. Perfekt um an einem sonnigen Tag die Ruhe fernab von Eisenbahn- oder Strassenlärm zu geniessen. Ein paar Vögel zwitschern im Baum. Ein paar Kindern spielen in den Strassen. Leise, wie es sich für Kinder in ruhigen Quartieren gehört.\nDie Ruhe hat aber auch ihre Tücken. Völlig unbeobachtet könnten sich die berüchtigten Einbrecherbanden an unseren Türen zu schaffen machen.",
+            "url": "/posts/2015-06-03_consumerization-in-der-geb-udesicherheit-e69a483a2b3e/"
+        },{
+            "@type":"ListItem",
+            "position":  12 ,
+            "name": "Sind Unternehmen für Consumer-HW-Hersteller noch relevant?",
+            "description": "Samsung bietet mit Knox eine Reihe von Sicherheits- und Verwaltungsfunktionen für Unternehmen. Apple bietet ähnliches als Teil von iOS. Ausgereifte Funktionen, welche viel Entwicklungsarbeit bedingen. All dies um im grossen Markt der Unternehmensinformatik einen Stand zu haben. Moment, gross?\nWelches waren denn letztzhin grosse Unternehmensbeschaffungen über die berichtet wurde:\n120’000 iPads, 100’000 iPhones und 200’000 iPod Touches für die amerikanische Armee\nBarclays Bank kauft 8’500 iPads\nEs gibt weitere. Meist in der Grössenordnung 10’000 bis 100’000.",
+            "url": "/posts/2015-06-03_sind-unternehmen-f-r-consumer-hw-hersteller-noch-relevant/"
+        },{
+            "@type":"ListItem",
+            "position":  13 ,
+            "name": "Das Büchler Reifegradmodell",
+            "description": "Das Büchler Reifegradmodell [1] Oha, jetzt aber.\nEin Reifegradmodell unter Berücksichtigung der Einstiegshürden und der Adaption. Der Einsatz dieses Modells soll der Erklärung von Phasen und damit verbundenen Rahmenbedingungen und Möglichkeiten dienen.\nIm Alltag stosse ich öfters auf Artikel oder Diskussionen welche die vor- oder nachgelagerten Phasen eines Reifegradmodells ausser Acht lassen. So versteifen sich Diskussionen auf ein Fragment des Diskussionsgegenstands und verpassen das, in grosse Anführungszeichen zu setzende, ‘Big Picture’. Das Modell ist keine wissenschaftliche Arbeit sondern eine ‘unfertige Idee’ welche etwas fertiger ist als sonstige Dinge die ich eher auf consumerized.",
+            "url": "/posts/2015-06-02_das-buechler-reifegradmodell/"
+        },{
+            "@type":"ListItem",
+            "position":  14 ,
+            "name": "Die 3 Reiter der ITkalypse",
+            "description": "Die drei Reiter der ITkalypse verhindern jegliches Vorwärtskommen. Sie wirken zum Teil gegen aussen äusserst aktiv und innovativ, bewirken aber nüchtern, über Jahre betrachtet nichts. Die Mehrjährigkeit macht es schwierig zu erkennen. Sind wir doch als Informatiker unterjocht von der rasch ändernden Technologie und der damit verbundenen ständigen Hinterfragung unserer Lösungen.\nDiese Aufstellung soll helfen die Muster zu erkennen. Sie ist durchaus mit einem starken Zwinkern zu lesen. Ähnlichkeiten zu real existierenden Personen sind rein zufällig oder vollkommen beabsichtigt.",
+            "url": "/posts/2015-06-02_die-3-reiter-der-itkalypse/"
+        },{
+            "@type":"ListItem",
+            "position":  15 ,
+            "name": "UX = User Expectance",
+            "description": "Ich beobachtete eine Szene in meinem morgendlichen Transport von Murten nach Bern. Im Lötschberger der BLS öffnete ein älterer Herr die Türe zur ersten Klasse durch Druck auf den dafür vorgesehenen und reichlich markierten Knopf. Eine User Experience die ich als leicht besser taxiere als das komische Fuchteln das man auf den längeren Strecken der SBB in den Doppelstöckern jeweils beobachten kann1.\nBeim Schliessen der Türe geschah aber das Verwunderliche. Der Herr versuchte wie wild, mit diversen Manipulationen des Knopfes und sogar dem Versuch physischer — na ja Gewalt zu schreiben wäre in seinem Alter etwas übertrieben — physischem Effort, die Türe wieder zu schliessen.",
+            "url": "/posts/2015-06-02_ux-user-expectance-f17e04f3bf1b/"
+        }
+    ]
+}
+</script><meta property="og:title" content="Blog | Phillip Büchler" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/posts/" />
+
+
+
+
+
+<meta property="og:description" content="Forged in the fires of Enterprise IT" />
+
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Phillip Büchler" />
+
+
+
+
+
+
+<meta property="og:updated_time" content="2021-03-21T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="Phillip Büchler" />
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Phillip Büchler</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Archiv</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+<article class="mx-6 my-8">
+    <h1 class="font-bold text-3xl text-primary-text">Blog</h1>
+    
+</article>
+<div class="bg-secondary-bg rounded px-6">
+    <div class="overflow-hidden divide-y">
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2016-01-06_seilschaft-5e4b7bd55eb0/" class="font-bold text-xl hover:text-eureka">Seilschaft</a>
+</div>
+<div class="content">
+  
+    Die Ausrüstung aller Mitarbeitenden der SBB mit digitalen Arbeitsmitteln, beinhaltet als Projekt an sich schon viele Herausforderungen. Eine weitere Herausforderung kommt erst im Betrieb. Ich spreche jetzt nicht vom offensichtlichen Support von 30’000 Smartphones verschiedener Betriebssystem(-stände), sondern von der Weiterentwicklung von Services.
+Schon vor der Zuschüttung des «digitalen Grabens» hatten wir eine breite Anwenderschaft. Abseits von Bezeichnungen wie digitalen Immigranten oder Eingeborenen, arbeiten bei SBB Leute mit hoher Affinität zu Informatikmitteln. Und eben andere1. Mit Ausrüstung aller Mitarbeitenden strapazieren wir diese Spannbreite noch mehr.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2016-01-06</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2016-01-06_crazy-ones-22d1a78375ad/" class="font-bold text-xl hover:text-eureka">Crazy Ones</a>
+</div>
+<div class="content">
+  
+    So lautete die Werbung von Apple. Damals war Apple noch meilenweit davon entfernt in Unternehmen eine Relevanz zu haben. Die Aussagen waren auch globaler gemeint als Einfluss in Unternehmen. Aber die “crazy ones” in Unternehmen interessieren mich.
+Die Leute ohne Respekt für Status Quo. Leute die Dinge einfacher machen wollen. Leute die sich von Prozessen und schleppenden Entscheidungswegen nicht entmutigen lassen. Leute die Dinge aus der Consumer-Welt nehmen und sie für Unternehmen tauglich machen. Und diese Kombination, diese Iteration bringt uns weiter.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2016-01-06</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2016-01-06_was-ist-collaboration-c24b41b4e906/" class="font-bold text-xl hover:text-eureka">Was ist «Collaboration»?</a>
+</div>
+<div class="content">
+  
+    Der Markt für Unternehmenssoftware wirbt seit Jahren mit den Schlagworten «Collaboration». In diesem Dunstkreis wird auf einmal alles interaktiv, sozial und effizienter. Doch was ist denn diese oft besungene «Collaboration» überhaupt?
+Zum Einen ist es die englische Übersetzung des Begriffs Zusammenarbeit. Einfach genug. Zusammenarbeit findet auf verschiedenen Ebenen und in verschiedenen Formaten statt. Für meinen Erklärungsversuch habe ich folgendes erstellt:
+In der obersten Zeile findet man die Phasen der Zusammenarbeit, gekürzt aber basierend auf der Definition von AIIM.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2016-01-06</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2016-01-06_brutales-follow-up-ideenkultur/" class="font-bold text-xl hover:text-eureka">Brutales Follow Up - Ideenkultur</a>
+</div>
+<div class="content">
+  
+    Brutales Feedback lässt mich nicht los. Nicht weil wir es inzwischen praktizieren würden, nein. Ein weiterer empfehlenswerter Podcast widmete sich dem Thema. Darin sprechen Ben Thompson und James Allworth über eine Kultur von «brutalem Feedback» und der Hervorbringung der besten Ideen. Und die besten Ideen wollen wir doch alle hervorbringen, oder?
+Die beiden sprechen von dem Konflikt der Kulturen welche Ideen hervorbringen und Kulturen die eher ein Miteinander fördern. Am Beispiel von MBTI ist dies der Entscheid zwischen einer T- oder F-Typen dominierten Kultur.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2016-01-06</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2016-01-06_brutal/" class="font-bold text-xl hover:text-eureka">Brutal!</a>
+</div>
+<div class="content">
+  
+    “Lasst uns brutales und schonungsloses Feedback üben”. So eröffnete unser Abteilungsleiter die erweiterte Führungsklausur. Ich schmunzelte. Ich habe eine eher direkte Art. Gemäss Feedback verstörend für die Einen, erfrischend für die Anderen. Wir versuchten es, kamen aber nicht sonderlich weit. Zu tief drin sind antrainierten Zurückhaltungsregeln.
+Brutales Feedback fiel mir seit da immer wieder auf. Ausgelöst durch einen Artikel über die Arbeitsumstände bei Amazon, diskutierten Ben Thompson und John Gruber in der letzten «The Talk Show» über Arbeitskultur bei Apple und Microsoft wo Ben Thompson gearbeitet hat.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2016-01-06</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/weekendreader2015-29/" class="font-bold text-xl hover:text-eureka">Weekend Reader Woche 29</a>
+</div>
+<div class="content">
+  
+    Die Zukunft der Collaboration - Microsoft will mitreden Ich versuchte «Collaboration» schon mal zu erklären und kam zum Schluss, dass wir heute noch nicht auf dem Punkt sind wenn wir es als einzelne Plattform-/Applikationsaufgabe ansehen. Microsoft als wohl aktuell dominantester Player in dem Markt, will sich aber nicht auf seinen Lorbeeren ausruhen und warten bis die Distuption von Sharepoint und Office einschlägt, sondern will die Zukunft aktiv mitgestalten.
+GigJam soll dabei helfen:
+ GigJam, which was code-named “Magic Glass” during development, is a genuinely new idea.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-07-18</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>4 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/weekendreader2015-28/" class="font-bold text-xl hover:text-eureka">Weekend Reader Woche 28</a>
+</div>
+<div class="content">
+  
+    «from the Latin taking care» Menschen die Werke aussuchen und anderen Menschen präsentieren. Eine alte Kunst, welche mit immer mächtigeren Algorithmen langsam in Bedrängnis geriet. Google ist ein Vorreiter und Experte auf Algorithmen. Nur normal, dass Apple einen anderen Weg geht und nicht versucht auf Googles Heimfeld zu konkurrenzieren. Für Apple Music werden bekannte Experten engagiert, die Musik scannen und im hauseigenen Radio «Beats 1» publizieren.
+Jean-Louis Gassée findet der Ansatz liesse sich auch auf den App Store ausweiten:
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-07-08</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>6 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/weekendreader2015-27/" class="font-bold text-xl hover:text-eureka">Weekend Reader Woche 27</a>
+</div>
+<div class="content">
+  
+    «Connect» in der Kritik Mit iOS 8.4 kam auch Apple Music welches reichlich kritisiert, gelobt und analysiert wurde. Selber nicht sonderlich Musik-Affin spare ich es mir momentan noch und vertraue auf meine Offline-Musik.
+Dave Whiskus, iOS-App-Designer, Podcaster und anscheinend auch Musiker, schaute sich allerdings «Connect» an. Ein Service, der gemäss Apple Bands und Musikern dabei helfen soll, sich mit ihren Fans zu verbinden. Dave prüfte das Versprechen und fand allerlei Ungereimtheiten. Eigentlich nicht der Weekend-Reader-Rede wert, doch der Artikel fand etwas Gehör.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-07-04</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/weekendreader2015-26/" class="font-bold text-xl hover:text-eureka">Weekend Reader Woche 26</a>
+</div>
+<div class="content">
+  
+    ![]({{ “IMG_0168.png” | asset_url }})
+Auf vielfachen Wunsch Der CEO von Evernote Phil Libin stand Rafael Zeier Rede und Antwort. Der Artikel erschien, zu recht, mehrfach in meiner Twitter Timeline. Er spricht über seine Suche nach dem Nachfolger, die Produktvisionen von Evernote und eben auch über Ansätze plattformübergreifend zu entwickeln:
+ Wenn man sagt, es kommt nicht darauf an, ob es ein Fernseher, ein Telefon, eine Uhr, iOS oder Android ist, dann bekommt man den kleinsten gemeinsamen Nenner.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-06-28</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>4 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/weekendreader2015-23/" class="font-bold text-xl hover:text-eureka">Weekend Reader Woche 23</a>
+</div>
+<div class="content">
+  
+    ![]({{ “wr1523.png” | asset_url }})
+Apple Watch Erfahrung einer «Taubblinden» Wie befreiend kann eine Apple Watch und die belächelte Telefoniefunktion für Behinderte sein? Sehr befreiend wie uns Molly Watt erzählt. Hat nur am Rande mit der Apple Watch zu tun, ehrlicherweise kann sie das selbe auch mit dem iPhone machen, aber es zeigt die Wichtigkeit des Kontexts. Kein Gerät aus der Tasche fischen zu müssen kann ein Riesenvorteil sein.
+Work Anywhere in extremis Karin reist um die Welt und macht die Welt zu ihrem Arbeitsplatz.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-06-08</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>4 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2015-06-03_consumerization-in-der-geb-udesicherheit-e69a483a2b3e/" class="font-bold text-xl hover:text-eureka">Consumerization in der Gebäudesicherheit?</a>
+</div>
+<div class="content">
+  
+    Mit dem Umzug in ein ruhiges Häuschen (der korrekte Begriff ist Doppelhaushälfte) stellten sich neue Fragen. Die ruhige Lage zum Beispiel. Perfekt um an einem sonnigen Tag die Ruhe fernab von Eisenbahn- oder Strassenlärm zu geniessen. Ein paar Vögel zwitschern im Baum. Ein paar Kindern spielen in den Strassen. Leise, wie es sich für Kinder in ruhigen Quartieren gehört.
+Die Ruhe hat aber auch ihre Tücken. Völlig unbeobachtet könnten sich die berüchtigten Einbrecherbanden an unseren Türen zu schaffen machen.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-06-03</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2015-06-03_sind-unternehmen-f-r-consumer-hw-hersteller-noch-relevant/" class="font-bold text-xl hover:text-eureka">Sind Unternehmen für Consumer-HW-Hersteller noch relevant?</a>
+</div>
+<div class="content">
+  
+    Samsung bietet mit Knox eine Reihe von Sicherheits- und Verwaltungsfunktionen für Unternehmen. Apple bietet ähnliches als Teil von iOS. Ausgereifte Funktionen, welche viel Entwicklungsarbeit bedingen. All dies um im grossen Markt der Unternehmensinformatik einen Stand zu haben. Moment, gross?
+Welches waren denn letztzhin grosse Unternehmensbeschaffungen über die berichtet wurde:
+120’000 iPads, 100’000 iPhones und 200’000 iPod Touches für die amerikanische Armee
+Barclays Bank kauft 8’500 iPads
+Es gibt weitere. Meist in der Grössenordnung 10’000 bis 100’000.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-06-03</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2015-06-02_das-buechler-reifegradmodell/" class="font-bold text-xl hover:text-eureka">Das Büchler Reifegradmodell</a>
+</div>
+<div class="content">
+  
+    Das Büchler Reifegradmodell [1] Oha, jetzt aber.
+Ein Reifegradmodell unter Berücksichtigung der Einstiegshürden und der Adaption. Der Einsatz dieses Modells soll der Erklärung von Phasen und damit verbundenen Rahmenbedingungen und Möglichkeiten dienen.
+Im Alltag stosse ich öfters auf Artikel oder Diskussionen welche die vor- oder nachgelagerten Phasen eines Reifegradmodells ausser Acht lassen. So versteifen sich Diskussionen auf ein Fragment des Diskussionsgegenstands und verpassen das, in grosse Anführungszeichen zu setzende, ‘Big Picture’. Das Modell ist keine wissenschaftliche Arbeit sondern eine ‘unfertige Idee’ welche etwas fertiger ist als sonstige Dinge die ich eher auf consumerized.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-06-02</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>5 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2015-06-02_die-3-reiter-der-itkalypse/" class="font-bold text-xl hover:text-eureka">Die 3 Reiter der ITkalypse</a>
+</div>
+<div class="content">
+  
+    Die drei Reiter der ITkalypse verhindern jegliches Vorwärtskommen. Sie wirken zum Teil gegen aussen äusserst aktiv und innovativ, bewirken aber nüchtern, über Jahre betrachtet nichts. Die Mehrjährigkeit macht es schwierig zu erkennen. Sind wir doch als Informatiker unterjocht von der rasch ändernden Technologie und der damit verbundenen ständigen Hinterfragung unserer Lösungen.
+Diese Aufstellung soll helfen die Muster zu erkennen. Sie ist durchaus mit einem starken Zwinkern zu lesen. Ähnlichkeiten zu real existierenden Personen sind rein zufällig oder vollkommen beabsichtigt.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-06-02</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>4 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2015-06-02_ux-user-expectance-f17e04f3bf1b/" class="font-bold text-xl hover:text-eureka">UX = User Expectance</a>
+</div>
+<div class="content">
+  
+    Ich beobachtete eine Szene in meinem morgendlichen Transport von Murten nach Bern. Im Lötschberger der BLS öffnete ein älterer Herr die Türe zur ersten Klasse durch Druck auf den dafür vorgesehenen und reichlich markierten Knopf. Eine User Experience die ich als leicht besser taxiere als das komische Fuchteln das man auf den längeren Strecken der SBB in den Doppelstöckern jeweils beobachten kann1.
+Beim Schliessen der Türe geschah aber das Verwunderliche. Der Herr versuchte wie wild, mit diversen Manipulationen des Knopfes und sogar dem Versuch physischer — na ja Gewalt zu schreiben wäre in seinem Alter etwas übertrieben — physischem Effort, die Türe wieder zu schliessen.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-06-02</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+</div>
+
+
+</div>
+
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/posts/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/3/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item active">
+        <a href="#" aria-current="page" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/6/" aria-label="Page 6" class="page-link" role="button">6</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/5/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/11/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://philipbuechler.ch/">Fime</a> 
+ &middot;  </p>
+</div></div>
+  </footer>
+</body>
+
+</html>

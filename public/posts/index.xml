@@ -1,0 +1,1719 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on Phillip Büchler</title>
+    <link>/posts/</link>
+    <description>Recent content in Blog on Phillip Büchler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://philipbuechler.ch/&#34;&gt;Fime&lt;/a&gt; 
+</copyright>
+    <lastBuildDate>Sun, 21 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Das Zertifizierungsparadox</title>
+      <link>/posts/2021-03-22_zertifizierungsparadox/</link>
+      <pubDate>Sun, 21 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2021-03-22_zertifizierungsparadox/</guid>
+      <description>In 20 Jahren Enterprise IT kaum ein Thema, in 2 Jahren Dienstleister ein Dauerthema. Zertifizierungen. Ich bin ähnlich zertifiziert wie Gesichtsbehaart, kaum. Kenne ich mich deshalb weniger mit XY aus? Willkommen zum Zertifizierungsparadox.
+Paradox, weil ich die Vorzüge von Zertifizierungen durchaus sehe. Sie geben den Herstellern die Möglichkeit, einen gewissen Kenntnisstand abzufragen und damit ein Qualitätsminimum für Vertrieb und Services rund um ihre Produktpalette vorzugeben. Zertifizierungen geben Mitarbeitenden die Möglichkeiten, angeeignete Kenntnisse zu prüfen und gegenüber Dritten auszuweisen.</description>
+    </item>
+    
+    <item>
+      <title>Inventarisierung als Basis für Agilität und Sicherheit</title>
+      <link>/posts/transparenz-hilfe/</link>
+      <pubDate>Thu, 13 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/transparenz-hilfe/</guid>
+      <description>Zwei Diskussionen sind weit oben auf der Tagesordnung jeder Informatik - ach generalisieren wir - Unternehmung.
+Agilität um auf neue Geschäftsanforderungen reagieren zu können und die Sicherstellung der Informations- und Datensicherheit im Unternehmen.
+Glaubt man der Berater- und Artikelschar, muss dazu nur ganz viel neues getan werden um in beiden Themen zu reüssieren. Persönlich halte ich aber eine recht altmodische Disziplin im Bereich Informatik für einen grundlegenden Erfolgsfaktor für beides: Inventarisierung.
+Viele Jahre ist es her, da wurde dem jungen Architekten Philip Büchler die Software- und Systemkartographie nahe gebracht.</description>
+    </item>
+    
+    <item>
+      <title>Remote Work &gt; Videokonferenzen</title>
+      <link>/posts/remote-work/</link>
+      <pubDate>Tue, 16 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/remote-work/</guid>
+      <description>Passend zu meinen Gedanken beim Konsum des Interviews zwischen Kara Swisher und Jason Fried im Recode Decode Podcast, publiziert Inside IT einen Beitrag über die Homeoffice Umfrage bei Swisscom.
+Dort sind eine Mehrzahl der Angestellten der Meinung, dass Homeoffice mehr Vorteile als Nachteile hat. Die Situation wird bei den meisten Firmen so sein und auch ich persönlich habe als langjähriger Homeoffice-Vergesser gewisse Vorzüge erleben dürfen. Für Firmen würden sich weitere Vorzüge ergeben. Spontan fallen mir die Einsparungs- resp.</description>
+    </item>
+    
+    <item>
+      <title>Was macht den modernen Client denn modern?</title>
+      <link>/posts/modern-client/</link>
+      <pubDate>Mon, 25 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/modern-client/</guid>
+      <description>Jede Veränderung in der Informatik1 wird begleitet von neuen Begrifflichkeiten. Das Heer an Beratern und Produktherstellern muss ja Futter haben um auf Kundenfang zu geben. Ein sehr häufiger Begriff in meinem Alltag ist der &amp;ldquo;moderne Client&amp;rdquo;. Sei dies bezogen auf die Verwaltung von Endgeräten, Verteilung von Anwendungen oder die Kontrolle und Durchsetzung von Richtlinien - alles muss heute modern sein. Doch was macht denn den Kübel auf dem Tisch plötzlich modern? Das ich darauf mit einem Stift kritzeln kann?</description>
+    </item>
+    
+    <item>
+      <title>Sensitivity Labels für Microsoft Teams</title>
+      <link>/posts/sensitivity-group/</link>
+      <pubDate>Mon, 27 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/sensitivity-group/</guid>
+      <description>Als SBB 2018 Microsoft Teams fürs ganze Unternehmen einführte, hatte man mittels PowerShell Magie zwei verschiedene Arten Teams erstellt. Teams für vertrauliche Dokumente und Teams für maximal intern klassifizierte Dokumente. Diese Einstellung hatte unter anderem zur Folge ob externe Gäste hinzugefügt werden konnten oder nicht. Eine der Säulen der Microsoft 365 Sicherheit ist nämlich der Umgang mit Externen.
+Heute ist dies im Standardumfang von Microsoft 365 enthalten und ich möchte kurz zeigen wie man es macht.</description>
+    </item>
+    
+    <item>
+      <title>Screensharing vom Smartphone mit Microsoft Teams</title>
+      <link>/posts/smartphone-screensharing/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/smartphone-screensharing/</guid>
+      <description>Mein beinahe täglich Brot sind irgendwelche Konzepte oder Einstellungen auf mobilen Geräten vorzunehmen, zu testen und zu dokumentieren. Dabei sind Screenshots oder Screencasts natürlich ein sehr wichtiger Bestandteil der Dokumentation des Einfluss auf Enduser. Screenshots oder Aufzeichnungen auf dem Smartphone machen und dann auf den PC transferieren um es im Wiki oder in Dokumenten zu erfassen ist sowas von 2019. Weil man im Umfeld von Kunden aber nicht immer auf Desktops unterwegs ist, die frei Software installieren können, ist mir folgender Tipp schon oft zur Hilfe gekommen.</description>
+    </item>
+    
+    <item>
+      <title>Smartphone als Webcam in Microsoft Teams</title>
+      <link>/posts/webcam/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/webcam/</guid>
+      <description>In der Photographie gibt es das Sprichwort: &amp;ldquo;Die beste Kamera ist die die du dabei hast&amp;rdquo;. Denn die Vollformat-Spiegelreflex zuhause im Schrank schiesst keine guten Bilder.
+In der ersten Woche des verschärften Homeoffice machte ich mir recht viele Gedanken über meine Ausrüstung. Heute hat zwar jedes Notebook eine Webcam eingebaut, aber man möchte das Notebook ja vielleicht auch vor sich verwenden um zu zeichnen/skizzieren. Oder man findet es nicht optimal wie man von unten in die Nase gefilmt wird.</description>
+    </item>
+    
+    <item>
+      <title>Remote Brainstorming</title>
+      <link>/posts/remote_brainstorming/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/remote_brainstorming/</guid>
+      <description>Auf Twitter fragte Nicola v. Greyerz nach einer Lösung für digitale Brainstormings. Unsere Quarantäne dürfte mit reduziertem Post-It Verbrauch deutlich zur Besserung von Waldbeständen beitragen.
+Doch wie lösen wir die physische Distanz? Während sie in Meetings heute mehr oder weniger einfach überbrückt werden kann, ist es in Workshops durchaus schwieriger.
+Es gibt sicher haufenweise &amp;ldquo;best of breed&amp;rdquo; Ansätze. Ich finde es aber immer charmant wenn man etwas nutzt, was fast alle zur Verfügung haben. Eine Möglichkeit ist deshalb &amp;ldquo;Sticky Notes&amp;rdquo; von Microsoft.</description>
+    </item>
+    
+    <item>
+      <title>Von schlechtem Hundefutter</title>
+      <link>/posts/dogfooding/</link>
+      <pubDate>Tue, 24 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/dogfooding/</guid>
+      <description>Der Begriff &amp;ldquo;Dogfooding&amp;rdquo; kommt aus dem englischen Sprachgebrauch und beschreibt die Nutzung der eigenen Produkte durch Mitarbeitende. Eine äusserst löbliche Absicht um offensichtliche Versäumnisse des eigenen Produkts oder verwandter Prozesse zu erkennen.
+Die Diskussionen rund um Heimarbeit und Videokonferenzen weckten aber Erinnerungen an eine Zeit, wo die Produktfirma deren Produkte meinen Lohn bezahlen ein nicht so löbliches Verhalten hatte.
+Erlaubt mir etwas auszuholen. Wir schrieben die Jahre vor 2014. Steve Ballmer war CEO von Microsoft und Philip Büchler war Verfechter von Consumer-Produkten im Unternehmenseinsatz1.</description>
+    </item>
+    
+    <item>
+      <title>Produktivitäts Apps</title>
+      <link>/posts/productivity-apps/</link>
+      <pubDate>Tue, 17 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/productivity-apps/</guid>
+      <description>Artikel über kleine Helferlein auf dem Computer, gibt es fast genau so viele wie Bilder von Katzen. Aber ich möchte es doch nicht verpassen, euch auf vier kleine Helferlein hinzuweisen1, welche ich noch als Geheimtipps erachte.
+Phrase Express Wer mit Text arbeitet, und sind wir ehrlich, dass sind wir alle, wird von Phrase Express profitieren können.
+ Definition von Bausteinen   Phrase Express ist eine Textbausteinverwaltung. Ich nutze hiervon sicher nur einen Kleinstteil, aber es ist enorm hilfreich um wiederkehrende und längere Text-Elemente zu automatisieren.</description>
+    </item>
+    
+    <item>
+      <title>Mein Blog Setup</title>
+      <link>/posts/2020-03-12_hugo/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-03-12_hugo/</guid>
+      <description>Blogs sind eine meiner längsten Liebe. Schon als die dahinterliegenden Anwendungen noch Newsscripts hiessen, habe ich regelmässig Blogs gelesen. Wenig später reizte es mich dann auch selber ins Internet zu publizieren. Versierte Internet-Benutzer finden diese Jugendsünden noch. Mit dem Weekend Reader habe ich dann 2013 - 2015 regelmässig eine Wochenzusammenfassung publiziert. Im Nachhinein eigentlich beeindruckend beständig. Das war jedoch der Anfang des Endes. Die Blog-Aktivität nahm immer mehr ab.
+Im Hintergrund habe ich immer mal wieder den Unterbau gewechselt.</description>
+    </item>
+    
+    <item>
+      <title>Zero Trust</title>
+      <link>/posts/2020-03-10_zero-trust/</link>
+      <pubDate>Tue, 10 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-03-10_zero-trust/</guid>
+      <description>Man könnte meinen &amp;ldquo;Zero Trust&amp;rdquo;-Konzepte seien eine top moderne Modeerscheinung. Ohne jetzt die volle Recherche-Power des Internets zu nutzen, kann ich allerdings sagen, dass diese Konzepte schon seit über zehn Jahren propagiert werden. Google war der erste grössere Implementator.
+Auf einen Satz zusammengedampft besteht &amp;ldquo;Zero Trust&amp;rdquo; in der ständigen Authentisierung von Anwendern, Anwendungen und Endgeräten.
+Als Verfechter von benutzbarer Sicherheit sehe ich hier auch den Grund für den jetzigen Erfolg des Konzepts. Heute sind die Lösungen so einfach zu verwenden, dass Anwender akzeptieren sich ständig anmelden zu müssen.</description>
+    </item>
+    
+    <item>
+      <title>Warum in die Cloud?</title>
+      <link>/posts/2020-03-05_cloudmotivation/</link>
+      <pubDate>Thu, 05 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-03-05_cloudmotivation/</guid>
+      <description>Als Berater/Architekt bei einem Cloud-Dienstleister ist die Frage eigentlich mein täglich Brot: Weshalb verschieben wir Informatik in die Cloud?
+Die Frage ist je nach Kunde mehr oder weniger beantwortet. Wenn ich ein bisschen reflektiere komme ich auf folgende Gruppierungen.
+ Treiber für eine Cloud Migration   Gestern - Kosten Die ersten Cloud Migrationen waren noch sehr stark von versprochenen Kostenvorteilen geprägt. Kaum ein Cloud-Projekt, welches dies nicht als hauptsächlichen Treiber hatte. Die Kostenoptimierungen sollten primär kommen, weil Clouds einerseits tiefere Preise wegen Skalen-Effekten anbieten konnten, sekundär brachte das pay-per-use Prinzip aber auch Potentiale Fixkosten einzusparen wenn Dienste nicht dauernd oder mit tiefer Auslastung bezogen werden mussten.</description>
+    </item>
+    
+    <item>
+      <title>Sketchnote - Azure User Group Bern - Sami Laiho zu Azure Security</title>
+      <link>/posts/2020-03-03_azure_meetup_security/</link>
+      <pubDate>Tue, 03 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-03-03_azure_meetup_security/</guid>
+      <description>Am heutigen Azure User Group Treffen zeigte uns der MVP Sami Laiho wie man seinen Cloud Tenant absichert. Dies auf gewohnt unterhaltsame Weise. Wer sagte Finnen sind humorlos?
+ Sketchnote Sami Laiho   Danke an die Azure UG Bern für die Organisation und Zühlke für die Gastfreundschaft!</description>
+    </item>
+    
+    <item>
+      <title>Sketchnote - From Good To Great</title>
+      <link>/posts/2020-03-01_good-to-great/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-03-01_good-to-great/</guid>
+      <description>Ich werde oft gefragt welche App ich für meine Sketchnotes verwende. Als ob die App magische Kräfte hätte und die Wahl der richtigen App die Erstellung von Sketchnotes quasi automatisieren würde1.
+Die (Teil)Zusammenfassung des grossartigen Buchs &amp;ldquo;Good To Great&amp;rdquo; von Jim Collins habe ich mit den am Kindertisch vorhandenen Mitteln erstellt. HB Bleistift und A4-Papier. Mir gefällts trotzdem:
+ Sketchnote Good To Great by Jim Collins     Ich verwende auf dem Windows Tablet jeweils OneNote weil es einfach da ist.</description>
+    </item>
+    
+    <item>
+      <title>Nach 22 Jahren SBB zum Dienstleister</title>
+      <link>/posts/2020-03-01_22_jahre_sbb/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2020-03-01_22_jahre_sbb/</guid>
+      <description>Wackellinie aka Karriere   Am 1. März 2019 war es soweit. Ich beendete mit meinem Eintritt bei isolutions was im August 1996 begann. Meine Laufbahn bei SBB. Eine Frage die ich immer wieder hörte war schon lange: &amp;ldquo;Wie hälst du es so lange beim gleichen Arbeitgeber aus?&amp;rdquo; und, ironischerweise, die zweite Frage dann nach dem Weggang: &amp;ldquo;Wieso verlässt du die SBB nach so langer Zeit?&amp;rdquo;. Auf beide möchte ich hier eingehen.
+SBB Informatik Ich bin irgendwann als klassischer Quereinsteiger in die IT gerutscht.</description>
+    </item>
+    
+    <item>
+      <title>Sketchnote - SharePoint and Office 365 Community, Bern</title>
+      <link>/posts/2019-11-14_sharepoint_community/</link>
+      <pubDate>Thu, 14 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-11-14_sharepoint_community/</guid>
+      <description>Cold and stormy outside, David Schneider takes us on a voyage to a SharePoint paradise with the help of artificial intelligence from Azure Conitive Services.
+ Sketchnote   </description>
+    </item>
+    
+    <item>
+      <title>Sketchnote - Microsoft 365 Security</title>
+      <link>/posts/2019-11-13_m365_security/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-11-13_m365_security/</guid>
+      <description>Maybe, M365 is more secure than your current Workplace.
+ Sketchnote M365 Security   </description>
+    </item>
+    
+    <item>
+      <title>Sketchnote - Office 365 - The worlds productivity cloud</title>
+      <link>/posts/2019-11-11_o365productivitycloud/</link>
+      <pubDate>Mon, 11 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-11-11_o365productivitycloud/</guid>
+      <description>This is my #Sketchnote of the Technical Keynote for Microsoft 365, delivered in the most parts by M365 CVP’s Jared Spataro and Brad Anderson.
+ Sketchnote of Brad Anderson and Jared Spataro   </description>
+    </item>
+    
+    <item>
+      <title>Windows 10 can&#39;t save pictures from the camera.</title>
+      <link>/posts/2019-09-24_camera-windows10-windowsinformationprotection/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-09-24_camera-windows10-windowsinformationprotection/</guid>
+      <description>That was the error that a user reported which eventually landed on my desk. In the project I am responsible for Intune Device Management and so the thinking was, that there must be a policy that blocks the Camera app. There is not. But why this error then?
+ Error Message with WIP   Let me put the error here for Google to index:
+ Sorry — we weren’t able to save the photo. If you nee it, here’s the error code: 0xA00F4253 (0x80070005)</description>
+    </item>
+    
+    <item>
+      <title>Group based licensing - a new business model for Microsoft?</title>
+      <link>/posts/2019-06-25_group-base-licensing/</link>
+      <pubDate>Tue, 25 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-06-25_group-base-licensing/</guid>
+      <description>Lets face it. Microsoft 365 implementation projects can get a bit messy. You start exploring possibilities, you create Azure AD groups, you sync some from Active Directory and you assign policies in Intune. Then you might want to install features for pilot users before you configure the policy for all users.
+Well what about group based licensing? Are you shoveling money into Microsofts pockets if you lose your firm grip over groups that have licences assigned?</description>
+    </item>
+    
+    <item>
+      <title>Edge Insider für Microsoft Tenant Wanderer oder Teams Gäste.</title>
+      <link>/posts/2019-06-05_edge-insider-f-r-microsoft-tenant-wanderer-oder-teams-g-ste/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-06-05_edge-insider-f-r-microsoft-tenant-wanderer-oder-teams-g-ste/</guid>
+      <description>In verschiedenen Ausgangslagen benötigt man Zugang auf verschiedene Microsoft 365 Tenants. Outlook und Co. unterstützen dies, Microsoft Teams leider nicht.
+Die Chromium basierte Microsoft Edge Version hilft hier enorm. So bieten alle Chromium basierten Browser die Möglichkeit von Profilen:
+Nun erstellt man für jeden Tenant auf dem man einen Account hat, ein Profil. Dann können für Webanwendungen “lokal installierte Anwendungen” erstellt werden:
+Voila. Man hat nun auf dem Desktop und im Startmenü eine Anwendung mit der man direkt auf das jeweilige Team kommt.</description>
+    </item>
+    
+    <item>
+      <title>SharePoint Conference 2019</title>
+      <link>/posts/2019-05-27_sharepoint-conference-2019/</link>
+      <pubDate>Mon, 27 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-05-27_sharepoint-conference-2019/</guid>
+      <description>Die SharePoint und Office 365 Welt hat zwei Fixpunkte für Produktankündigungen. Die Ignite im Herbst und die SharePoint Conference im Frühling.
+Die 2019er Ausführung ist durch und ich möchte kurz zusammenfassen, was an Produktroadmaps vorgestellt wurde.
+SharePoint Teamsites and Business Apps
+Roadmap for @SharePoint Team Sites and business apps. #SPC19 pic.twitter.com/oVh2CFjuJz
+&amp;mdash; Marc D Anderson (@sympmarc) May 22, 2019  SharePoint Content Services
+Content Services roadmap! #SPC19 pic.twitter.com/XC71njuFyV
+&amp;mdash; Susan Hanley (@susanhanley) May 23, 2019  SharePoint Intranets</description>
+    </item>
+    
+    <item>
+      <title>Sketchnote - Experts Live Café bei der Mobiliar</title>
+      <link>/posts/2019-05-21_experts-live-caf-bei-der-mobiliar/</link>
+      <pubDate>Tue, 21 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-05-21_experts-live-caf-bei-der-mobiliar/</guid>
+      <description>John Craddock über verteilte Identitäten   John Craddock erklärte die Mechanismen von Bitcoin und verteilten Identitäten
+Gestern hatte ich das Vergnügen einem Experts Live Café in den Räumen der Mobiliar teilzunehmen. Stefan Roth und Stefan Johner organisierten eine weitere Ausgabe mit hochkarätigen Microsoft Spezialisten. Gestern war es mit John Craddock ein Microsoft MVP mit langjähriger “Identity-Management” Expertise. In seinem zweiteiligen Vortrag erklärte er erst die Grundsätze und Mechanismen von Bitcoin als Beispiel für eine Blockchain.</description>
+    </item>
+    
+    <item>
+      <title>In vino veritas autem in cervisiam sapientia.</title>
+      <link>/posts/2019-05-14_in-vino-veritas-autem-in-cervisiam-sapientia/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-05-14_in-vino-veritas-autem-in-cervisiam-sapientia/</guid>
+      <description>Im Wein mag die Wahrheit liegen, aber in Bier scheint die Weisheit zu sein. Wie sonst erklärt sich der Geistesblitz beim Genuss eines Hawaiianischen Biers?
+SBB hat eine Riesenwelle immer als Sinnbild für die Digitalisierung verwendet. Sie kommt unaufhaltsam. Sie bedingt spezielles Training und wenn man nicht vorbereitet ist, überspült sie einen unerbittlich.
+Bernhard Rytz über die Digitalisierung: Da müssen wir schnell surfen lernen! #sbbkk pic.twitter.com/gTVHOislzo
+&amp;mdash; Andreas P. Meyer (@AndreasMeyer) March 15, 2016  Auf der Verpackung des Kona “Big Wave” Biers findet man aber die wichtigsten Voraussetzungen um erfolgreich auf der Welle zu reiten:</description>
+    </item>
+    
+    <item>
+      <title>Office Custiomization Tool und eine Empfehlung zum Configuration Management</title>
+      <link>/posts/2019-04-15_office-custiomization-tool-und-eine-empfehlung-zum-configuration-management-efc4e6b9c9d3/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-04-15_office-custiomization-tool-und-eine-empfehlung-zum-configuration-management-efc4e6b9c9d3/</guid>
+      <description>Unternehmen haben beim Umstieg auf moderne Client Verwaltung oftmals Bedenken bei der Anpassung von Office. Klassischerweise werden viele Richtlinien im Office-Paket mitgegeben um es an die Anforderungen der Unternehmen anzupassen.
+Dabei gibt es in der modernen Client Verwaltung ein unbekannts Juwel — das “Office Customization Tool”. In der Weboberfläche werden die verschiedenen Konfiguration direkt vorgenommen. Diese Konfigurationen werden in einer XML-Datei gespeichert und können beim Setup so mitgegeben werden.
+Schauen wir uns das doch mal näher an.</description>
+    </item>
+    
+    <item>
+      <title>Office 365 Message Encryption</title>
+      <link>/posts/2019-04-11_office-365-message-encryption-d53a250d1497/</link>
+      <pubDate>Thu, 11 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-04-11_office-365-message-encryption-d53a250d1497/</guid>
+      <description>Diese Woche gerade von zwei Kunden zum Thema “Office 365 Message Encryption” (OME) befragt worden. Wenn wohl auch zwei Schwalben noch keinen Frühling machen, möchte ich doch etwas zu OME und den Unterschieden zu “Azure Information Protection” (AIP) sagen.
+Ein erster Unterschied ist die notwendige Lizenz. Während AIP nur über Microsoft 365, Enterprise Mobility &amp;amp; Security oder einer separaten AIP-Lizenz genutzt werden kann, ist OME bereits in Office 365 E3 enthalten.
+OME wird im Exchange Admin Center als “Mailflow rule” konfiguriert.</description>
+    </item>
+    
+    <item>
+      <title>Den Produktivitätswald vor lauter Office 365 Bäumen nicht mehr sehen.</title>
+      <link>/posts/2019-04-02_den-produktivit-tswald-vor-lauter-office-365-b-umen-nicht-mehr-sehen-af05bb16b9a7/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-04-02_den-produktivit-tswald-vor-lauter-office-365-b-umen-nicht-mehr-sehen-af05bb16b9a7/</guid>
+      <description>Ist man interessierter Office 365 Anwender, PowerUser oder IT Professional hat man rosige Zeiten. Microsoft pumpt aus vollen Rohren neue Features in ihre Produkte. Verbesserte Produkte, neue Produkte, integrierte Produkte. Die volle Ladung.
+Dabei ertappe ich mich immer wieder selber, wie ich den Überblick verliere. Dann besinne ich mich innerlich auf die drei Säulen, welche für mich Office 365 Implementationen so wertvoll machen:
+Offenheit Sei es die Verwendung eigener Geräte von Mitarbeitenden oder die rasche Einbindung von externen Partnern, Office 365 lässt sich sehr offen gestalten ohne Sicherheit auf der Strecke zu lassen.</description>
+    </item>
+    
+    <item>
+      <title>Wolkenschlösser brauchen neue Maurer</title>
+      <link>/posts/2019-04-01_wolkenschl-sser-brauchen-neue-maurer-6472f30d0f7c/</link>
+      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-04-01_wolkenschl-sser-brauchen-neue-maurer-6472f30d0f7c/</guid>
+      <description>Dieser Post ist eine Aktualisierung einer Idee die ich länger mit mir rumtrage. Die gegenwärtige Richtung vieler Firmen IT Infrastrukturen zeigt (meines Erachtens richtigerweise) in Richtung Cloud. Diese Vorhaben sind von verschiedenen Motivationen getrieben. Sei es die Hoffnung auf Kostenersparnis, die Reaktion auf Anwender- und Kundenbedürfnisse die auf klassischen Infrastrukturen nicht mehr zu erfüllen sind, oder die Gewisseheit, dass die Stärken der eigenen Firma nicht in der Bereitstellung von IT Services liegen.
+Vielerorts ist man sich der Auswirkungen auf die eigene IT Crew jedoch noch nicht bewusst.</description>
+    </item>
+    
+    <item>
+      <title>Sketchnote - Cloud Workplace Meetup 1/2019</title>
+      <link>/posts/2019-03-28_cloud-workplace-meetup-1-2019-998d354d876c/</link>
+      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-03-28_cloud-workplace-meetup-1-2019-998d354d876c/</guid>
+      <description>Heute war wieder Cloud Workplace Meetup angesagt. Das erste im Jahr 2019 drehte sich um die Neuigkeiten aus dem Bereich Security in Office 365 und Azure. Christoph Ratavara von isolutions stellte die neuen Portale vor, zeigte Azure Sentinel und erläuterte Funktionen, Vorgehen und Lessons Learned des Attack Simulators.
+ Security by Christoph Ratavaara   Nach einer kurzen Pause zur Kehlenbefeuchtung erzählte Lucas Blanz aus der grössten Exchange Online Migration der Schweiz. Das hier vieles neu herausgefunden wird und speziell entwickelt werden muss zeigte er in seinen Lessons learned.</description>
+    </item>
+    
+    <item>
+      <title>Aufgabenmanagement mittels E-Mails</title>
+      <link>/posts/2019-03-25_aufgabenmanagement-mittels-e-mails/</link>
+      <pubDate>Mon, 25 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2019-03-25_aufgabenmanagement-mittels-e-mails/</guid>
+      <description>HöhrerInnen von Produktivitätspodcasts oder LeserInnen von Selbstmanagementblogs sind schon beim Titel aus dem Stuhl gekippt, doch die bittere Realität sieht halt immer noch so aus. Viele Aufgaben entstammen aus der Mailbox. Damit sie nicht dort enden, verbindet Microsoft ihre moderne Aufgaben-App Microsoft To-Do immer stärker mit dem 500 Pfund Mail-Gorilla Outlook. Passiert im Update von To-Do, welches nun “flagged” E-Mails direkt zu Aufgaben werden lassen kann.
+Eine weitere Ankündigung betrifft nun den Outlook Web Client, welcher in der neuen Version ebenfalls mit To-Do verknüpft wurde:</description>
+    </item>
+    
+    <item>
+      <title>Azure Information Protection lokalisieren</title>
+      <link>/posts/2018-11-27_azure-information-protection-lokalisieren/</link>
+      <pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2018-11-27_azure-information-protection-lokalisieren/</guid>
+      <description>Die Klassifizierung von Dokumenten ist schon eine Wissenschaft für sich. Stellt man dann Software zur Verfügung die nicht völlig selbsterklärend ist, wird es unlösbar respektive schlicht nicht verwendet.
+Mit Azure Information Protection ist es Microsoft gelungen, die meiner Erfahrung nach erste vollumfägliche (sprich inkl. Mobile) und sauber in die Anwendungen integriert (wo Dokumente entstehen, sprich Office) Klassifikationslösung einzuführen.
+Zentral werden(noch) im Azure-Portal die Labels und Sub-Labels definiert. Diese Labels werden Gruppen/Anwendern zugeteilt und erscheinen dann in ihrem Office, wenn der “Azure Information Protection“-”Client verteilt wurde.</description>
+    </item>
+    
+    <item>
+      <title>Sorry. Ich versuchs.</title>
+      <link>/posts/2018-11-19_sorry-ich-versuchs/</link>
+      <pubDate>Mon, 19 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2018-11-19_sorry-ich-versuchs/</guid>
+      <description>Google etwas weniger seiner Daten geben? Schwer, aber möglich. Man könnte zum Beispiel eine andere Suchmaschine benutzen. So versuche ich es jeweils wenn ich Windows neu aufsetze und Bing als Standard habe. Aber seht euch das an:
+Gelb markiert die relevanten Suchergebnisse auf meiner Suche nach meinem Passwortmanager “Remembear”. Der Rest sind bestenfalls Umwege oder alte Versionen, schlimmstenfalls Schadsoftware. Das Amazon Ergebnis verzeihe ich. Irgendwie muss Microsoft schliesslich Geld verdienen ;)
+Dann halt den Liebling des kleinen Mannes.</description>
+    </item>
+    
+    <item>
+      <title>In Microsoft Teams Kanäle umbenennen</title>
+      <link>/posts/2018-11-14_rename_teams_channels/</link>
+      <pubDate>Wed, 14 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2018-11-14_rename_teams_channels/</guid>
+      <description>Ich wurde angefragt wie man einen Kanal in Microsoft Teams umbenennt. Einfach. Auf die Eigenschaften des Kanals gehen und entsprechenden Kanalnamen anpassen. Es wäre aber nicht Office 365 wenn es nicht ein bisschen komplexer wäre.
+Jedes Team hat eine “Office 365 Group” zur Basis. Diese Group hat SharePoint, Teams, Planner, Streams, etc. als Bestandteile.
+Und jeder Kanal in Teams entspricht einem Ordner auf SharePoint. In dieser Ordner kommen Dateien, die per “Drag &amp;amp; Drop” im Teams Client hochgeladen werden, etc.</description>
+    </item>
+    
+    <item>
+      <title>Experience the Microsoft Cloud</title>
+      <link>/posts/2018-11-07_experience-the-microsoft-cloud/</link>
+      <pubDate>Wed, 07 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2018-11-07_experience-the-microsoft-cloud/</guid>
+      <description>Man is a complex machine and incredibly good at using his processing unit (brain) to process information. But the brain is much better when it receives information from its sensors.
+You can read Microsoft 365 descriptions and try to understand what s behind the functions and concepts. But it is much easier to experience them.
+The cloud makes it possible. On the one hand there is always the way to create a Microsoft 365 tenant , but there is also the opportunity to experience it without investment.</description>
+    </item>
+    
+    <item>
+      <title>Frontpage is back.</title>
+      <link>/posts/2018-11-02_frontpage-is-back-dfc69d7da2ee/</link>
+      <pubDate>Fri, 02 Nov 2018 08:27:30 +0000</pubDate>
+      
+      <guid>/posts/2018-11-02_frontpage-is-back-dfc69d7da2ee/</guid>
+      <description>Word kriegt ein neues Feature. Dieses Feature hat den vielversprechenden Titel “Transform to Web Page”.
+Screenshot aus Word Online
+Eine Webseite so einfach wie ein Word-Dokument? Kommt euch das nicht bekannt vor?
+In Wahrheit erstellt Word ein Sway aus dem Word Dokument. Danach lässt sich das Sway anpassen und verarbeiten. Aus Word kann das Dokument aber nicht mehr verändert werden. Eine weitere “Publikation” würde zu einem neuen Sway führen.
+Um aber gemeinsam ein Dokument zu erstellen, und dieses dann einfach publizieren zu können ist es ein wirklich hilfreiches Feature.</description>
+    </item>
+    
+    <item>
+      <title>Dokumente aufgrund vorhandener Informationen kennzeichnen.</title>
+      <link>/posts/2018-10-12_dokumente-aufgrund-vorhandener-informationen-kennzeichnen-bf786768cfa6/</link>
+      <pubDate>Fri, 12 Oct 2018 17:39:09 +0000</pubDate>
+      
+      <guid>/posts/2018-10-12_dokumente-aufgrund-vorhandener-informationen-kennzeichnen-bf786768cfa6/</guid>
+      <description>Mit Azure Information Protection kann man die Kennzeichnungen (respektive Labels) auch aufgrund von Informationen in SharePoint vergeben. So kann der allfällige Schutz von Dokumenten an MetaDaten verknüpft werden.
+Der Microsoft Artikel hierzu findet sich hier: https://docs.microsoft.com/en-us/azure/information-protection/rms-client/client-admin-guide-customizations#label-an-office-document-by-using-an-existing-custom-property
+Ich werde kurz durch den Prozess führen.
+SharePoint Erst definiere ich die Information die ich in SharePoint vergeben will. In meinem Fall möchte ich eine Auswahl die drei Klassifikationsstufen abbildet:
+Spaltendefinition in SharePoint online.
+Die Information muss Labelbezeichnungen in MIP/AIP übereinstimmen.</description>
+    </item>
+    
+    <item>
+      <title>Azure Priviledged Identity Management</title>
+      <link>/posts/2018-08-14_azure-priviledged-identity-management-e7a46ca467f/</link>
+      <pubDate>Tue, 14 Aug 2018 09:33:24 +0000</pubDate>
+      
+      <guid>/posts/2018-08-14_azure-priviledged-identity-management-e7a46ca467f/</guid>
+      <description>Beim Einsatz von Office 365 benötigt es verschiedene Administrationsrollen. Als allererstes wird ein “Global Admin” angelegt. Der Über-Admin der alles konfigurieren und verändern kann. Diese Rolle möchte man sorgfältig vergeben. Mit steigender Aufgabenlast, wird aber auch diese Rolle auf mehrere Personen verteilt.
+Nebst den Systemunabhängigen Mechanismen wie Adminrechte nie auf seinem Arbeitsuser zu tragen sowie so wenig Admins wie nötig zu berechtigen, gibt es weitere Wege.
+Microsoft arbeitet laufend daran die Notwendigkeit der “Global-Admin”-Rolle zu reduzieren.</description>
+    </item>
+    
+    <item>
+      <title>Der Weg in die Cloud ist ein Weg voller Unsicherheiten.</title>
+      <link>/posts/2018-04-19_der-weg-in-die-cloud-ist-ein-weg-voller-unsicherheiten-9728b3bd7004/</link>
+      <pubDate>Thu, 19 Apr 2018 14:40:59 +0000</pubDate>
+      
+      <guid>/posts/2018-04-19_der-weg-in-die-cloud-ist-ein-weg-voller-unsicherheiten-9728b3bd7004/</guid>
+      <description>Der Weg in die Cloud ist ein Weg voller Unsicherheiten. Hat man die grundlegenden Überlegungen zu Datenhaltung, interner Governance und gesetzlichen Rahmenbedingungen einmal gemacht, hilft einem Microsoft in der Absicherung von Office 365 hervorragend weiter.
+Als Enterprise Architect war ich bei unserem Weg in die “public cloud” von Microsoft, unter anderem für die Absicherung unserer Informationen zuständig. Hier möchte ich nicht erläutern was wir gemacht haben (vielleicht später), sondern was wir einfacher hätten machen können und dabei auf vielleicht weniger bekannte Hilfsmittel verweisen.</description>
+    </item>
+    
+    <item>
+      <title>Die Avatar Fabrik</title>
+      <link>/posts/2017-01-16_die-avatar-fabrik-5d0fca6807de/</link>
+      <pubDate>Mon, 16 Jan 2017 11:48:11 +0000</pubDate>
+      
+      <guid>/posts/2017-01-16_die-avatar-fabrik-5d0fca6807de/</guid>
+      <description>User-Journey-Story-Mapping-Chain-Visualization-Experience-Graph und wie sie alle heissen, hängen stark von der Illustration von Anwendern ab. Diese kann man auf Stockphoto Seiten raussuchen.
+Typische Anwenderin in täglicher Pose, oder?
+Kann man.
+Besser wäre die Kreation eigener Avatare für User Profile und so weiter. Und das kann jetzt jeder der PowerPoint besitzt. Dank meiner Avatar Fabrik:
+Die Fabrik geht von links nach rechts. Einfach, oder?
+Download des PowerPoint Files</description>
+    </item>
+    
+    <item>
+      <title>Die Zukunft des «Personal Computers»?</title>
+      <link>/posts/2016-09-12_die-zukunft-des-personal-computers-42a3752b4e33/</link>
+      <pubDate>Mon, 12 Sep 2016 13:24:59 +0000</pubDate>
+      
+      <guid>/posts/2016-09-12_die-zukunft-des-personal-computers-42a3752b4e33/</guid>
+      <description>Im Februar dieses Jahres startete eine Indiegogo Kampagne mit dem Ziel die Zukunft des PCs zu skizzieren. Mit dem NexDock sollte das Smartphone zum Notebook werden.
+Früher war nicht alles besser, aber vieles einfacher. Man hatte einen «Personal Computer», auf dem lagen alle Daten. Weitere Geräte zu haben bezahlte man mit einem hohen Preis. Synchronisation war damals böse und endete in doppelten Kalendereinträgen, gelöschten Kontakten oder Bildern die nicht mehr zu finden waren. 2013 bezeichnete ich die «Cloud» als vereinheitlichende Plattform.</description>
+    </item>
+    
+    <item>
+      <title>Digitale Arbeitswelten bauen</title>
+      <link>/posts/2016-08-30_digitale-arbeitswelten-bauen-f37e550bd102/</link>
+      <pubDate>Tue, 30 Aug 2016 06:43:10 +0000</pubDate>
+      
+      <guid>/posts/2016-08-30_digitale-arbeitswelten-bauen-f37e550bd102/</guid>
+      <description>quick sketch in a moving train.
+“Wir legen die Basis für eine wertvolle SBB” schrieben wir in einer internen Veranstaltung. Guter Leitsatz.</description>
+    </item>
+    
+    <item>
+      <title>“Post PC”</title>
+      <link>/posts/2016-08-29_-post-pc-5e2a351b806b/</link>
+      <pubDate>Mon, 29 Aug 2016 07:09:45 +0000</pubDate>
+      
+      <guid>/posts/2016-08-29_-post-pc-5e2a351b806b/</guid>
+      <description>Wohin des Wegs, alter Freund?
+Apple stellte mit dem iPad die Frage, ob zwischen Smartphone und Macbook noch Platz für ein Gerät ist. Eine Frage die wir auch viele Jahre später nicht schlussendlich beantwortet haben. Das iPad löste aber eine Welle an Innovationen aus. Notebooks, bis dahin eher stagnierend und ähnlich aussehend, veränderten sich zum Besseren. Leichter, dünner und autonomer wurden sie. Wirkliche mobile Begleiter.
+Es war Microsoft, welche mit ihrem Surface ein Ende der Kompromisse ausriefen.</description>
+    </item>
+    
+    <item>
+      <title>Surface oder iPad Pro</title>
+      <link>/posts/2016-08-08_surface-oder-ipad-pro-114ac4e66683/</link>
+      <pubDate>Mon, 08 Aug 2016 12:57:18 +0000</pubDate>
+      
+      <guid>/posts/2016-08-08_surface-oder-ipad-pro-114ac4e66683/</guid>
+      <description>Aktuell bin ich in einer glücklichen Lage. Nicht Glück in seiner essentiellen Form gemeint. Ich bin einfach ein glücklicher Gadget-Geek. Im Geschäft prüfen wir «Convertible» als Nachfolger für unsere Notebooks (Surface 3, 3 Pro, 4 Pro), das iPad Pro wird getestet und privat habe ich u.a. ein Macbook Pro. Alles Geräte, welche dem idealen Computer für mich nahe kommen1.
+iPad Pro oder Surface. Der Browserkrieg der heutigen Zeit. Emotionsgeladen und mit guten Argumenten geführt, wird er aber nicht in die Geschichte eingehen.</description>
+    </item>
+    
+    <item>
+      <title>Alles Smart Working, oder was?</title>
+      <link>/posts/2016-08-04_alles-smart-working-oder-was-b5aeee1f63ed/</link>
+      <pubDate>Thu, 04 Aug 2016 13:36:21 +0000</pubDate>
+      
+      <guid>/posts/2016-08-04_alles-smart-working-oder-was-b5aeee1f63ed/</guid>
+      <description>Der Begriff «Smart Working» ist in aller Munde. Okay, dass ist etwas übertrieben. Kaum jemand ausserhalb meiner Blase spricht davon. Doch viele arbeiten inzwischen in so genannten «Multispaces». Mitarbeitende meines Arbeitgebers arbeiten seit einiger Zeit so. Die Kollegen der Post beinahe gleich lange und seit kürzerem auch Kollegen der Mobiliar.
+Smart Working hat sogar schon seine eigene Initiative die den ehemaligen «Home Office Day» ablöste. Smart Working wird die Zukunft sein, daran sehe ich keinen Zweifel.</description>
+    </item>
+    
+    <item>
+      <title>Seilschaft</title>
+      <link>/posts/2016-01-06_seilschaft-5e4b7bd55eb0/</link>
+      <pubDate>Wed, 06 Jan 2016 14:15:47 +0000</pubDate>
+      
+      <guid>/posts/2016-01-06_seilschaft-5e4b7bd55eb0/</guid>
+      <description>Die Ausrüstung aller Mitarbeitenden der SBB mit digitalen Arbeitsmitteln, beinhaltet als Projekt an sich schon viele Herausforderungen. Eine weitere Herausforderung kommt erst im Betrieb. Ich spreche jetzt nicht vom offensichtlichen Support von 30’000 Smartphones verschiedener Betriebssystem(-stände), sondern von der Weiterentwicklung von Services.
+Schon vor der Zuschüttung des «digitalen Grabens» hatten wir eine breite Anwenderschaft. Abseits von Bezeichnungen wie digitalen Immigranten oder Eingeborenen, arbeiten bei SBB Leute mit hoher Affinität zu Informatikmitteln. Und eben andere1. Mit Ausrüstung aller Mitarbeitenden strapazieren wir diese Spannbreite noch mehr.</description>
+    </item>
+    
+    <item>
+      <title>Crazy Ones</title>
+      <link>/posts/2016-01-06_crazy-ones-22d1a78375ad/</link>
+      <pubDate>Wed, 06 Jan 2016 14:14:54 +0000</pubDate>
+      
+      <guid>/posts/2016-01-06_crazy-ones-22d1a78375ad/</guid>
+      <description>So lautete die Werbung von Apple. Damals war Apple noch meilenweit davon entfernt in Unternehmen eine Relevanz zu haben. Die Aussagen waren auch globaler gemeint als Einfluss in Unternehmen. Aber die “crazy ones” in Unternehmen interessieren mich.
+Die Leute ohne Respekt für Status Quo. Leute die Dinge einfacher machen wollen. Leute die sich von Prozessen und schleppenden Entscheidungswegen nicht entmutigen lassen. Leute die Dinge aus der Consumer-Welt nehmen und sie für Unternehmen tauglich machen. Und diese Kombination, diese Iteration bringt uns weiter.</description>
+    </item>
+    
+    <item>
+      <title>Was ist «Collaboration»?</title>
+      <link>/posts/2016-01-06_was-ist-collaboration-c24b41b4e906/</link>
+      <pubDate>Wed, 06 Jan 2016 14:12:19 +0000</pubDate>
+      
+      <guid>/posts/2016-01-06_was-ist-collaboration-c24b41b4e906/</guid>
+      <description>Der Markt für Unternehmenssoftware wirbt seit Jahren mit den Schlagworten «Collaboration». In diesem Dunstkreis wird auf einmal alles interaktiv, sozial und effizienter. Doch was ist denn diese oft besungene «Collaboration» überhaupt?
+Zum Einen ist es die englische Übersetzung des Begriffs Zusammenarbeit. Einfach genug. Zusammenarbeit findet auf verschiedenen Ebenen und in verschiedenen Formaten statt. Für meinen Erklärungsversuch habe ich folgendes erstellt:
+In der obersten Zeile findet man die Phasen der Zusammenarbeit, gekürzt aber basierend auf der Definition von AIIM.</description>
+    </item>
+    
+    <item>
+      <title>Brutales Follow Up - Ideenkultur</title>
+      <link>/posts/2016-01-06_brutales-follow-up-ideenkultur/</link>
+      <pubDate>Wed, 06 Jan 2016 14:11:10 +0000</pubDate>
+      
+      <guid>/posts/2016-01-06_brutales-follow-up-ideenkultur/</guid>
+      <description>Brutales Feedback lässt mich nicht los. Nicht weil wir es inzwischen praktizieren würden, nein. Ein weiterer empfehlenswerter Podcast widmete sich dem Thema. Darin sprechen Ben Thompson und James Allworth über eine Kultur von «brutalem Feedback» und der Hervorbringung der besten Ideen. Und die besten Ideen wollen wir doch alle hervorbringen, oder?
+Die beiden sprechen von dem Konflikt der Kulturen welche Ideen hervorbringen und Kulturen die eher ein Miteinander fördern. Am Beispiel von MBTI ist dies der Entscheid zwischen einer T- oder F-Typen dominierten Kultur.</description>
+    </item>
+    
+    <item>
+      <title>Brutal!</title>
+      <link>/posts/2016-01-06_brutal/</link>
+      <pubDate>Wed, 06 Jan 2016 14:09:54 +0000</pubDate>
+      
+      <guid>/posts/2016-01-06_brutal/</guid>
+      <description>“Lasst uns brutales und schonungsloses Feedback üben”. So eröffnete unser Abteilungsleiter die erweiterte Führungsklausur. Ich schmunzelte. Ich habe eine eher direkte Art. Gemäss Feedback verstörend für die Einen, erfrischend für die Anderen. Wir versuchten es, kamen aber nicht sonderlich weit. Zu tief drin sind antrainierten Zurückhaltungsregeln.
+Brutales Feedback fiel mir seit da immer wieder auf. Ausgelöst durch einen Artikel über die Arbeitsumstände bei Amazon, diskutierten Ben Thompson und John Gruber in der letzten «The Talk Show» über Arbeitskultur bei Apple und Microsoft wo Ben Thompson gearbeitet hat.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 29</title>
+      <link>/posts/weekendreader2015-29/</link>
+      <pubDate>Sat, 18 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-29/</guid>
+      <description>Die Zukunft der Collaboration - Microsoft will mitreden Ich versuchte «Collaboration» schon mal zu erklären und kam zum Schluss, dass wir heute noch nicht auf dem Punkt sind wenn wir es als einzelne Plattform-/Applikationsaufgabe ansehen. Microsoft als wohl aktuell dominantester Player in dem Markt, will sich aber nicht auf seinen Lorbeeren ausruhen und warten bis die Distuption von Sharepoint und Office einschlägt, sondern will die Zukunft aktiv mitgestalten.
+GigJam soll dabei helfen:
+ GigJam, which was code-named &amp;ldquo;Magic Glass&amp;rdquo; during development, is a genuinely new idea.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 28</title>
+      <link>/posts/weekendreader2015-28/</link>
+      <pubDate>Wed, 08 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-28/</guid>
+      <description>«from the Latin taking care» Menschen die Werke aussuchen und anderen Menschen präsentieren. Eine alte Kunst, welche mit immer mächtigeren Algorithmen langsam in Bedrängnis geriet. Google ist ein Vorreiter und Experte auf Algorithmen. Nur normal, dass Apple einen anderen Weg geht und nicht versucht auf Googles Heimfeld zu konkurrenzieren. Für Apple Music werden bekannte Experten engagiert, die Musik scannen und im hauseigenen Radio «Beats 1» publizieren.
+Jean-Louis Gassée findet der Ansatz liesse sich auch auf den App Store ausweiten:</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 27</title>
+      <link>/posts/weekendreader2015-27/</link>
+      <pubDate>Sat, 04 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-27/</guid>
+      <description>«Connect» in der Kritik Mit iOS 8.4 kam auch Apple Music welches reichlich kritisiert, gelobt und analysiert wurde. Selber nicht sonderlich Musik-Affin spare ich es mir momentan noch und vertraue auf meine Offline-Musik.
+Dave Whiskus, iOS-App-Designer, Podcaster und anscheinend auch Musiker, schaute sich allerdings «Connect» an. Ein Service, der gemäss Apple Bands und Musikern dabei helfen soll, sich mit ihren Fans zu verbinden. Dave prüfte das Versprechen und fand allerlei Ungereimtheiten. Eigentlich nicht der Weekend-Reader-Rede wert, doch der Artikel fand etwas Gehör.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 26</title>
+      <link>/posts/weekendreader2015-26/</link>
+      <pubDate>Sun, 28 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-26/</guid>
+      <description>![]({{ &amp;ldquo;IMG_0168.png&amp;rdquo; | asset_url }})
+Auf vielfachen Wunsch Der CEO von Evernote Phil Libin stand Rafael Zeier Rede und Antwort. Der Artikel erschien, zu recht, mehrfach in meiner Twitter Timeline. Er spricht über seine Suche nach dem Nachfolger, die Produktvisionen von Evernote und eben auch über Ansätze plattformübergreifend zu entwickeln:
+ Wenn man sagt, es kommt nicht darauf an, ob es ein Fernseher, ein Telefon, eine Uhr, iOS oder Android ist, dann bekommt man den kleinsten gemeinsamen Nenner.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 23</title>
+      <link>/posts/weekendreader2015-23/</link>
+      <pubDate>Mon, 08 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-23/</guid>
+      <description>![]({{ &amp;ldquo;wr1523.png&amp;rdquo; | asset_url }})
+Apple Watch Erfahrung einer «Taubblinden» Wie befreiend kann eine Apple Watch und die belächelte Telefoniefunktion für Behinderte sein? Sehr befreiend wie uns Molly Watt erzählt. Hat nur am Rande mit der Apple Watch zu tun, ehrlicherweise kann sie das selbe auch mit dem iPhone machen, aber es zeigt die Wichtigkeit des Kontexts. Kein Gerät aus der Tasche fischen zu müssen kann ein Riesenvorteil sein.
+Work Anywhere in extremis Karin reist um die Welt und macht die Welt zu ihrem Arbeitsplatz.</description>
+    </item>
+    
+    <item>
+      <title>Consumerization in der Gebäudesicherheit?</title>
+      <link>/posts/2015-06-03_consumerization-in-der-geb-udesicherheit-e69a483a2b3e/</link>
+      <pubDate>Wed, 03 Jun 2015 11:52:47 +0000</pubDate>
+      
+      <guid>/posts/2015-06-03_consumerization-in-der-geb-udesicherheit-e69a483a2b3e/</guid>
+      <description>Mit dem Umzug in ein ruhiges Häuschen (der korrekte Begriff ist Doppelhaushälfte) stellten sich neue Fragen. Die ruhige Lage zum Beispiel. Perfekt um an einem sonnigen Tag die Ruhe fernab von Eisenbahn- oder Strassenlärm zu geniessen. Ein paar Vögel zwitschern im Baum. Ein paar Kindern spielen in den Strassen. Leise, wie es sich für Kinder in ruhigen Quartieren gehört.
+Die Ruhe hat aber auch ihre Tücken. Völlig unbeobachtet könnten sich die berüchtigten Einbrecherbanden an unseren Türen zu schaffen machen.</description>
+    </item>
+    
+    <item>
+      <title>Sind Unternehmen für Consumer-HW-Hersteller noch relevant?</title>
+      <link>/posts/2015-06-03_sind-unternehmen-f-r-consumer-hw-hersteller-noch-relevant/</link>
+      <pubDate>Wed, 03 Jun 2015 11:51:04 +0000</pubDate>
+      
+      <guid>/posts/2015-06-03_sind-unternehmen-f-r-consumer-hw-hersteller-noch-relevant/</guid>
+      <description>Samsung bietet mit Knox eine Reihe von Sicherheits- und Verwaltungsfunktionen für Unternehmen. Apple bietet ähnliches als Teil von iOS. Ausgereifte Funktionen, welche viel Entwicklungsarbeit bedingen. All dies um im grossen Markt der Unternehmensinformatik einen Stand zu haben. Moment, gross?
+Welches waren denn letztzhin grosse Unternehmensbeschaffungen über die berichtet wurde:
+120’000 iPads, 100’000 iPhones und 200’000 iPod Touches für die amerikanische Armee
+Barclays Bank kauft 8’500 iPads
+Es gibt weitere. Meist in der Grössenordnung 10’000 bis 100’000.</description>
+    </item>
+    
+    <item>
+      <title>Das Büchler Reifegradmodell</title>
+      <link>/posts/2015-06-02_das-buechler-reifegradmodell/</link>
+      <pubDate>Tue, 02 Jun 2015 11:49:41 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_das-buechler-reifegradmodell/</guid>
+      <description>Das Büchler Reifegradmodell [1] Oha, jetzt aber.
+Ein Reifegradmodell unter Berücksichtigung der Einstiegshürden und der Adaption. Der Einsatz dieses Modells soll der Erklärung von Phasen und damit verbundenen Rahmenbedingungen und Möglichkeiten dienen.
+Im Alltag stosse ich öfters auf Artikel oder Diskussionen welche die vor- oder nachgelagerten Phasen eines Reifegradmodells ausser Acht lassen. So versteifen sich Diskussionen auf ein Fragment des Diskussionsgegenstands und verpassen das, in grosse Anführungszeichen zu setzende, ‘Big Picture’. Das Modell ist keine wissenschaftliche Arbeit sondern eine ‘unfertige Idee’ welche etwas fertiger ist als sonstige Dinge die ich eher auf consumerized.</description>
+    </item>
+    
+    <item>
+      <title>Die 3 Reiter der ITkalypse</title>
+      <link>/posts/2015-06-02_die-3-reiter-der-itkalypse/</link>
+      <pubDate>Tue, 02 Jun 2015 11:28:29 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_die-3-reiter-der-itkalypse/</guid>
+      <description>Die drei Reiter der ITkalypse verhindern jegliches Vorwärtskommen. Sie wirken zum Teil gegen aussen äusserst aktiv und innovativ, bewirken aber nüchtern, über Jahre betrachtet nichts. Die Mehrjährigkeit macht es schwierig zu erkennen. Sind wir doch als Informatiker unterjocht von der rasch ändernden Technologie und der damit verbundenen ständigen Hinterfragung unserer Lösungen.
+Diese Aufstellung soll helfen die Muster zu erkennen. Sie ist durchaus mit einem starken Zwinkern zu lesen. Ähnlichkeiten zu real existierenden Personen sind rein zufällig oder vollkommen beabsichtigt.</description>
+    </item>
+    
+    <item>
+      <title>UX = User Expectance</title>
+      <link>/posts/2015-06-02_ux-user-expectance-f17e04f3bf1b/</link>
+      <pubDate>Tue, 02 Jun 2015 11:27:23 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_ux-user-expectance-f17e04f3bf1b/</guid>
+      <description>Ich beobachtete eine Szene in meinem morgendlichen Transport von Murten nach Bern. Im Lötschberger der BLS öffnete ein älterer Herr die Türe zur ersten Klasse durch Druck auf den dafür vorgesehenen und reichlich markierten Knopf. Eine User Experience die ich als leicht besser taxiere als das komische Fuchteln das man auf den längeren Strecken der SBB in den Doppelstöckern jeweils beobachten kann1.
+Beim Schliessen der Türe geschah aber das Verwunderliche. Der Herr versuchte wie wild, mit diversen Manipulationen des Knopfes und sogar dem Versuch physischer — na ja Gewalt zu schreiben wäre in seinem Alter etwas übertrieben — physischem Effort, die Türe wieder zu schliessen.</description>
+    </item>
+    
+    <item>
+      <title>Windows 10 — Die Zeit ist reif</title>
+      <link>/posts/2015-06-02_windows-10-die-zeit-ist-reif-a81ccef44311/</link>
+      <pubDate>Tue, 02 Jun 2015 11:26:35 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_windows-10-die-zeit-ist-reif-a81ccef44311/</guid>
+      <description>“It embodies the notion of hardware and software really pushing each other”
+ Steve Ballmer, CEO Microsoft im Juni 2012 bei der Vorstellung des ersten Surface Tablet. Es war der Beginn eines neuen Wegs den Microsoft ging. Weg vom reinen Angebot von Software, hin zur Herstellung und zum Vertrieb von Hardware. Die alten Lehren der Computerindustrie wurden in den vorangehenden Jahren völlig umgekehrt1. Mobile hatte andere Regeln. Der Consumer-Markt hatte andere Regeln. Microsoft verlor nach und nach an Relevanz und Zukunftsaussichten.</description>
+    </item>
+    
+    <item>
+      <title>Worauf man in der Vorhersage der Zukunft achten sollte</title>
+      <link>/posts/2015-06-02_worauf-man-in-der-vorhersage-der-zukunft-achten-sollte-7c6177d9b2cb/</link>
+      <pubDate>Tue, 02 Jun 2015 11:25:41 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_worauf-man-in-der-vorhersage-der-zukunft-achten-sollte-7c6177d9b2cb/</guid>
+      <description>Um die Zukunft von Lösungen, Anforderungen und Arbeitsweisen vorherzusehen hilft oftmals ein Blick zurück. Er zeigt, welche Aspekte sich stark verändern, und welche eher stabil bleiben.
+Sag niemals nie In der Diskussion um die Zukunft mobiler Lösungen, Systeme und Anwendungen höre ich immer wieder: “das wird nie so sein”. Ein Tablet wird nie ein Notebook ablösen. Ein Smartphone wird niemals zum wertvollsten Arbeitsmittel. Etc. Die Formulierungen “nie” und “niemals” sind in Zukunftsprognosen/-hypothesen per se problematisch. Wenn man “nie” auf eine infinite Zeitlinie legt, entspannt sich die Situation meist.</description>
+    </item>
+    
+    <item>
+      <title>Lektionen aus der Apple Watch Einführung</title>
+      <link>/posts/2015-06-02_lektionen-aus-der-apple-watch-einfuehrung/</link>
+      <pubDate>Tue, 02 Jun 2015 11:23:39 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_lektionen-aus-der-apple-watch-einfuehrung/</guid>
+      <description>Zyniker machen es sich einfach. Der Erfolg von Apple beruht auf der huldigen Gefolgschaft, die im Einfluss des “reality distortion fields” alles kauft auf dem ein Apple Logo ist.
+Blickt man etwas weiter, kann man aber Muster in der Vorstellung von Produkten erkennen. Am aktuellsten Beispiel der Apple Watch der Versuch einer Analyse.
+Zeitstrahl September 2014 iPhone Event mit der Vorstellung der Apple Watch als “one more thing”: Apple ist die iPhone Firma. Das iPhone macht inzwischen beinahe 70% des Umsatzes aus.</description>
+    </item>
+    
+    <item>
+      <title>Quality Time</title>
+      <link>/posts/2015-06-02_quality-time/</link>
+      <pubDate>Tue, 02 Jun 2015 11:18:39 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_quality-time/</guid>
+      <description>Den Begriff „Quality Time“ kenne ich aus der Kindererziehung und er scheint verpönt. Er sorgt für reines Gewissen bei Eltern, die zu beschäftigt sind um viel Zeit mit ihrem Kind zu verbringen. Über gezielte, und vermutlich auch planbare Einheiten von „Quality Time“, versucht man dies zu kompensieren. Sorry für die allfällig zu starke Vereinfachung.
+In meiner Betrachtung handelt es sich aber um Arbeit. In den Jahren der Diskussion, ob auf einem Smartphone oder einem Tablet gearbeitet werden kann, entwickelte ich das Argumentarium um „Quality Time“.</description>
+    </item>
+    
+    <item>
+      <title>5 Jahre iPad — Ein Rückblick</title>
+      <link>/posts/2015-06-02_5-jahre-ipad-ein-rueckblick/</link>
+      <pubDate>Tue, 02 Jun 2015 11:16:24 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_5-jahre-ipad-ein-rueckblick/</guid>
+      <description>Durch den Podcast Connected Folge 24 inspiriert, überlegte ich mir noch einmal, was denn eigentlich die Gründe für die Einführung von iPads in Unternehmen generell, und der SBB im Speziellen waren.
+Steve Jobs erwähnte es an der Vorstellung des iPad im Januar 2010. “Heute”1arbeiten alle mit einem Notebook und einem Smartphone. Die vorgestellte Lücke, die ein drittes Gerät, ja eine dritte Gerätekategorie füllen sollte, war umstritten. Persönlich war ich von der Notwendigkeit nicht überzeugt2. Dieses dritte Gerät müsste in Schlüsselfunktionen wesentlich besser sein, als das Notebook oder das Smartphone.</description>
+    </item>
+    
+    <item>
+      <title>Microsoft macht es Android und iOS Entwicklern leichter</title>
+      <link>/posts/2015-06-02_microsoft-macht-es-android-und-ios-entwicklern-leichter/</link>
+      <pubDate>Tue, 02 Jun 2015 11:15:25 +0000</pubDate>
+      
+      <guid>/posts/2015-06-02_microsoft-macht-es-android-und-ios-entwicklern-leichter/</guid>
+      <description>Microsoft kämpft mit der wahrgenommenen App-Lücke von Windows Phone und Windows 8.11. Damit dies mit dem neuen Paradepferd Windows 10 nicht passiert prüfte man verschiedenes. In den letzten Jahren hatte man öfters auf die Crossplattform-Entwicklung mit Hilfe von Xamarin hingewiesen. Auch von Virtualisierungen im Stil von Blackberry war die Sprache. In der gestrigen Ankündigung setzt man auf die einfache Portierung von Apps. Das könnte die App-Lücke effektiv noch weiter schliessen. Doch sind dies die Apps die man auf seiner Plattform will?</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 22</title>
+      <link>/posts/weekendreader2015-22/</link>
+      <pubDate>Sun, 31 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-22/</guid>
+      <description>![]({{ &amp;ldquo;wr222.jpg&amp;rdquo; | asset_url }})
+Im Würgegriff von Kalendern Mike Monteiro:
+ In my experience, most people don’t schedule their work. They schedule the interruptions that prevent their work from happening. […]
+  People rarely schedule working time. And when they do it’s viewed as second-tier time. It’s interruptible. Meetings trump working time. Why?
+ Wie recht er doch eigentlich hat. Aber dieses Verhalten ist so tief in der Arbeitskultur verwurzelt&amp;hellip; ich zweifle an der Veränderung zum Sinnvollen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 21</title>
+      <link>/posts/weekendreader2015-21/</link>
+      <pubDate>Mon, 18 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-21/</guid>
+      <description>Die Kosten von Performance Die Einführung von «Instant Articles» von Facebook gibt zu reden. Die Performancegewinne gegenüber klassischen Webseiten ist aber beträchtlich und gibt zu denken. Lohnen sich die Javascript-Funktionen und -Libraries wirklich? Versuchen wir nicht Webseiten mehr aussehen zu lassen wie Apps? Etwas was uns kaum je komplett gelingen wird. Weshalb nicht «back to the roots»?
+Siehe auch Om Maliks Einschätzung zur Repriorisierung von Geschwindigkeit.
+Einfache Regeln in einer komplexen Welt? Für Entscheidungen brauchen wir Daten.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 20</title>
+      <link>/posts/weekendreader2015-20/</link>
+      <pubDate>Sun, 17 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-20/</guid>
+      <description>![]({{ &amp;ldquo;IMG_0142.JPG&amp;rdquo; | asset_url }})
+Instant Articles Ausgewählte Publikationen erhalten Zugriff. Vermutlich ein nächster Schritt im Kampf um die Augäpfel und Werbegelder. Eine mögliche, eher technische Interpretation:
+ Not only is the web not fast enough for apps, it’s not fast enough for text either. And you know what, they’re right. Such a stance will be considered blasphemy in some circles. But it doesn’t change the very real and very obvious truth: on mobile, the web browser just isn’t cutting it.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 19</title>
+      <link>/posts/weekendreader2015-19/</link>
+      <pubDate>Sat, 09 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-19/</guid>
+      <description>Device Dream Team  From that perspective, it seems abundantly clear the most compelling set of devices for many individuals is a large screen, touch-enabled smartphone and a thin, lightweight 12-13” screen notebook (preferably with touch as well). Whether in a business environment or for personal usage, this combination seems to be the “dream team” of devices, offering access to virtually any type of application, information or experience in virtually any environment.
+ Meine Hypothese ist ja, dass Notebooks mit Touch, vielleicht ja sogar mit abnehmbaren Bildschirm, gut genug sind um standalone Tablets für die meisten Leute zu ersetzen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 18</title>
+      <link>/posts/weekendreader2015-18/</link>
+      <pubDate>Sat, 02 May 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-18/</guid>
+      <description>![]({{ &amp;ldquo;IMG_1128.jpg&amp;rdquo; | asset_url }})
+Jeder ist vorbelastet Wenn ihr nur einen Link lest, lasst es dieses Video sein. Unglaubliches Experiment: Destin von Smarter Everyday kann Fahrradfahren. Er wurde von Kollegen aufgefordert das Backwards-Bike zu fahren. Es lenkt rechts wenn man links lenkt und umgekehrt. Tolles Experiment.
+iPad Verkaufszahlen Meine Seite, die den unmittelbaren Untergang von Apple dokumentiert, pflege ich zwar nicht mehr. Die Unkenrufe werden aber bei den iPad-Verkaufszahlen nicht stiller. Dr. Drang stellt die Zahlen in einer alternativen Weise dar.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 17</title>
+      <link>/posts/weekendreader2015-17/</link>
+      <pubDate>Thu, 23 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-17/</guid>
+      <description>![]({{ &amp;ldquo;wr17.png&amp;rdquo; | asset_url }})
+Produktivitätsguru Kennt ihr Inbox Zero? Erfunden und verbreitet hat dies Merlin Mann. Bekannt auch von der Seite 43folders, einem Ablagesystem angelehnt an GTD und Erfinder des Hipster PDA, eine lose Sammlung Zettel zur Sammlung von Gedanken und Pendenzen. Ein verdienter Produktivitätsguru. Womit der wohl seine Zeit auf dem iPhone verbringt?
+Strategische Partnerschaft Die beliebte Android-Variante Cyanogen und Microsoft haben eine strategische Partnerschaft angekündigt. Auf Cyanogen werden nun Microsoft Apps vorinstalliert sein.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 16</title>
+      <link>/posts/weekendreader2015-16/</link>
+      <pubDate>Mon, 13 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-16/</guid>
+      <description>Good Bye OS X Reviews John Siracusa, der feste Wert in den Vorstellungen von Apples Desktop-OS, hängt den Review-Hut an den Nagel und verabschiedet sich. Eine Legende in der kleinen Nische. Das zeigen die Reaktionen wie zum Beispiel die von Phil Schiller!
+Die Linien verschwimmen  But either way you cut it, the line between tablets and laptops is blurrier than ever before. The performance of tablets is continuing to improve though faster CPUs and unexpectedly powerful GPUs, all the while laptops and high-performance x86 tablets are getting thinner, lighter, and lower power.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 15</title>
+      <link>/posts/weekendreader2015-15/</link>
+      <pubDate>Fri, 10 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-15/</guid>
+      <description>![]({{ &amp;ldquo;wr15.png&amp;rdquo; | asset_url }})
+Curatii Claudio Schwarz mit seinen gesammelten Links. Graphisch viel hübscher als der Weekend Reader. Aber von ihm erwartet man das auch eher als von mir ;)
+Spätaufsteher  Although you may sleep through the early morning hours, which many early birds claim are their most productive of the day, for night owls these productive hours manifest themselves much later in the day.
+ Merke ich immer wieder. Widerspricht der klassischen Arbeits- und Familieneinteilung ein wenig aber hey.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 14</title>
+      <link>/posts/weekendreader2015-14/</link>
+      <pubDate>Mon, 30 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-14/</guid>
+      <description>Wie sich Lego neu erfunden hat - Analyse Lego hat nach seiner Krise analysiert wie Kinder spielen. Einblicke auch in die heutigen Erziehungsmethoden.
+Hinter den Kulissen der Apple Watch Entstehung Kevin Lynch, ehemaliger CTO von Adobe und damals grosser Gegner von Apples Verzicht auf Flash, wurde von Apple für das Uhrenprojekt an Bord geholt:
+ For its fourth act, Apple chose a watch. This was to be the next step in a dynasty—the first without the guidance of Steve Jobs.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 13</title>
+      <link>/posts/weekendreader2015-13/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-13/</guid>
+      <description>Echte Geschichte um einen Identitätsdieb In einer Online-Partnerbörse hielt ein Herr diverse Damen zum Narren. Dies äusserst geschickt.
+Lügner entwickeln angeblich schnellere Assoziationsfähigkeiten durch die ständige Übung im verknüpfen von Lügen. Nicht das ich jetzt hier unterschwellig etwas empfehlen würde.
+Das Aus für Kabelfernsehen? Horace Dediu über die Situation rund um Kabelfernsehen und die Ankündigung einer Disruption in dem Bereich.
+Aufbau und Unterhalt einer Online-Community Wer sich mal ernsthaft mit der Thematik auseinander setzen möchte.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 12</title>
+      <link>/posts/weekendreader2015-12/</link>
+      <pubDate>Wed, 25 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-12/</guid>
+      <description>![]({{ &amp;ldquo;IMG_3638.jpg&amp;rdquo; | asset_url }})
+Der Kampf ums Interface  Uber, the world’s largest taxi company, owns no vehicles. Facebook, the world’s most popular media owner, creates no content. Alibaba, the most valuable retailer, has no inventory. And Airbnb, the world’s largest accommodation provider, owns no real estate. Something interesting is happening.
+ via Bernhard
+Die Macht von Tripadvisor Nicht ganz unpassend zu obigem Beitrag. Tripadvisor Bewertungen können inzwischen sogar kleine Hotels die Existenz kosten. Mir fiel nur auf, dass der Direktor unseres Hotels in Gran Canaria alle Beiträge persönlich beantwortet.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 11</title>
+      <link>/posts/weekendreader2015-11/</link>
+      <pubDate>Sun, 15 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-11/</guid>
+      <description>![]({{ &amp;ldquo;IMG_1056.jpg&amp;rdquo; | asset_url }})
+Wie die Apple Watch produziert wird Über Apples &amp;ldquo;Spring forward&amp;rdquo; Event wurde viel geschrieben. Ich verzichte im Weekend Reader auf eine grossartige Auflistung von Links (vielleicht kommt ein eigener Post im Laufe der Woche).
+Diesen Artikel über die Produktionsverfahren die bei Apple Watch angewendet werden, möchte ich euch aber nicht vorenthalten. Greg Koenig analysiert die Videos die an der Keynote gezeigt wurden. Apple hat sein Geld auch in Produktionsprozesse/-maschinen investiert, die es schwer machen die Qualität/das Feeling der Produkte zu kopieren.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 10</title>
+      <link>/posts/weekendreader2015-10/</link>
+      <pubDate>Fri, 06 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-10/</guid>
+      <description>Eine Nacht die man lieber vergessen möchte Das iPhone 6 wurde durch diesen Post wüst in jene Nacht zurück geworfen. Es traf das iPhone 4 hochdeprimiert in diesem Biergarten in San Francisco. Es wusste, dass das iPhone 4 in seiner Jugend einige Geschichten in diesem Biergarten hatte. Eine hatte sogar mit üblen Typen und der Polizei zu tun. Zu einer Zeit, in der das iPhone 4 noch nicht in einer Bar hätte sein dürfen. Das iPhone 6 hatte an diesem Abend Mitleid mit dem iPhone 4.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 9</title>
+      <link>/posts/weekendreader2015-09/</link>
+      <pubDate>Thu, 26 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-09/</guid>
+      <description>Lenovo hat einen Fisch gezogen Habt ihr privat ein Lenovo Notebook gekauft? Dann gibt es die Möglichkeit, dass Lenovo euer Erlebnis mit fragwürdiger Software erweitert hat. Software die auch eure sicheren Internetverbindungen durchsucht und euch gezielt Werbung einblendet&amp;hellip; Volker Weber sagt es richtig:
+ My Yoga did not have Superfish installed. I believe these really bad ideas stem from the fact that in many market segments PC makers race to the bottom. In pursuit of ever lower prices they add software which makes a few dollars of profit.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 08</title>
+      <link>/posts/weekendreader2015-08/</link>
+      <pubDate>Mon, 16 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-08/</guid>
+      <description>Der Laptop den es zu schlagen gilt Dell hat gemäss Ars Technica mit dem XPS 13 ein tolles Notebook gefertigt. Ich weiss nicht wie ich die Headline &amp;ldquo;&amp;hellip; the PC laptop to beat&amp;rdquo; interpretieren soll, aber ich bin schon gespannt auf die neuen Generationen von Notebooks.
+Willkommen Bastian Auch Bastian ist den Kreisen der &amp;ldquo;Wochenendzusammenfasser&amp;rdquo; beigetreten. Willkommen. Ich freue mich um jeden.
+In seinem Artikel habe ich auch von den Sonntagslinks von Sprain gehört. Ebenfalls willkommen!</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 7</title>
+      <link>/posts/weekendreader2015-07/</link>
+      <pubDate>Fri, 13 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-07/</guid>
+      <description>Mit Humor gegen App Piraten Die Entwickler der Kalender App &amp;ldquo;Today Calendar&amp;rdquo; beweisen Sinn für Humor:
+ Jack Underwood (eigentlich ja auch ein cooler Piraten-Name, oder?) wird diesen Nutzern jeden Tag einen Kalender-Eintrag spendieren, der sie wissen lässt, dass sie die App nicht bezahlt haben. Ganz in Piraten-Manier natürlich [&amp;hellip;]
+ Dann ab damit in den Kalender des Geschäfts-E-Mail-Account :)
+Leben aus der Tasche Scheint ja eine halbe Bewegung zu sein. Leute die ihre Habseligkeiten aufs Minimum reduzieren.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 6</title>
+      <link>/posts/weekendreader2015-06/</link>
+      <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-06/</guid>
+      <description>Zehn Jahre Webdesign Trends Was in den letzten Jahren so alles trendy war, seht ihr bei Templatemonster. Wo blieb eure Enterprise-Software stehen?
+Google Earth Pro kostenlos Ich wusste nicht mal, dass es so etwas gibt. Mal runterladen und meine Welt vermessen.
+Alternative für akademische Publikationen Für akademische Publikationen gäbe es Word oder LaTex.
+Word:
+ Word is familiar and easy for anyone to pick up. But the WYSIWYG interface that makes it so easy also makes it easy to create inconsistent, amateur-looking documents that are tough to maintain and fine-tune.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 05</title>
+      <link>/posts/weekendreader2015-05/</link>
+      <pubDate>Mon, 26 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-05/</guid>
+      <description>Outlook für Mobile Microsoft kaufte im Dezember ja die interessante Mail App „Accompli“. Diese ist nun als „Outlook for Mobile“ in den App Stores aufgetaucht. Die anfängliche Euphorie wich aber schon Skepsis: Hübsch aber gefählich.
+Google vernachlässigt seine Archiv Versprechungen Google wollte lange alles Wissen sammeln und zur Verfügung stellen. Mit neuen Geschäftsfeldern verschwand dieser Fokus und die Archive bleiben unbearbeitet. Das Internet-Archiv will in die Bresche springen.
+Leute für soziale Software begeistern Sponsored Post, aber hat doch seine Wahrheiten.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 04</title>
+      <link>/posts/weekendreader2015-04/</link>
+      <pubDate>Mon, 19 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-04/</guid>
+      <description>Das erfolgreichste Youtube Video und seine Konsequenzen Ein kleines Musikvideo aus Korea wurde so erfolgreich, dass Google seine &amp;ldquo;Counter&amp;rdquo;-Software anpassen musste. Uppa Gangnam Style.
+Wie wurde &amp;ldquo;The Lego Movie&amp;rdquo; gemacht? Und über das Pflaster in der Lego Box muss ich immer noch schmunzeln. Wer hatte das nicht?
+Verschlüsselung für alle Service der sicherer sein will als Gmail, Dropbox und Co. Bei dem Entwickler muss das klappen. Sorry ich schubladisiere.
+Die belibtesten Programmiersprachen Kleine Vorwarnung: Geprüft wurden Github und StackOverflow.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 3</title>
+      <link>/posts/weekendreader2015-03/</link>
+      <pubDate>Sun, 18 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-03/</guid>
+      <description>Unabhängige Entwickler Letzte Woche wurde ich gefragt was denn ein &amp;ldquo;Indie Developer&amp;rdquo; ist. Da die Erklärung wohl noch präsent ist, passen folgende Geschichten aus dem Leben solchiger:
+ How HoursTracker earns five figures a month on the App Store: Carlos Ribas über seine App Hourstracker und deren Anfänge und die laufende Weiterentwicklung. Monument Valley in Numbers: Dan Gray über das hochgepriesene Spiel und dessen finanziellen Erfolg. Overcast Sales Numbers: Marco Arment über seinen erfolgreichen Podcast Player.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 2</title>
+      <link>/posts/weekendreader2015-02/</link>
+      <pubDate>Sun, 11 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-02/</guid>
+      <description>Vom funktionalen Plateau absteigen Marco Arment schrieb über den Verlust des &amp;ldquo;functional high ground&amp;rdquo; für Apple.
+ Apple’s hardware today is amazing — it has never been better. But the software quality has fallen so much in the last few years that I’m deeply concerned for its future.
+ Der Beitrag passte so gut in die Meinung der Zeit, dass er etwas viel Staub aufwirbelte. Marco bedauert den Beitrag inzwischen bereits.
+Es gab aber eine interessante Diskussion rund um das Thema.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 49</title>
+      <link>/posts/weekendreader2014-49/</link>
+      <pubDate>Fri, 12 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-49/</guid>
+      <description>Wovon gibt es zuwenig? Genau. Messenger. Deshalb:
+ Ein internationales Team aus 23 Ländern, unterstützt durch Skype-Mitgründer Janus Friis, startet mit Wire heute ein neues Kommunikationsnetzwerk für Messaging, Telefonie, das Teilen von Bildern, Musik, Videos und mehr. Das Entwicklerzentrum von Wire befindet sich in Berlin, während sich der Hauptsitz in der Schweiz befindet.
+ Schweiz, wohl nicht nur wegen Steuervorteilen, sondern wegen vorteilhafter Datenschutzgesetze resp. dem guten Ruf derer.
+Dienstwagen in der Schweiz Oder vielleicht hat sich das Team von Wire auch wegen der Vorbildsfunktion Schweizer Regierungsmitglieder hier niedergelassen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 48</title>
+      <link>/posts/weekendreader2014-48/</link>
+      <pubDate>Wed, 03 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-48/</guid>
+      <description>The Force awakens Welches Ereignis lässt drei Nerds über eine Stunde über 80 Sekunden sprechen? Der neue Star Wars Teaser Trailer.
+Weitere kreative Ventile sind ein alternativer Trailer &amp;ldquo;Was wenn es noch George Lucas gemacht hätte&amp;rdquo; oder eine Sammlung an Fan-Art. Grossartig. Da wird man wieder zum sich freuenden Kind.. Historisch wird es dann bei der Zusammenstellung aller Trailer der Star Wars Filme.
+So das war jetzt der &amp;ldquo;Sack Reis&amp;rdquo; zu Beginn.
+Microsoft mit neuer Client-Anwendung Vor iOS 8 und dessen Swipe-to-unread-Funktion, war Accompli der Mailclient meiner Wahl auf iOS.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 47</title>
+      <link>/posts/weekendreader2014-47/</link>
+      <pubDate>Wed, 26 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-47/</guid>
+      <description>Schwere Kost über Passwörter Geschichte über Howard Lutnick, der nach 9/11 die Passwörter seiner verstorbenen Mitarbeiter erraten / herausfinden musste:
+ Hours after the attacks, Microsoft dispatched more than 30 security experts to an improvised Cantor Fitzgerald command center in Rochelle Park, N.J., roughly 20 miles from the rubble. Many of the missing passwords would prove to be relatively secure — the “JHx6fT!9” type that the company’s I.T. department implored everyone to choose. To crack those, the Microsoft technicians performed “brute force” attacks, using fast computers to begin with “a” then work through every possible letter and number combination before ending at “ZZZZZZZ.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 46</title>
+      <link>/posts/weekendreader2014-46/</link>
+      <pubDate>Tue, 18 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-46/</guid>
+      <description>Amerika wählte Technologisch interessant, weil es ein weiterer Schritt ins Microsofts Vorstoss im Fernsehen war. Schon mal jemandem aufgefallen, dass die Ärzte in &amp;ldquo;Greys Anatomy&amp;rdquo; ständig Surface-Tablets verwenden statt altmodischen Klippbrettern?
+In diesem Fall ging es ein wenig schief. Aufmerksame Zuschauer haben iPads hinter den Surface erspäht. Peinlich in unseren Kreisen. In der grossen Menge vermutlich kein Problem da unbemerkt.
+Jetzt kommt NFC Es wird schon länger von den Dächern des Internets gepfiffen. Der Aufstieg von NFC als Mobile Payment Lösung.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 45</title>
+      <link>/posts/weekendreader2014-45/</link>
+      <pubDate>Thu, 06 Nov 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-45/</guid>
+      <description>Zu gut um wahr zu sein? Ich war begeistert als ich es las. Microsoft bot für OneDrive unlimitierten Speicherplatz. Brauche ich das? Nein, sicher nicht. Ein bisschen irreführend find ichs aber trotzdem.
+Mobile Web Anwendungen - kleiner Reminder Es gibt sie noch. Und Smashingmagazine.com erinnert uns wieder daran und gibt aktuelle Tipps zur Entwicklung.
+Über Tim Cooks &amp;ldquo;coming out&amp;rdquo; Für Casey Newton waren es grosse Neuigkeiten. Er erinnert sich an seine eigene Erfahrung. Auch Kara Swisher von Recode hält es für eine grosse Ankündigung für die Gesellschaft.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 44</title>
+      <link>/posts/weekendreader2014-44/</link>
+      <pubDate>Fri, 31 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-44/</guid>
+      <description>Tim Cook mit der wichtigsten Apple Neuigkeit der letzten Wochen Nicht für Apple oder dessen Aktienpreis. Nicht für die Fans von Apple und deren Lust nach immer neuen Gadgets. Aber für die Welt:
+ We’ll continue to fight for our values, and I believe that any CEO of this incredible company, regardless of race, gender, or sexual orientation, would do the same. And I will personally continue to advocate for equality for all people until my toes point up.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 43</title>
+      <link>/posts/weekendreader2014-43/</link>
+      <pubDate>Sun, 26 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-43/</guid>
+      <description>Jubiläum eines Urgesteins Dave Winer feiert sein 20jähriges Bloggerjubliäum. Das ist mal ne Ansage. Und noch immer gibt es Leute die sein Blog nicht kennen. Ich zum Beispiel. Bis heute.
+Ein Mac Urgestein ist sicher John Gruber. Er sprach am XOXO-Festival auch über die Geschichte seines Blogs. Als einer der ersten Vollzeit-Blogger, auch spannende Geschichte.
+Offline Jeden Tag die Zeitung lesen? Wissen was in der Welt abläuft? Nützt das etwas? &amp;ldquo;Das hübsche Schwein&amp;rdquo; sagt nein.</description>
+    </item>
+    
+    <item>
+      <title>Mid Week Reader Woche 42</title>
+      <link>/posts/weekendreader2014-42/</link>
+      <pubDate>Thu, 23 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-42/</guid>
+      <description>Herzlichen Glückwunsch Vor 20 Jahren wurde Netscape in die Welt entlassen. Lange her aber ein Meilenstein des Internets. Und das Internet halte ich immer mehr für das Modell erfolgreicher IT-Lösungen. Wie es mit dem Internet weitergeht wird heiss spekuliert. Eine gute Basis liefert Benedict Evans mit seinem Talk über &amp;ldquo;The Industrial Internet&amp;rdquo;.
+Die App die iOS zurückhält  When the iPhone was released in 2007 with a &amp;ldquo;desktop class&amp;rdquo; web browser, it was widely praised. You could view entire websites on a mobile device.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 42</title>
+      <link>/posts/weekendreader2014-42-1/</link>
+      <pubDate>Sat, 18 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-42-1/</guid>
+      <description>Das ultimative Mac OS X Review Das legendäre Mac OS X Review von John Siracusa gibt es auch für Yosemite. Wer genau wissen will, was sich in der Version geändert hat, findet keine bessere Quelle. Irre, dass er dies schon seit 11 Versionen tut.
+Bei all dem Geld, dass man für OS Updates inzwischen spart, gebe ich gerne 5.- für eine solche Arbeit aus.
+Alternativ gibt es auch Jason Snell mit einem Kurzüberblick, Federico Viticci mit einem langen Überblick oder Stephen Hackett mit dem Fokus auf das veränderte Design.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 41</title>
+      <link>/posts/weekendreader2014-41/</link>
+      <pubDate>Fri, 10 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-41/</guid>
+      <description>Interview mit Jonathan Ive In der Vogue. Wer hätte das gedacht. Teil der Etablierung der Apple Watch in der Modeszene, nehme ich an. In Interview geht es um Ives Werdegang, seine Anfänge bei Apple und seine Begeisterung für die Apple Watch. Aber auch um seine Haltung gegenüber Design und den Schulen die es uns beibringen. So sind seiner Meinung nach die heutigen Ausbildungen zu digital. Man müsse selber etwas produzieren können um es in seiner Gesamtheit gestalten zu können.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 40</title>
+      <link>/posts/weekendreader2014-40/</link>
+      <pubDate>Sat, 04 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-40/</guid>
+      <description>Bono kämpft für die Zukunft von Musik Nicht über verteilte Gratis-Alben, sondern über ein neues Format:
+ Bono tells TIME he hopes that a new digital music format in the works will prove so irresistibly exciting to music fans that it will tempt them again into buying music—whole albums as well as individual tracks.
+ Das Format soll multimediale Inhalte zulassen. Ein ausgeweitetes Cover und Booklet. Marco Arment sagt es aber richtig:
+ If you’re actively using a screen, music competes with everything else that screen can do — and these days, that’s a lot.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 39</title>
+      <link>/posts/weekendreader2014-39/</link>
+      <pubDate>Wed, 01 Oct 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-39/</guid>
+      <description>Die Hardware Einführung der Woche Natürlich das Blackberry Passport. Der Versuch wieder an Relevanz zu gewinnen präsentiert sich in Form eines quadratischen Display und einer physischen Tastatur. Die Tastatur dient parallel noch als Touchpad. Die Fans sind gespalten. Joanna Stern vom Wall Street Journal findet es kein gelungenes Gerät. Viele andere auch nicht.. Volker Weber von Heise hingegen findet es das beste Blackberry bisher.
+Blackberry Blend - kein Mixer Blend ist eine Funktion die das Blackberry zum &amp;ldquo;Modem ins Unternehmen&amp;rdquo; macht.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 38</title>
+      <link>/posts/weekendreader2014-38/</link>
+      <pubDate>Thu, 18 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-38/</guid>
+      <description>Bye Bye Google Maps Ausführlicher Vergleich von Google Maps und Citymapper. Viele Funktionen hat er &amp;ldquo;kleine, neue&amp;rdquo; viel benutzbarer gestaltet als der eingesessene Marktführer.
+Windows 9 - Screenshots Keine grossen Schritte seit Windows 8 - Gott sei dank. Die Rückkehr des Startbuttons. Zur Entwirrung von &amp;ldquo;Metro&amp;rdquo; und &amp;ldquo;Classic&amp;rdquo; Oberfläche könnte der Metro-Window Modus dienen. Könnte auch zu mehr modernen Applikationen führen. Und ja, ich verwende die Begriffe extra völlig wirr und quer durch die Zeitachse und Offizialität.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 37</title>
+      <link>/posts/weekendreader2014-37/</link>
+      <pubDate>Thu, 11 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-37/</guid>
+      <description>Apple Watch - Aus Sicht eines Uhrenjournalist  I m not even sure we can call it a watch. Okay, it goes on the wrist, and it happens to tell the time, but that s about where the similarities between Apple s just announced watch and the hand-assembled, often painstakingly finished mechanical watches we write about, and obsess over, end.
+ Umfangreiche Beschreibung der Dinge die er an der &amp;ldquo;Uhr&amp;rdquo; mag und Dingen die er nicht mag.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 36</title>
+      <link>/posts/weekendreader2014-36/</link>
+      <pubDate>Fri, 05 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-36/</guid>
+      <description>Ein Jahr mit einem Smartphone ohne Ablenkungen Jake Knapp hat einen Selbstversuch gestartet und seine Smartphone-Abhängigkeit mit drastischen Massnahmen reduziert. Apps löschen, Safari deaktivieren. Ein Featurephone daraus machen. Er ist von seinen Ergebnissen begeistert und behält es so bei.
+Mir ist der Ansatz etwas zu extrem. Die Bewusstheit um das Ablenkungspotential sollte aber vorhanden sein. Notifications habe ich auf beinahe null reduziert. Push, nicht nur aus Batteriegründen, ebenfalls. Im Hintergrund wird nur sehr gewählt synchronisiert. So kann ich mich auf Tasks konzentrieren ohne ein ständig vibrierendes Gerät an meiner Seite.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 35</title>
+      <link>/posts/weekendreader2014-35/</link>
+      <pubDate>Fri, 29 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-35/</guid>
+      <description>Copy - Paste über mehrere Geräte Von Pushbullet hab ich schon öfters gelesen. Da aber vermutlich mein Unternehmensgerät für diesen Dienst gesperrt ist, hab ich es noch nicht probiert. Wobei wenn es nur vermutlich gesperrt ist, müsste man es eigentlich mal probieren.
+Was soll ich hierzu schreiben Lest euch das Review über inshort mal durch. Die Einleitung tönt verlockend:
+ The last few months I ve been interested in apps that set new categories. With the ability to share data and have a touch interface, some productivity developers are creating entirely new widgets and that always excites me.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 34</title>
+      <link>/posts/weekendreader2014-34/</link>
+      <pubDate>Sun, 24 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-34/</guid>
+      <description>Die neue Foursquare App Lange her als ich noch eingecheckt bin um Badges und Ruhm zu sammeln. Die Funktion über übliches Trinkgeld zu informieren ist aber, gerade auf Reisen, sehr hilfreich. Wobei der nette Kellner in Südafrika wusste das kurze Gespräch auch zu schätzen und bewies verbesserungswürdigen Geschäftssinn mit seiner ehrlichen Antwort.
+Windows 9 Schatten Willkommen zurück aufgebohrtes Startmenü. Also jetzt wo der grösste Aufreger behoben scheint, könnten die Leute ja scharenweise umsteigen. Wir werden es sehen 1</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 33</title>
+      <link>/posts/weekendreader2014-33/</link>
+      <pubDate>Sun, 17 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-33/</guid>
+      <description>Web Anwendungen. Kommt Zeit, kommt Erfolg Zumindest wenn es nach Greg Cox geht. Die Theorie tönt einleuchtend. &amp;ldquo;Good enough&amp;rdquo; ist ein mächtiger Effekt für Massenadaption. Da können ein paar Snobs noch lange die Nase rümpfen.
+Android unaufhaltsam Android dominiert weiterhin den Marktanteil. Das dies aber nicht ausschliesslich im Sinne von Google ist, zeigen die Zahlen von Horace Dediu. Viel des Wachstums ist in China nicht auf Basis von Googles Services, und somit ohne Werbeeinnahmen für Google.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 31</title>
+      <link>/posts/weekendreader2014-31/</link>
+      <pubDate>Sat, 02 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-31/</guid>
+      <description>Über die EMM Features von Android L Samsung hat die Enterprise Features von Android L mitentwickelt. Sind ja eigentlich die Knox Geschichten die man selber nicht mehr weiter entwickelt. Sehr gut für alle anderen Hersteller, kommen sie doch so auch für Unternehmen in Frage. Gut für Unternehmen, da man nun von einer noch breiteren Palette an Geräten auswählen kann.
+Die neue Schreibmaschine MG Siegler über die Vorzüge des iPads für seine Schreibarbeit:
+ I’ve been thinking about this recently when wondering why I like to write on my iPad so much more than my computer.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 30</title>
+      <link>/posts/weekendreader2014-30/</link>
+      <pubDate>Sat, 26 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-30/</guid>
+      <description>Beichte eines Ex-Entwicklers Matt Gemmell war mal Entwickler. Jetzt ist er Vollzeitschreiberling und sieht selten zurück.
+ We’ve had our (latest) software Renaissance in the form of the mobile platforms and their App Stores, and I think the software biz is now starting to slide back towards consolidation and mega-corps again. It’s not a particularly great time to be an indie app developer anymore.
+ Ist dies in der Schweiz/Europa auch so?
+Ein Browser in Javascript Ein bisschen wie eine Schlange die ihren Schwanz frisst, oder?</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 29</title>
+      <link>/posts/weekendreader2014-29/</link>
+      <pubDate>Fri, 18 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-29/</guid>
+      <description>Der König kehrt zurück LeBron James hat sich entschieden in seine Heimat zurück zu kehren. Mit Uncle Drew als Point Guard können wir uns auf ein paar schöne Spielzüge freuen.
+Fast schade kann HIMYM diese Veränderung nicht mehr kommentieren. Ted war ja LeBron immer böse :)
+Schön ist auch die Aktion von der New York Times mit dem Cover zur Ankündigung der Entscheidung.
+Satya Nadella ist ein Mann der wenigen Worte So hat sein Motivations- und Strategie-E-Mail lediglich 3 000 Worte.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 28</title>
+      <link>/posts/weekendreader2014-28/</link>
+      <pubDate>Fri, 11 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-28/</guid>
+      <description>Samsung: There is a storm coming? Im High-End hat Apple mit dem iPhone den Markt fest in der Hand, im Low-End drückt die chinesische Konkurrenz. Einen mittleren Smartphone Markt scheine es nicht zu geben.
+Die unübliche Länge des Statements beschreibt das Wall Street Journal in seinem Kommentar
+ Samsung Electronics quarterly earnings guidance releases are typically terse affairs. Take out the pro forma regulatory statements, and you’re effectively left with two numbers — a quarterly sales estimate, and a quarterly profit estimate.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 27</title>
+      <link>/posts/weekendreader2014-27/</link>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-27/</guid>
+      <description>Microsoft mit Smartwatch Stimmt, die fehlten noch.
+Fühlt ihr euch nicht auch ein wenig wie zu Smartphone Zeiten 2006?
+Dokumentation über ein Phänomen Über Kickstarter suchen Jake Schumacher und Jedidiah Hurt Geld für einen Dokumentarfilm über &amp;ldquo;Apps&amp;rdquo;. Der Trailer macht definitiv Lust. Meinen Support haben sie, wenn auch die Fertigstellung mit Dezember 2015 eher spät ist.
+Alternativen zu Aperture Apple setzt zukünftig alle Karten auf die iCloud-gestützte Anwendung &amp;ldquo;Photos&amp;rdquo;. Für Freunde der bisherigen Profisoftware &amp;ldquo;Aperture&amp;rdquo; eine bittere Nachricht.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 26</title>
+      <link>/posts/weekendreader2014-26/</link>
+      <pubDate>Sat, 28 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-26/</guid>
+      <description>Goodbye Dalvik Im Kern von Android werkelt eine Dalvik VM welche Java Code auf mobilen Endgeräten ausführbar macht. In der diese Woche vorgestellten Android L Version soll diese ersetzt werden. Und zwar durch ART. ART wurde in Android 4.4 experimentell unterstützt und wird jetzt zum Standard. Entwickler brauchen nichts zu tun, ihre Anwendungen laufen ohne Veränderung.
+ Für den Nutzer bedeutet dies, dass Apps künftig spürbar schneller ausgeführt werden
+ Weitere Vorteile sind Unterstützung von 64bit Chips &amp;amp; weniger Stromverbrauch.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 25</title>
+      <link>/posts/weekendreader2014-25/</link>
+      <pubDate>Sun, 22 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-25/</guid>
+      <description>Gefährliches Halbwissen Halbwissen ist dann gefährlich, wenn es irreführend ist. Irreführend ist es, wenn man sich seiner Halbheit nicht bewusst ist.
+So sind viele heute unterwegs und denken zu wissen, dass Web-Anwendungen und native Apps folgende Unterschiede haben:
+ They have better performance and can use parts of the iPhone that web apps cannot. If you want users to take advantage of specific features like the accelerometer, gyroscope, compass, camera and microphone, then a native app is the way to go.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 23</title>
+      <link>/posts/weekendreader2014-23/</link>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-23/</guid>
+      <description>Einen Bug einreichen oder nicht? Soll man als Entwickler Bugs melden oder nicht? Daniel Jalkut, Entwickler von Mars Edit, ist ein starker Verfechter Bugs zu melden. Nur so kann der Fehler erkannt und behoben werden. Marco Arment hingegen empfindet es als Zeitverschwendung.
+Gleiches gilt für unsereins für Incidents. Weshalb sollte ich mich durch die Sprachwahl hangeln (Drücken Sie 1 für Deutsch) wenn ich doch nur weiter arbeiten will und vielleicht sogar den Workaround kenne? Eine Gewissensfrage.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 24</title>
+      <link>/posts/weekendreader2014-24/</link>
+      <pubDate>Fri, 13 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-24/</guid>
+      <description>Wie man eine Mac App macht Dave Whiskus Grafiker für die App Vesper beschreibt seine Schritte in der Portierung von Vesper für den Mac. Entwickler Brent Simmons beschreibt seine Arbeiten ebenfalls in einem Tagebuch.
+Kleinigkeiten Kurzer Artikel über die Vorzüge von Apples Lightning Kabel. Passend auch zu seiner Einschätzung zum besten Smartphone wenn Geld keine Rolle spielt. (sieht theverge genauso.
+PS: Leider hat das Gegenstück zum Kabel Macken und muss teils zurückgerufen werden.
+Mac User muss Windows 8 nutzen Für ihn eine schmerzhafte Erfahrung.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 22</title>
+      <link>/posts/weekendreader2014-22/</link>
+      <pubDate>Sun, 01 Jun 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-22/</guid>
+      <description>Mule Radio ist nicht mehr Mike Monteiro beschreibt die Gründe weshalb er Mule Radio, ein Podcast-Netzwerk, zu Grabe trägt. Der Abgang von John Grubers &amp;ldquo;The Talk Show&amp;rdquo; hat wohl den Ausschlag gegeben aber nicht direkt damit zu tun.
+Man merkt allerdings selten wenn man eine Show eines Netzwerks hört. Gemäss ersten Kommentaren hilft ein Netzwerk auch nicht unbedingt wenn es um Traffic geht.
+Editorial 1.1 Grosses Update des Text- und Automatisierungstools meiner Wahl auf dem iPad.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 20</title>
+      <link>/posts/weekendreader2014-20/</link>
+      <pubDate>Sat, 17 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-20/</guid>
+      <description>Good Reader - Aktualisiert und günstig Man sieht eine Schwäche des App Stores, den meines Wissens jede Plattform hat, bei grösseren Updates beliebter und geschätzter Anwendungen. So hat der introvertierte Entwickler in Russland ein Update seiner App Good Reader gemacht. Da es kein Update Pricing gibt, muss man eine neue App installieren. GoodiWare macht einem den Umstieg mit einer Migration innerhalb der App aber sehr einfach. Und der Preis ist für den Funktionsumfang immer noch sehr fair.</description>
+    </item>
+    
+    <item>
+      <title>Usability — Eine ewige Baustelle</title>
+      <link>/posts/2014-05-15_usability-eine-ewige-baustelle/</link>
+      <pubDate>Thu, 15 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/2014-05-15_usability-eine-ewige-baustelle/</guid>
+      <description>Eine Kühlschranktür. Man kann ja nicht sagen, dass dieses Konzept neu wäre. Trotzdem ist unser Exemplar noch nicht ganz ausgereift. Über die aktuelle Bewertung der Ästhetik lassen wir uns an dieser Stelle mal nicht aus. Zur Zeit des Baus war dies sicher eine ‘schöne Lösung’. Praktisch ist sie allerdings nicht. Mit einer Flasche Milch in der einen, meiner Tochter in der anderen Hand versuchte ich den Kühlschrank zu öffnen. Ging nicht. Mit zwei Fingern reichte meine Kraft nicht den kleinen Knubbel genügend zu fassen um die Tür aufzuziehen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 19</title>
+      <link>/posts/weekendreader2014-19/</link>
+      <pubDate>Sun, 11 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-19/</guid>
+      <description>Office ist wichtig - oder doch nicht? Aus dem Bauch heraus hätte ich jetzt auch das Gefühl, Office sei das Rückgrat unserer Dienstleistungs- und Wissensgesellschaft.
+Wenn dies aber stimmt,
+ Conclusion: many users could easly be migrated to far cheaper cloud applications such as Google Apps.
+ dann ist Office 365, gepaart mit einem in Zukunft saftigen Preiserlass wohl der Beweis das Microsoft sieht woher das dr wind wäit .
+30 Sekunden die ein Leben verändern können Nein, nicht 20 Wege wie man zu einem erfolgreicheren Menschen wird, sondern eine simple Regel.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 18</title>
+      <link>/posts/weekendreader2014-18/</link>
+      <pubDate>Fri, 02 May 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-18/</guid>
+      <description>Comixology - Mac Break weekly 400 aber wohl auch back to work.
+René Ritchie von imore spricht über mangelnde Möglichkeiten innerhalb des Apple Modells (Rabattierung, Subscriptions und Co.)
+Comixology entfernt In App Purchases  Wie kriegt man einen Haufen Nerds auf die Palme? Man werkelt an ihrem Comic-Workflow. Amazon kaufte den Internet Comic Anbieter Comixology und man lobte noch den bisherigen Umgang mit Aquisitionen. Doch kaum ein Monat vergangen, gibt es ein Update der Comixology App welche den Kauf von Comics nur noch durch die Webseite zulässt.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 17</title>
+      <link>/posts/weekendreader2014-17/</link>
+      <pubDate>Sat, 26 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-17/</guid>
+      <description>Die Zahlen sind da Apple hat seine Quartalszahlen präsentiert. Viel erfreuliches aus der Ecke iPhone und etwas erstaunliches aus der Ecke Mac. iPads stagnieren, laufen der Konkurrenz aber immer noch davon.
+Dazu auch:
+ Macworld: Apple beats analyse estimates for second quarter earnings Stadt Bremerhaven: So viele Geräte vrkaufte man in Q2/2014 Asymco: Surprise - Seine Sicht als Analyst, dem es Apple mit der Erreichung der eigenen Vorhersagen, bisher leicht machte.  Trip down memory lane Ehemaliger Safari Chef Don Melton hat über seine Bekanntschaft und Treffen mit Steve Jobs erzählt.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 16</title>
+      <link>/posts/weekendreader2014-16/</link>
+      <pubDate>Sun, 20 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-16/</guid>
+      <description>Der lange Weg zu einem besseren App Store David Smith fasst seine Meinung zu notwendigen Verbesserungen zusammen. Er hatte diese über fünf Folgen des Podcasts developing perspective  erarbeitet. Doch warum benötigt der App Store (oder App Stores) Verbesserungen:
+ It is perhaps a bit glib to assume that the App Store is in need of fixing. It is perhaps the most successful software marketplace in history. It has facilitated billions of app downloads. It removed a tremendous amount of friction and hassle with software distribution.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 14</title>
+      <link>/posts/weekendreader2014-14/</link>
+      <pubDate>Sat, 12 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-14/</guid>
+      <description>Die MDM Möglichkeiten von Windows Phone 8.1 An der Build Konferenz von Microsoft wurden einige Neuigkeiten vorgestellt. Etwas unter gehen da Unternehmensfunktionen. Obwohl sich die inzwischen nicht mehr zu verstecken brauchen.
+Auch ein löblicher Ansatz ist die Zusammenbringung von Mobile- und Desktop Apps
+Sturm der Schmerzen Methoden haben zuweilen sehr eigenwillige Namen. Painstorming ist sicher so einer. Der Ansatz über Personen, Activities, Insights und Needs auf eine bessere Lösung zu kommen tönt aber sehr einleuchtend.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 15</title>
+      <link>/posts/weekendreader2014-15/</link>
+      <pubDate>Sat, 12 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-15/</guid>
+      <description>Klare Worte zum Beginn Bezüglich Fantastical 2 fürs iPad meint MG Siegler:
+ And yes, you’re an asshole if you bitch about spending $10 or $15 on quality software.
+ Macdrifter erklärt indessen wie man das meiste aus der App holt.
+Die ultimative Anleitung zur Behebung eines der grössten Probleme der Neuzeit iOS Devices können bezüglich Batterielaufzeit etwas nervig sein. Die Tipps sollte man also unbedingt mal probieren.
+Windows will ins Auto drängen In meinem 2013er Ford ist schon ein Microsoft System verbaut.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 13</title>
+      <link>/posts/weekendreader2014-13/</link>
+      <pubDate>Sat, 29 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-13/</guid>
+      <description>Office ist da Am Donnerstag kam wohl die News der Woche raus. Microsoft hat Office fürs iPad kostenlos in den App Store gestellt. Zur Ansicht kann man einen OneDrive oder aber auch einen Firmen-Sharepoint angeben, zur Bearbeitung benötigt es einen O365-Account.
+Tim Cook heisst Office herzlich willkommen und Microsoft CEO Satya Nadella bedankt sich artig.
+Friede, Freude, Eierkuchen in der post-PC-Era .
+SBB rüstet alle MitarbeiterInnen mit smart devices aus Kam für mich jetzt nicht ganz überraschend bin aber doch gespannt wie das bei den Leuten ankommen wird.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 12</title>
+      <link>/posts/weekendreader2014-12/</link>
+      <pubDate>Fri, 21 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-12/</guid>
+      <description>OneNote für Mac erschienen Was letzte Woche noch ein Gerücht war, ist nun passiert. Microsoft hat OneNote auf den Mac gebracht. In den App Store sogar. Dies weil die Version gratis ist und mit Services monetarisiert wird. Modern, nicht?
+Auch an die Integrierbarkeit mit anderen Services hat man gedacht und bietet sogar einen ifttt.com Kanal an. Erste Services wie Feedly nutzen die Integration bereits. Jetzt stellt sich natürlich die Frage ob man weiterhin bei Evernote bleiben soll.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 11</title>
+      <link>/posts/weekendreader2014-11/</link>
+      <pubDate>Fri, 14 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-11/</guid>
+      <description>Android oder iOS - Was ist sicherer Der Herr Peuker ist anscheinend aus dem Sabbatical zurück und stürmt wieder die Bühnen dieser Welt. An der Mobile Tech Con in München erzählt er etwas über die Unternehmenssicherheit von Android.
+In obigem Interview gibt er eine erste kurze Einschätzung zum Vergleich von Android und iOS was Unternehmenssicherheit angeht:
+ iOS macht nicht wirklich viel besser. Es unterstützt mehr Enterprise-Protokolle, MDM und Security-Features, welche für die meisten Privatanwender aber nebensächlich sind.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 10</title>
+      <link>/posts/weekendreader2014-10/</link>
+      <pubDate>Fri, 07 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-10/</guid>
+      <description>Herr des eigenen Schicksals  The strategy today is simple: In order to move fast, build what you can’t buy or risk losing control of your fate and becoming the next Palm, Motorola, or HTC. And if, in the process, you disrupt an Oracle or a Qualcomm? So be it.
+ Da kann man sicher auch eine Brücke zur IT of 2 speeds schlagen.
+Star Wars Verdruss? Ich bin ja nicht sonderlich kritisch was Filme angeht.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 9</title>
+      <link>/posts/weekendreader2014-09/</link>
+      <pubDate>Sun, 02 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-09/</guid>
+      <description>Big Data und Mobile in der Praxis Hätte ich noch iPad schreiben sollen für mehr Google Hits? Während wir uns oftmals um Mailsynchronisation und News-Kanäle Gedanken machen, machen sie drüben richtige IT für die richtige Eisenbahn. Die Bezeichnung &amp;ldquo;Infrastruktur Division Information Officer&amp;rdquo; gibt es aber nicht bei uns, oder Peter Kummer
+ACHTUNG SPOILER Bald ist es soweit. Die vierte Staffel Game of Thrones kommt. Um sich richtig ins Fieber zu bringen könnte man Retro-Grafiken einiger wichtiger Szenen der vergangenen Staffeln ansehen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 8</title>
+      <link>/posts/weekendreader2014-08/</link>
+      <pubDate>Fri, 21 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-08/</guid>
+      <description>Die 16 000 000 000 $ (+/-) Woche Die Neuigkeit der Woche ist der Kauf von Whatsapp durch Facebook. Für einen Betrag der einem in der realen Welt eine Menge Möglichkeiten eröffnet, kriegt Facebook nun den Leader des momentan wichtigsten Anwendungsfall auf Smartphones. Wie wurde Whatsapp zum Leader? Einfachheit und Fokus wird vermutet (evt. war ein bisschen . Kein Schnickschnack. Die Meldungen über die Datenkrake vermochten diesen Aufstieg auch nicht wesentlich zu bremsen. Und während mein Twitterfeed von Alternativen und öffentlichen Absprungmeldungen überquillt, wird sich Otto- und Ursula-Normal wohl wenig drum kümmern.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 7</title>
+      <link>/posts/weekendreader2014-07/</link>
+      <pubDate>Sat, 15 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-07/</guid>
+      <description>Olympioniken leben gefährlich Schliesslich werde man in Sotchi sofort nach Ankunft Opfer eines Hacks auf Smartphone, Tablet oder Notebook. Behauptet jedenfalls NBC. Ein Reporter habe so Malware auf sein Android Gerät erhalten.
+Wenn man sich den Hack dann etwas anschaut, nimmt es bald die ganze Sensation aus der Geschichte.
+Der Reporter besuchte eine Webseite, welche ihm den Download anbot. Zur Installation musste er noch die Sicherheitseinstellung ändern, und voila, wir haben einen Hack .
+Gab es nicht so ein Lied you better read twice .</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 6</title>
+      <link>/posts/weekendreader2014-06/</link>
+      <pubDate>Fri, 07 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-06/</guid>
+      <description>Swisscom iO läuft noch nicht wie gewünscht Eine Alternative zu Whatsapp hat es wohl immer schwer. Auf die Gefahr hin als Komplize bezeichnet zu werden, habe ich von Vögelchen gehört, dass Swisscom einige spannende, service-übergreifende Lösungen mit Swisscom iO vorhat. Evt. könnte es sich in Zukunft dann doch noch zu einem verbreiteten Dienst in der Schweiz entwickeln.
+E-Mail Management mit Inbox reboot  Eine weitere Möglichkeit seine Mailbox zu zügeln. Den Tipp mit der Mailregel für Newsletter und Co.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 5</title>
+      <link>/posts/weekendreader2014-05/</link>
+      <pubDate>Tue, 04 Feb 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-05/</guid>
+      <description>Herr Natischer über die Migration Politik. Ungewohnt im Weekend Reader. Aus einem völlig unpolitischen Grund aber aufgefallen. Checken alle diese, sehr gute, die Botschaft unterstützende Anspielung?
+ Genau. Die Schweiz ist ja auch nicht wie die EU eine künstlich herbeigeführte Gemeinschaft zuvor unabhängiger Gebiete, die a) unterschiedlicher kaum sein könnten, in denen b) verschiedenste Sprachen gesprochen werden und die sich c) vor nicht allzu langer Zeit noch bis aufs Blut bekämpft haben …
+ Und weiter zu seichteren Inhalten.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 4</title>
+      <link>/posts/weekendreader2014-04/</link>
+      <pubDate>Sat, 25 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-04/</guid>
+      <description>Der Mac wird 30 Gratuliere!
+Mit 30 ist er für meine Verhältnisse immer noch ein Jüngling, in Computerjahren ist das aber ziemlich viel. Im oben verlinkten Macworld Artikel erinnern sich Manager von Apple an die Entstehungszeit und erklären weshalb sie denken der Mac profitiere von iOS, werde aber nie gänzlich zusammenwachsen.
+Weitere Gratulanten:
+ Steve Wildstrom von Techpinions erinnert uns nochmals daran wie PCs damals waren und weshalb der Mac eine Revolution war.   Unless you were using computers back in the early 80s, you probably don’t realize how stunningly differnet the Mac was.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 03</title>
+      <link>/posts/weekendreader2014-03/</link>
+      <pubDate>Mon, 20 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-03/</guid>
+      <description>Weekend Reader Woche 3 Synology mit neuer Oberfläche Neues Interface freut immer. Ausserdem:
+ Das Package Center bekommt optional Auto-Updates, ferner soll es Hybrid Cloud Syncing zu Google Drive und Dropbox geben (yay!), Facebook- und Google+ Sharing der Bilder direkt über das DSM
+ Yay!
+Code zeichnen Ist jetzt gar nicht so LSD-anlehnend wie es tönt. Paintcode lässt es effektiv zu Vektorgrafiken in Obective C Code umzuwandeln. So verstehen sich Designer und Entwickler gleich ein bisschen besser.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 1</title>
+      <link>/posts/weekendreader2014-01/</link>
+      <pubDate>Tue, 14 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-01/</guid>
+      <description>TapTapSee erklärt Blinden Bilder Seit dem SBB Developer Day, wo ein Blinder von der Stiftung Zugang für Alle gesprochen und uns den verwinkelten Weg durch die SBB Webseite demonstriert hat, lese ich bei solchen Titeln etwas genauer worum es geht. Wie hilfreich die App ist kann ich leider nicht beurteilen. Beim Vortrag verblieb leider auch keine Zeit auf Mobile einzugehen. Evt. wäre der Weg zur Accessibility dort ja weniger steinig (weil über OS Funktionen unterstützt)</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 2</title>
+      <link>/posts/weekendreader2014-02/</link>
+      <pubDate>Mon, 13 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2014-02/</guid>
+      <description>Sicherheit kommt durch Bewusstsein Und im Jahr 2014 scheint Sicherheit im allgemeinen Bewusstsein angekommen zu sein. Wie sonst kommt es, dass Graphiker und Social Media Experte David Blum einen gut recherchierten, einfach verständlichen Artikel über Passwortsicherheit schreibt? Und so soll Sicherheit sein. Zugänglich, verständlich, nah an der Realität.
+Die besten Photos aus Obamas Gallerie Seit seinem Wahlkamp hat Obama einen Hofphotographen der ihn an wichtigen Meetings und Reisen begleitet. Dabei kommen immer mal wieder ein paar Perlen hervor, die einen sehr sympathischen Präsidenten zeigen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 51</title>
+      <link>/posts/weekendreader2013-51/</link>
+      <pubDate>Mon, 23 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-51/</guid>
+      <description>MVP Im Sport ist es der “most valuable player”, ein angesehener Titel der jede Saison verteilt wird. Produktdesign bezeichnet damit das “minimal viable product”. Also das absolut unverzichtbare das ein Produkt haben muss. Ansatz den man auch selber immer mal wieder hervorholen kann wenn man Services gestaltet.
+Buffer, der Dienst der einen Tweets, etc. in eine Warteschlange schreiben lässt die dann regelmässig entleert wird, ist auch sonst sehr offen was ihre Firmen- und Produktgestaltung angeht. Ihr eigenes Blog hat ein paar interessante Beiträge, wie zum Beispiel einen über Lohngestaltung in der Firma.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 52</title>
+      <link>/posts/weekendreader2013-52/</link>
+      <pubDate>Mon, 23 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-52/</guid>
+      <description>Das Internet als Ort moderner Lynchjustiz  The immediacy and fast pace of the Internet can be magical. But when someone makes a comment that the masses disagree with, a mob with 140-character pitchforks can develop in seconds and the Internet can become terrifyingly bellicose.
+ Auslöser für den Artikel war der Fall von Justine Sacco, welche mit einem dummen Tweet eine Lawine an Reaktionen auslöste, welche in ihrer eigenen Kündigung endete.
+ This all happened while Ms.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 50</title>
+      <link>/posts/weekendreader2013-50/</link>
+      <pubDate>Sat, 14 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-50/</guid>
+      <description>Der Jubiläumsreader. Nicht wirklich, habe ich doch nicht genau in der ersten Woche angefangen und hatte ich auch einige Versäumnisse. Woche 50 mahnt allerdings an das baldige Ende des Jahres 2013. Es mahnt an die bald anfangenden Jahresrückblicke im Fernsehen und auf Webseiten.
+##Die beliebtesten Videos 2013
+Jahresrückblick. Die beliebtesten Videos der Schweizer. Kann man mit obigem Link schauen, oder in der PCTipp-Linkbait-Version. Ich empfehle ersteres.
+Für Leute die mit dem Stift gerne auf dem Bildschirm rumdrücken Die Probleme die Leute mit obigem Krankheitsbild in der Gesellschaft haben hat seit iPad und Co.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 49</title>
+      <link>/posts/weekendreader2013-49/</link>
+      <pubDate>Sat, 07 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-49/</guid>
+      <description>Vorteile von “plain text” Eine Revolution gegen Textverarbeitung wird es nicht geben. Ob man aber alle Texte formatieren muss, ist sicherlich überlegenswert:
+ I love that with plain text the focus is on the words, not the formatting. I love that it’s portable and can be used anywhere and everywhere, in any piece of software that edits or displays words.
+ Da Überlegungen einfacher sind, wenn sie schon jemand im Vorfeld machte, die Geschichte von Rian.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 34</title>
+      <link>/posts/weekendreader2013-34/</link>
+      <pubDate>Mon, 02 Dec 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-34/</guid>
+      <description>Analyse zum günstigen iPhone Wenn man gerne mehr lesen möchte als &amp;ldquo;Apple is doomed if they don t introduce a cheap iPhone&amp;rdquo;, der sollte sich den Artikel von Ben Evans zu Gemüte führen in dem er über die Veränderungen im Nutzungsverhalten von Android Usern als möglichen Grund spricht.
+Eine weitere gute Analyse kommt von John Kirk
+Canonical scheitert am Crowdfunding fürs Ubuntu Edge Die Vision, ein Gerät für sämtliche Kontexte zu haben, bleibt bestechend. Die Zeit ist wohl noch nicht ganz reif.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 48</title>
+      <link>/posts/weekendreader2013-48/</link>
+      <pubDate>Sat, 30 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-48/</guid>
+      <description>Wie Festplattenpreise grosse Abnehmer beschäftigten Backblaze, der oft gelobte 5$/Monat Backup-Dienst, schreibt auch oft über seine dahinterliegenden Techniken. An dieser Stelle verwies ich schon auf ihren Artikel über ihre Storage Pods.
+Hier beschreiben sie die Preisentwicklung von Festplatten. War ein Riesenthema in den News als die Werke in Asien Opfer der Hochwasser wurden. Danach las man nichts mehr darüber. Deshalb interessant wie lange der Effekt noch nachhallt.
+Zwei Faktor Authentisierung für Buffer Wird wirklich langsam zum Standard.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 46</title>
+      <link>/posts/weekendreader2013-46/</link>
+      <pubDate>Sat, 16 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-46/</guid>
+      <description>Offline first - JavaScript auf dem richtigen Weg Kollege Jan schreibt über JavaScript und dessen Annäherung an Offline-Realitäten:
+ I’ve had my troubles following all the JavaScript developments of recent years (with the exception of Node) because their use cases simply didn’t make too much sense for me, it all seemed to be exclusively fitted for kinda-social-cloud-powered-minimalistic-apps. Seeing this attitude changing makes me feel optimistic and encouraged.
+ Passend dazu auch der Artikel von AirBnB Engineers zu Isomorphic Javascript</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 47</title>
+      <link>/posts/weekendreader2013-47/</link>
+      <pubDate>Tue, 12 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-47/</guid>
+      <description>Hilfreiche Tipps zum Elternsein Man wird als Jungvater ja viel emotionaler :) Diesen Berich finde ich so zum Beispiel &amp;ldquo;uuuh härzig&amp;rdquo;.
+Die iPad Review Nachzügler Obiges von John Gruber mit der Einleitung über die eher überraschende Ausrüstung des iPad mini mit der neuesten Generation von Komponenten.
+ As I tested and just plain used the new iPad Mini, I kept thinking there had to be a catch — some sort of way that the device is less powerful or useful than the iPad Air.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 45</title>
+      <link>/posts/weekendreader2013-45/</link>
+      <pubDate>Sun, 10 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-45/</guid>
+      <description>Jetzt wird man auch im Laden gegenüber getrackt Der gläserne Kunde. Für viele eine Angstvorstellung. Für andere die unausweichliche Zukunft. Es ist sicher ein Blick in die Werkstatt von Laden-Psychologen, welche schon länger Laufwege finden, welche uns zum Kauf verleiten. Süssigkeiten an der Kasse sind ja der weitbekannte erste Schritt gewesen. An die Träger von Alu-Hüten: Flight Mode beim Eintreten in einen Laden dürfte helfen.
+Rockstars verklagen Google Keine Musiker, sondern ein Konsortium aus Apple und Microsoft u.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 44</title>
+      <link>/posts/weekendreader2013-44/</link>
+      <pubDate>Sat, 02 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-44/</guid>
+      <description>Apples Definition vom Gewinnen  We are winning with our products in all the ways that are most important to us, in customer satisfaction, in product usage and in customer loyalty. ~ Tim Cook, Apple earnings call
+ Finde ich persönlich die richtigen Prioritäten. Und:
+ “Regardless of what you might hear or read about how many are bought or sold or activated, iPad is used more than any of the rest. And not just a little more, a lot more.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 43</title>
+      <link>/posts/weekendreader2013-43/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-43/</guid>
+      <description>Zu Beginn gleich Schubladendenken Und eine ganz schlechte Meinung über IT… Wenn ihr sehen könntet wie geschliffen wir heutzutage aussehen!
+Samsung mit Rekordgewinn im 3. Quartal Die Zahlen kommen wieder rein. Samsung feiert Umsatz- &amp;amp; Gewinnsteigerung. Zwar nicht zwingend im Smartphonebereich, dort hält man das hohe Niveau, sondern eher im Verkauf von Komponenten für andere Hersteller.
+Controller für das iPhone aufgetaucht Sieht nach einem tollen Konzept für Gamer aus. Und ist einer der Vorteile eines lebendigen Ökosystems.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 41</title>
+      <link>/posts/weekendreader2013-41/</link>
+      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-41/</guid>
+      <description>Endlich. Ein Smartphone mit einem gebogenen Display Unser aller liebster &amp;ldquo;Wir produzieren alles&amp;rdquo;-Hersteller, Samsung, hat wieder zugeschlagen. Auf ein Smartphone mit gebogenem Display müssten die meisten gewartet haben. Es ist fast wie ein IMAX in der Hostentasche.
+Aber immerhin, zeigt es den Weg in eine Welt voller flexiblerer Geräte.
+PS: Curve hätte doch als Name viel besser gepasst als Round&amp;hellip; Ah ja&amp;hellip;
+LG zeigt flexible Batterien Ah und gleich weiter mit Flexibilität. Flexible Batterien gibts von LG zu sehen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 42</title>
+      <link>/posts/weekendreader2013-42/</link>
+      <pubDate>Sun, 13 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-42/</guid>
+      <description>Weekend Reader Woche 42 Aus der Reihe&amp;hellip; Web-Anwendungen sind langweilig. Dies hier ist SUPER MARIO im Browser!
+Befreit Photos aus den Fängen von Aperture und iPhoto Aktuell nutze ich Bilder fast nur archivarisch. Da nutzen mit die Verwaltungsfunktionen von iPhoto und Aperture wenig. Deshalb überleg ich mir Wege diese einfach &amp;ldquo;nackt&amp;rdquo; auf dem File-System liegen zu haben.
+iOS Icons auf dem Mac extrahieren Wenn man öfters mal mit Icons auf dem Mac arbeiten muss (Anleitungen, etc.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 28</title>
+      <link>/posts/weekendreader2013-40/</link>
+      <pubDate>Mon, 30 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-40/</guid>
+      <description>Weekend Reader Woche 40 Zum Beginn etwas schauerliches Unglaubliche Bilder (für schwache Gemüter, welche mit Tierskeletten etwas Mühe haben eher nichts) von einem See in Tanzania.
+ The water has an extremely high soda and salt content, so high that it would strip the ink off my Kodak film boxes within a few seconds. The soda and salt causes the creatures to calcify, perfectly preserved, as they dry.
+ via MG Siegler
+Samsung, mal wieder&amp;hellip; Den Preis für die beste Geschäftsethik strebt Samsung nicht an.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 39</title>
+      <link>/posts/weekendreader2013-39/</link>
+      <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-39/</guid>
+      <description>Erinnert ihr euch noch. Apple ist nicht mehr in der Lage Produkte zu bringen Und nun sind sie angeblich nicht in der Lage alle neuen, und vermutlich diskussionslos teils sehr innovativen, Produkte bis Ende des Jahres noch unter die Leute zu bringen. Egal. Hauptsache Abstieg.
+Vollständiges Interview mit den Chefs von Design und Engineering bei Apple Mr. Aluminium und Mr. &amp;ldquo;with great hair comes great responsibility&amp;rdquo; im Business Weeke Interview. Und bei Interesse auch das vollständige mit deren Chef</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 38</title>
+      <link>/posts/weekendreader2013-38/</link>
+      <pubDate>Sat, 21 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-38/</guid>
+      <description>iOS 7 wurde veröffentlicht, und die neuen iPhones kamen in den Handel. Daneben hatte in der Tech-Welt gar nicht mehr soo viel eine Chance in die Schlagzeilen zu kommen. Wem die obigen Begriffe unvermittelt die Wutesröte ins Gesicht treiben, sollte sich diese Woche den Weekend Reader vielleicht sparen.
+Wahre Analystengrösse Beweist Ben Thompson. Er war einer, der mit sehr nachvollziehbaren Argumenten auf ein günstiges iPhone hinwies. Im Nachhinen stellt sich das als falsch dar. Anstatt jetzt den Untergang von Apple zu prophezeien, geht er hin und analysiert seine Fehleinschätzungen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 37</title>
+      <link>/posts/weekendreader2013-37/</link>
+      <pubDate>Sun, 15 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-37/</guid>
+      <description>GitHub möchte auch Kollaboration von Nicht-Entwicklern fördern Tönt vernünftig und möglich. Und es erinnert mich an die Zeiten wo Enterprise-Software und Consumer-Software (und Services) meilenweit auseinanderlagen. Niemand hätte in einem Unternehmen daran gedacht auf so einen Service zu setzen. Microsoft und IBM. Was anderes kommt uns nicht ins Haus. Ein schönes Beispiel waren AD-Gruppen. Das musste unterstützt werden. Heute hat sich MS den Cloud-Standards soweit genähert, dass AD auch mit eher Consumer-nahen Diensten umgehen kann. Mit ein bisschen Kreativität und Kenntnis des Marktes kann man coole Dinge machen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 36</title>
+      <link>/posts/weekendreader2013-36/</link>
+      <pubDate>Sun, 08 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-36/</guid>
+      <description>Zum Thema Unternehmenskultur Nochmal zum Thema &amp;ldquo;Stack Ranking&amp;rdquo; bei Microsoft. Für mich ein Interessensgebiet weil ich mir viele Gedanken zu unserer Firmenkultur mache. John Gruber ist &amp;ldquo;spot on&amp;rdquo;:
+ In a good culture, A players want to be surrounded by other A players. In stack ranking, A players want to be surrounded by B players.
+ Unter den Blinden ist&amp;hellip;.
+Deine eigene Dropbox Eine Möglichkeit, ohne externe Abhängigkeiten Daten auf Mobiles etc. zur Verfügung zu stellen ist BitTorrent-Sync.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 35</title>
+      <link>/posts/weekendreader2013-35/</link>
+      <pubDate>Sat, 31 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-35/</guid>
+      <description>Letzte Woche noch gescherzt, heute schon vor Gericht Microsoft hat also eine einstweilige Verfügung erwirkt und die “ZEIT Online” so gezwungen den umstrittenen Artikel zur Sicherheit von Windows 8 vom Netz zu nehmen. Shitstorm blieb unerwartet aus. Was mich als Microsoft fast ein wenig beunruhigen würde&amp;hellip;
+Morituri te salutant Ein Featurephone mit Begeisterungspotential für all jene die kein Angry Birds oder Spotify benötigen :) Aluminium und Gorilla-Glass. Wirklich überraschend, dass es sowas noch gibt.
+Blackberry Q10 - we own the keyboard phone market Solche Dinge haben also nichts mit Verzweiflung zu tun, sondern sind reine “fringe benefits”:</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 31</title>
+      <link>/posts/weekendreader2013-31/</link>
+      <pubDate>Mon, 05 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-31/</guid>
+      <description>Unfertige Gedanken von mir Anscheinend denke ich sehr visuell. So kommt es zu unfertigen Gedanken, welche aber schon optisch Form annehmen. Diese sammle ich neu in einem Tumblr-Blog.
+Web Frontend Unterstützung PS: so ein unfertiger Gedanke.
+Web-Frontends (früher sagte ich noch Webseiten aber man wird ja Spezialist und so) sind ein Beispiel für obige Zyklen. Anfangs noch durch “Spezialisten” im Text-Editor händisch erstellt, kamen dann die Frontpages und iWebs, welche es jedermann ermöglichten. Der Code war aber sehr überladen und komplexe/responsive Layouts liessen sich nicht erstellen.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 32</title>
+      <link>/posts/weekendreader2013-32/</link>
+      <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-32/</guid>
+      <description>Weekend Reader Woche 32 Der zukünftige Desktop ist OS-Neutral? Einverstanden mit der Ausgangslage und der Zukunft, dass wir irgendwann uns nicht mehr um das OS kümmern müssen und unsere Anwendungen und Daten OS-unabhängig auf allen Plattformen haben werden. Ob dies zwingend mit Web-Anwendungen, ja sogar einem Web-Desktop der Fall sein wird, weiss ich nicht. Unabhängig vom OS heisst nicht OS-neutral. Cross-Plattform könnte auch auf allen Plattformen nativ entwickelt sein. Ist eine Frage der Perspektive.
+Lasst uns Apple’s Erfolg kopieren.</description>
+    </item>
+    
+    <item>
+      <title>Weekend Reader Woche 30</title>
+      <link>/posts/weekendreader2013-30/</link>
+      <pubDate>Sun, 28 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2013-30/</guid>
+      <description>Es lebe Teamwork. Oder doch nicht? Im Harvard Business Review wird mit der gängigen Meinung aufgeräumt, ein Team seie besser als Einzelspieler. Sogar herausragende Individualisten würden in einem Team weniger Leistung bringen als wenn sie die Aufgabe alleine bewältigen. Unternehmen würden immer mit einzelnen Entscheidungsträgern geführt. Regierungen nicht. Was wenn das Unternehmen sich also eher der Konsensfindung von Regierungen annähert? Keine gute Idee wenn man dem Artikel glauben schenkt.
+Infografik über die Verbreitung des Spiels Sword &amp;amp; Sworcery Ich bin einer der Sale-Downloader bin mit dem Spiel aber nicht sofort warm geworden.</description>
+    </item>
+    
+  </channel>
+</rss>

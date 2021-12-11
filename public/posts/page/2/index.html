@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Blog | Phillip Büchler</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Forged in the fires of Enterprise IT">
+
+
+
+
+<script type="application/ld+json">
+{
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "itemListElement":[{
+            "@type":"ListItem",
+            "position":  1 ,
+            "name": "Nach 22 Jahren SBB zum Dienstleister",
+            "description": "Wackellinie aka Karriere   Am 1. März 2019 war es soweit. Ich beendete mit meinem Eintritt bei isolutions was im August 1996 begann. Meine Laufbahn bei SBB. Eine Frage die ich immer wieder hörte war schon lange: \u0026ldquo;Wie hälst du es so lange beim gleichen Arbeitgeber aus?\u0026rdquo; und, ironischerweise, die zweite Frage dann nach dem Weggang: \u0026ldquo;Wieso verlässt du die SBB nach so langer Zeit?\u0026rdquo;. Auf beide möchte ich hier eingehen.\nSBB Informatik Ich bin irgendwann als klassischer Quereinsteiger in die IT gerutscht.",
+            "url": "/posts/2020-03-01_22_jahre_sbb/"
+        },{
+            "@type":"ListItem",
+            "position":  2 ,
+            "name": "Sketchnote - SharePoint and Office 365 Community, Bern",
+            "description": "Cold and stormy outside, David Schneider takes us on a voyage to a SharePoint paradise with the help of artificial intelligence from Azure Conitive Services.\n Sketchnote   ",
+            "url": "/posts/2019-11-14_sharepoint_community/"
+        },{
+            "@type":"ListItem",
+            "position":  3 ,
+            "name": "Sketchnote - Microsoft 365 Security",
+            "description": "Maybe, M365 is more secure than your current Workplace.\n Sketchnote M365 Security   ",
+            "url": "/posts/2019-11-13_m365_security/"
+        },{
+            "@type":"ListItem",
+            "position":  4 ,
+            "name": "Sketchnote - Office 365 - The worlds productivity cloud",
+            "description": "This is my #Sketchnote of the Technical Keynote for Microsoft 365, delivered in the most parts by M365 CVP’s Jared Spataro and Brad Anderson.\n Sketchnote of Brad Anderson and Jared Spataro   ",
+            "url": "/posts/2019-11-11_o365productivitycloud/"
+        },{
+            "@type":"ListItem",
+            "position":  5 ,
+            "name": "Windows 10 can't save pictures from the camera.",
+            "description": "That was the error that a user reported which eventually landed on my desk. In the project I am responsible for Intune Device Management and so the thinking was, that there must be a policy that blocks the Camera app. There is not. But why this error then?\n Error Message with WIP   Let me put the error here for Google to index:\n Sorry — we weren’t able to save the photo. If you nee it, here’s the error code: 0xA00F4253 (0x80070005)",
+            "url": "/posts/2019-09-24_camera-windows10-windowsinformationprotection/"
+        },{
+            "@type":"ListItem",
+            "position":  6 ,
+            "name": "Group based licensing - a new business model for Microsoft?",
+            "description": "Lets face it. Microsoft 365 implementation projects can get a bit messy. You start exploring possibilities, you create Azure AD groups, you sync some from Active Directory and you assign policies in Intune. Then you might want to install features for pilot users before you configure the policy for all users.\nWell what about group based licensing? Are you shoveling money into Microsofts pockets if you lose your firm grip over groups that have licences assigned?",
+            "url": "/posts/2019-06-25_group-base-licensing/"
+        },{
+            "@type":"ListItem",
+            "position":  7 ,
+            "name": "Edge Insider für Microsoft Tenant Wanderer oder Teams Gäste.",
+            "description": "In verschiedenen Ausgangslagen benötigt man Zugang auf verschiedene Microsoft 365 Tenants. Outlook und Co. unterstützen dies, Microsoft Teams leider nicht.\nDie Chromium basierte Microsoft Edge Version hilft hier enorm. So bieten alle Chromium basierten Browser die Möglichkeit von Profilen:\nNun erstellt man für jeden Tenant auf dem man einen Account hat, ein Profil. Dann können für Webanwendungen “lokal installierte Anwendungen” erstellt werden:\nVoila. Man hat nun auf dem Desktop und im Startmenü eine Anwendung mit der man direkt auf das jeweilige Team kommt.",
+            "url": "/posts/2019-06-05_edge-insider-f-r-microsoft-tenant-wanderer-oder-teams-g-ste/"
+        },{
+            "@type":"ListItem",
+            "position":  8 ,
+            "name": "SharePoint Conference 2019",
+            "description": "Die SharePoint und Office 365 Welt hat zwei Fixpunkte für Produktankündigungen. Die Ignite im Herbst und die SharePoint Conference im Frühling.\nDie 2019er Ausführung ist durch und ich möchte kurz zusammenfassen, was an Produktroadmaps vorgestellt wurde.\nSharePoint Teamsites and Business Apps\nRoadmap for @SharePoint Team Sites and business apps. #SPC19 pic.twitter.com/oVh2CFjuJz\n\u0026mdash; Marc D Anderson (@sympmarc) May 22, 2019  SharePoint Content Services\nContent Services roadmap! #SPC19 pic.twitter.com/XC71njuFyV\n\u0026mdash; Susan Hanley (@susanhanley) May 23, 2019  SharePoint Intranets",
+            "url": "/posts/2019-05-27_sharepoint-conference-2019/"
+        },{
+            "@type":"ListItem",
+            "position":  9 ,
+            "name": "Sketchnote - Experts Live Café bei der Mobiliar",
+            "description": "John Craddock über verteilte Identitäten   John Craddock erklärte die Mechanismen von Bitcoin und verteilten Identitäten\nGestern hatte ich das Vergnügen einem Experts Live Café in den Räumen der Mobiliar teilzunehmen. Stefan Roth und Stefan Johner organisierten eine weitere Ausgabe mit hochkarätigen Microsoft Spezialisten. Gestern war es mit John Craddock ein Microsoft MVP mit langjähriger “Identity-Management” Expertise. In seinem zweiteiligen Vortrag erklärte er erst die Grundsätze und Mechanismen von Bitcoin als Beispiel für eine Blockchain.",
+            "url": "/posts/2019-05-21_experts-live-caf-bei-der-mobiliar/"
+        },{
+            "@type":"ListItem",
+            "position":  10 ,
+            "name": "In vino veritas autem in cervisiam sapientia.",
+            "description": "Im Wein mag die Wahrheit liegen, aber in Bier scheint die Weisheit zu sein. Wie sonst erklärt sich der Geistesblitz beim Genuss eines Hawaiianischen Biers?\nSBB hat eine Riesenwelle immer als Sinnbild für die Digitalisierung verwendet. Sie kommt unaufhaltsam. Sie bedingt spezielles Training und wenn man nicht vorbereitet ist, überspült sie einen unerbittlich.\nBernhard Rytz über die Digitalisierung: Da müssen wir schnell surfen lernen! #sbbkk pic.twitter.com/gTVHOislzo\n\u0026mdash; Andreas P. Meyer (@AndreasMeyer) March 15, 2016  Auf der Verpackung des Kona “Big Wave” Biers findet man aber die wichtigsten Voraussetzungen um erfolgreich auf der Welle zu reiten:",
+            "url": "/posts/2019-05-14_in-vino-veritas-autem-in-cervisiam-sapientia/"
+        },{
+            "@type":"ListItem",
+            "position":  11 ,
+            "name": "Office Custiomization Tool und eine Empfehlung zum Configuration Management",
+            "description": "Unternehmen haben beim Umstieg auf moderne Client Verwaltung oftmals Bedenken bei der Anpassung von Office. Klassischerweise werden viele Richtlinien im Office-Paket mitgegeben um es an die Anforderungen der Unternehmen anzupassen.\nDabei gibt es in der modernen Client Verwaltung ein unbekannts Juwel — das “Office Customization Tool”. In der Weboberfläche werden die verschiedenen Konfiguration direkt vorgenommen. Diese Konfigurationen werden in einer XML-Datei gespeichert und können beim Setup so mitgegeben werden.\nSchauen wir uns das doch mal näher an.",
+            "url": "/posts/2019-04-15_office-custiomization-tool-und-eine-empfehlung-zum-configuration-management-efc4e6b9c9d3/"
+        },{
+            "@type":"ListItem",
+            "position":  12 ,
+            "name": "Office 365 Message Encryption",
+            "description": "Diese Woche gerade von zwei Kunden zum Thema “Office 365 Message Encryption” (OME) befragt worden. Wenn wohl auch zwei Schwalben noch keinen Frühling machen, möchte ich doch etwas zu OME und den Unterschieden zu “Azure Information Protection” (AIP) sagen.\nEin erster Unterschied ist die notwendige Lizenz. Während AIP nur über Microsoft 365, Enterprise Mobility \u0026amp; Security oder einer separaten AIP-Lizenz genutzt werden kann, ist OME bereits in Office 365 E3 enthalten.\nOME wird im Exchange Admin Center als “Mailflow rule” konfiguriert.",
+            "url": "/posts/2019-04-11_office-365-message-encryption-d53a250d1497/"
+        },{
+            "@type":"ListItem",
+            "position":  13 ,
+            "name": "Den Produktivitätswald vor lauter Office 365 Bäumen nicht mehr sehen.",
+            "description": "Ist man interessierter Office 365 Anwender, PowerUser oder IT Professional hat man rosige Zeiten. Microsoft pumpt aus vollen Rohren neue Features in ihre Produkte. Verbesserte Produkte, neue Produkte, integrierte Produkte. Die volle Ladung.\nDabei ertappe ich mich immer wieder selber, wie ich den Überblick verliere. Dann besinne ich mich innerlich auf die drei Säulen, welche für mich Office 365 Implementationen so wertvoll machen:\nOffenheit Sei es die Verwendung eigener Geräte von Mitarbeitenden oder die rasche Einbindung von externen Partnern, Office 365 lässt sich sehr offen gestalten ohne Sicherheit auf der Strecke zu lassen.",
+            "url": "/posts/2019-04-02_den-produktivit-tswald-vor-lauter-office-365-b-umen-nicht-mehr-sehen-af05bb16b9a7/"
+        },{
+            "@type":"ListItem",
+            "position":  14 ,
+            "name": "Wolkenschlösser brauchen neue Maurer",
+            "description": "Dieser Post ist eine Aktualisierung einer Idee die ich länger mit mir rumtrage. Die gegenwärtige Richtung vieler Firmen IT Infrastrukturen zeigt (meines Erachtens richtigerweise) in Richtung Cloud. Diese Vorhaben sind von verschiedenen Motivationen getrieben. Sei es die Hoffnung auf Kostenersparnis, die Reaktion auf Anwender- und Kundenbedürfnisse die auf klassischen Infrastrukturen nicht mehr zu erfüllen sind, oder die Gewisseheit, dass die Stärken der eigenen Firma nicht in der Bereitstellung von IT Services liegen.\nVielerorts ist man sich der Auswirkungen auf die eigene IT Crew jedoch noch nicht bewusst.",
+            "url": "/posts/2019-04-01_wolkenschl-sser-brauchen-neue-maurer-6472f30d0f7c/"
+        },{
+            "@type":"ListItem",
+            "position":  15 ,
+            "name": "Sketchnote - Cloud Workplace Meetup 1/2019",
+            "description": "Heute war wieder Cloud Workplace Meetup angesagt. Das erste im Jahr 2019 drehte sich um die Neuigkeiten aus dem Bereich Security in Office 365 und Azure. Christoph Ratavara von isolutions stellte die neuen Portale vor, zeigte Azure Sentinel und erläuterte Funktionen, Vorgehen und Lessons Learned des Attack Simulators.\n Security by Christoph Ratavaara   Nach einer kurzen Pause zur Kehlenbefeuchtung erzählte Lucas Blanz aus der grössten Exchange Online Migration der Schweiz. Das hier vieles neu herausgefunden wird und speziell entwickelt werden muss zeigte er in seinen Lessons learned.",
+            "url": "/posts/2019-03-28_cloud-workplace-meetup-1-2019-998d354d876c/"
+        }
+    ]
+}
+</script><meta property="og:title" content="Blog | Phillip Büchler" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/posts/" />
+
+
+
+
+
+<meta property="og:description" content="Forged in the fires of Enterprise IT" />
+
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Phillip Büchler" />
+
+
+
+
+
+
+<meta property="og:updated_time" content="2021-03-21T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+<link rel="alternate" type="application/rss+xml" href="/posts/index.xml" title="Phillip Büchler" />
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Phillip Büchler</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Archiv</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+<article class="mx-6 my-8">
+    <h1 class="font-bold text-3xl text-primary-text">Blog</h1>
+    
+</article>
+<div class="bg-secondary-bg rounded px-6">
+    <div class="overflow-hidden divide-y">
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2020-03-01_22_jahre_sbb/" class="font-bold text-xl hover:text-eureka">Nach 22 Jahren SBB zum Dienstleister</a>
+</div>
+<div class="content">
+  
+    Wackellinie aka Karriere   Am 1. März 2019 war es soweit. Ich beendete mit meinem Eintritt bei isolutions was im August 1996 begann. Meine Laufbahn bei SBB. Eine Frage die ich immer wieder hörte war schon lange: “Wie hälst du es so lange beim gleichen Arbeitgeber aus?” und, ironischerweise, die zweite Frage dann nach dem Weggang: “Wieso verlässt du die SBB nach so langer Zeit?”. Auf beide möchte ich hier eingehen.
+SBB Informatik Ich bin irgendwann als klassischer Quereinsteiger in die IT gerutscht.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-02-29</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>7 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-11-14_sharepoint_community/" class="font-bold text-xl hover:text-eureka">Sketchnote - SharePoint and Office 365 Community, Bern</a>
+</div>
+<div class="content">
+  
+    Cold and stormy outside, David Schneider takes us on a voyage to a SharePoint paradise with the help of artificial intelligence from Azure Conitive Services.
+ Sketchnote   
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-11-14</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-11-13_m365_security/" class="font-bold text-xl hover:text-eureka">Sketchnote - Microsoft 365 Security</a>
+</div>
+<div class="content">
+  
+    Maybe, M365 is more secure than your current Workplace.
+ Sketchnote M365 Security   
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-11-13</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-11-11_o365productivitycloud/" class="font-bold text-xl hover:text-eureka">Sketchnote - Office 365 - The worlds productivity cloud</a>
+</div>
+<div class="content">
+  
+    This is my #Sketchnote of the Technical Keynote for Microsoft 365, delivered in the most parts by M365 CVP’s Jared Spataro and Brad Anderson.
+ Sketchnote of Brad Anderson and Jared Spataro   
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-11-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-09-24_camera-windows10-windowsinformationprotection/" class="font-bold text-xl hover:text-eureka">Windows 10 can&#39;t save pictures from the camera.</a>
+</div>
+<div class="content">
+  
+    That was the error that a user reported which eventually landed on my desk. In the project I am responsible for Intune Device Management and so the thinking was, that there must be a policy that blocks the Camera app. There is not. But why this error then?
+ Error Message with WIP   Let me put the error here for Google to index:
+ Sorry — we weren’t able to save the photo. If you nee it, here’s the error code: 0xA00F4253 (0x80070005)
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-09-24</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-06-25_group-base-licensing/" class="font-bold text-xl hover:text-eureka">Group based licensing - a new business model for Microsoft?</a>
+</div>
+<div class="content">
+  
+    Lets face it. Microsoft 365 implementation projects can get a bit messy. You start exploring possibilities, you create Azure AD groups, you sync some from Active Directory and you assign policies in Intune. Then you might want to install features for pilot users before you configure the policy for all users.
+Well what about group based licensing? Are you shoveling money into Microsofts pockets if you lose your firm grip over groups that have licences assigned?
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-06-25</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-06-05_edge-insider-f-r-microsoft-tenant-wanderer-oder-teams-g-ste/" class="font-bold text-xl hover:text-eureka">Edge Insider für Microsoft Tenant Wanderer oder Teams Gäste.</a>
+</div>
+<div class="content">
+  
+    In verschiedenen Ausgangslagen benötigt man Zugang auf verschiedene Microsoft 365 Tenants. Outlook und Co. unterstützen dies, Microsoft Teams leider nicht.
+Die Chromium basierte Microsoft Edge Version hilft hier enorm. So bieten alle Chromium basierten Browser die Möglichkeit von Profilen:
+Nun erstellt man für jeden Tenant auf dem man einen Account hat, ein Profil. Dann können für Webanwendungen “lokal installierte Anwendungen” erstellt werden:
+Voila. Man hat nun auf dem Desktop und im Startmenü eine Anwendung mit der man direkt auf das jeweilige Team kommt.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-06-05</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-05-27_sharepoint-conference-2019/" class="font-bold text-xl hover:text-eureka">SharePoint Conference 2019</a>
+</div>
+<div class="content">
+  
+    Die SharePoint und Office 365 Welt hat zwei Fixpunkte für Produktankündigungen. Die Ignite im Herbst und die SharePoint Conference im Frühling.
+Die 2019er Ausführung ist durch und ich möchte kurz zusammenfassen, was an Produktroadmaps vorgestellt wurde.
+SharePoint Teamsites and Business Apps
+Roadmap for @SharePoint Team Sites and business apps. #SPC19 pic.twitter.com/oVh2CFjuJz
+— Marc D Anderson (@sympmarc) May 22, 2019  SharePoint Content Services
+Content Services roadmap! #SPC19 pic.twitter.com/XC71njuFyV
+— Susan Hanley (@susanhanley) May 23, 2019  SharePoint Intranets
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-05-27</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-05-21_experts-live-caf-bei-der-mobiliar/" class="font-bold text-xl hover:text-eureka">Sketchnote - Experts Live Café bei der Mobiliar</a>
+</div>
+<div class="content">
+  
+    John Craddock über verteilte Identitäten   John Craddock erklärte die Mechanismen von Bitcoin und verteilten Identitäten
+Gestern hatte ich das Vergnügen einem Experts Live Café in den Räumen der Mobiliar teilzunehmen. Stefan Roth und Stefan Johner organisierten eine weitere Ausgabe mit hochkarätigen Microsoft Spezialisten. Gestern war es mit John Craddock ein Microsoft MVP mit langjähriger “Identity-Management” Expertise. In seinem zweiteiligen Vortrag erklärte er erst die Grundsätze und Mechanismen von Bitcoin als Beispiel für eine Blockchain.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-05-21</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-05-14_in-vino-veritas-autem-in-cervisiam-sapientia/" class="font-bold text-xl hover:text-eureka">In vino veritas autem in cervisiam sapientia.</a>
+</div>
+<div class="content">
+  
+    Im Wein mag die Wahrheit liegen, aber in Bier scheint die Weisheit zu sein. Wie sonst erklärt sich der Geistesblitz beim Genuss eines Hawaiianischen Biers?
+SBB hat eine Riesenwelle immer als Sinnbild für die Digitalisierung verwendet. Sie kommt unaufhaltsam. Sie bedingt spezielles Training und wenn man nicht vorbereitet ist, überspült sie einen unerbittlich.
+Bernhard Rytz über die Digitalisierung: Da müssen wir schnell surfen lernen! #sbbkk pic.twitter.com/gTVHOislzo
+— Andreas P. Meyer (@AndreasMeyer) March 15, 2016  Auf der Verpackung des Kona “Big Wave” Biers findet man aber die wichtigsten Voraussetzungen um erfolgreich auf der Welle zu reiten:
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-05-14</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-04-15_office-custiomization-tool-und-eine-empfehlung-zum-configuration-management-efc4e6b9c9d3/" class="font-bold text-xl hover:text-eureka">Office Custiomization Tool und eine Empfehlung zum Configuration Management</a>
+</div>
+<div class="content">
+  
+    Unternehmen haben beim Umstieg auf moderne Client Verwaltung oftmals Bedenken bei der Anpassung von Office. Klassischerweise werden viele Richtlinien im Office-Paket mitgegeben um es an die Anforderungen der Unternehmen anzupassen.
+Dabei gibt es in der modernen Client Verwaltung ein unbekannts Juwel — das “Office Customization Tool”. In der Weboberfläche werden die verschiedenen Konfiguration direkt vorgenommen. Diese Konfigurationen werden in einer XML-Datei gespeichert und können beim Setup so mitgegeben werden.
+Schauen wir uns das doch mal näher an.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-04-15</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-04-11_office-365-message-encryption-d53a250d1497/" class="font-bold text-xl hover:text-eureka">Office 365 Message Encryption</a>
+</div>
+<div class="content">
+  
+    Diese Woche gerade von zwei Kunden zum Thema “Office 365 Message Encryption” (OME) befragt worden. Wenn wohl auch zwei Schwalben noch keinen Frühling machen, möchte ich doch etwas zu OME und den Unterschieden zu “Azure Information Protection” (AIP) sagen.
+Ein erster Unterschied ist die notwendige Lizenz. Während AIP nur über Microsoft 365, Enterprise Mobility &amp; Security oder einer separaten AIP-Lizenz genutzt werden kann, ist OME bereits in Office 365 E3 enthalten.
+OME wird im Exchange Admin Center als “Mailflow rule” konfiguriert.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-04-11</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-04-02_den-produktivit-tswald-vor-lauter-office-365-b-umen-nicht-mehr-sehen-af05bb16b9a7/" class="font-bold text-xl hover:text-eureka">Den Produktivitätswald vor lauter Office 365 Bäumen nicht mehr sehen.</a>
+</div>
+<div class="content">
+  
+    Ist man interessierter Office 365 Anwender, PowerUser oder IT Professional hat man rosige Zeiten. Microsoft pumpt aus vollen Rohren neue Features in ihre Produkte. Verbesserte Produkte, neue Produkte, integrierte Produkte. Die volle Ladung.
+Dabei ertappe ich mich immer wieder selber, wie ich den Überblick verliere. Dann besinne ich mich innerlich auf die drei Säulen, welche für mich Office 365 Implementationen so wertvoll machen:
+Offenheit Sei es die Verwendung eigener Geräte von Mitarbeitenden oder die rasche Einbindung von externen Partnern, Office 365 lässt sich sehr offen gestalten ohne Sicherheit auf der Strecke zu lassen.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-04-02</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-04-01_wolkenschl-sser-brauchen-neue-maurer-6472f30d0f7c/" class="font-bold text-xl hover:text-eureka">Wolkenschlösser brauchen neue Maurer</a>
+</div>
+<div class="content">
+  
+    Dieser Post ist eine Aktualisierung einer Idee die ich länger mit mir rumtrage. Die gegenwärtige Richtung vieler Firmen IT Infrastrukturen zeigt (meines Erachtens richtigerweise) in Richtung Cloud. Diese Vorhaben sind von verschiedenen Motivationen getrieben. Sei es die Hoffnung auf Kostenersparnis, die Reaktion auf Anwender- und Kundenbedürfnisse die auf klassischen Infrastrukturen nicht mehr zu erfüllen sind, oder die Gewisseheit, dass die Stärken der eigenen Firma nicht in der Bereitstellung von IT Services liegen.
+Vielerorts ist man sich der Auswirkungen auf die eigene IT Crew jedoch noch nicht bewusst.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-04-01</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2019-03-28_cloud-workplace-meetup-1-2019-998d354d876c/" class="font-bold text-xl hover:text-eureka">Sketchnote - Cloud Workplace Meetup 1/2019</a>
+</div>
+<div class="content">
+  
+    Heute war wieder Cloud Workplace Meetup angesagt. Das erste im Jahr 2019 drehte sich um die Neuigkeiten aus dem Bereich Security in Office 365 und Azure. Christoph Ratavara von isolutions stellte die neuen Portale vor, zeigte Azure Sentinel und erläuterte Funktionen, Vorgehen und Lessons Learned des Attack Simulators.
+ Security by Christoph Ratavaara   Nach einer kurzen Pause zur Kehlenbefeuchtung erzählte Lucas Blanz aus der grössten Exchange Online Migration der Schweiz. Das hier vieles neu herausgefunden wird und speziell entwickelt werden muss zeigte er in seinen Lessons learned.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-03-28</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+</div>
+
+
+</div>
+
+    <ul class="pagination pagination-default">
+      <li class="page-item">
+        <a href="/posts/" aria-label="First" class="page-link" role="button"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/" aria-label="Previous" class="page-link" role="button"><span aria-hidden="true">&laquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/" aria-label="Page 1" class="page-link" role="button">1</a>
+      </li>
+      <li class="page-item active">
+        <a href="#" aria-current="page" aria-label="Page 2" class="page-link" role="button">2</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/5/" aria-label="Page 5" class="page-link" role="button">5</a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/3/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
+      </li>
+      <li class="page-item">
+        <a href="/posts/page/11/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      </li>
+    </ul>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://philipbuechler.ch/">Fime</a> 
+ &middot;  </p>
+</div></div>
+  </footer>
+</body>
+
+</html>

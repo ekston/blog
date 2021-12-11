@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Das Büchler Reifegradmodell | Phillip Büchler</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Das Büchler Reifegradmodell [1] Oha, jetzt aber.
+Ein Reifegradmodell unter Berücksichtigung der Einstiegshürden und der Adaption. Der Einsatz dieses Modells soll der Erklärung von Phasen und damit verbundenen Rahmenbedingungen und Möglichkeiten dienen.
+Im Alltag stosse ich öfters auf Artikel oder Diskussionen welche die vor- oder nachgelagerten Phasen eines Reifegradmodells ausser Acht lassen. So versteifen sich Diskussionen auf ein Fragment des Diskussionsgegenstands und verpassen das, in grosse Anführungszeichen zu setzende, ‘Big Picture’. Das Modell ist keine wissenschaftliche Arbeit sondern eine ‘unfertige Idee’ welche etwas fertiger ist als sonstige Dinge die ich eher auf consumerized.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Blog",
+      "item":"/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Das Büchler Reifegradmodell",
+      "item":"/posts/2015-06-02_das-buechler-reifegradmodell/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/posts/2015-06-02_das-buechler-reifegradmodell/"
+    },
+    "headline": "Das Büchler Reifegradmodell | Phillip Büchler","datePublished": "2015-06-02T11:49:41+00:00",
+    "dateModified": "2015-06-02T11:49:41+00:00",
+    "wordCount":  990 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Phillip Büchler",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.png"
+        }
+        },
+    "description": "Das Büchler Reifegradmodell [1] Oha, jetzt aber.\nEin Reifegradmodell unter Berücksichtigung der Einstiegshürden und der Adaption. Der Einsatz dieses Modells soll der Erklärung von Phasen und damit verbundenen Rahmenbedingungen und Möglichkeiten dienen.\nIm Alltag stosse ich öfters auf Artikel oder Diskussionen welche die vor- oder nachgelagerten Phasen eines Reifegradmodells ausser Acht lassen. So versteifen sich Diskussionen auf ein Fragment des Diskussionsgegenstands und verpassen das, in grosse Anführungszeichen zu setzende, ‘Big Picture’. Das Modell ist keine wissenschaftliche Arbeit sondern eine ‘unfertige Idee’ welche etwas fertiger ist als sonstige Dinge die ich eher auf consumerized."
+}
+</script><meta property="og:title" content="Das Büchler Reifegradmodell | Phillip Büchler" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/posts/2015-06-02_das-buechler-reifegradmodell/" />
+
+
+
+
+<meta property="og:description" content="Das Büchler Reifegradmodell [1] Oha, jetzt aber.
+Ein Reifegradmodell unter Berücksichtigung der Einstiegshürden und der Adaption. Der Einsatz dieses Modells soll der Erklärung von Phasen und damit verbundenen Rahmenbedingungen und Möglichkeiten dienen.
+Im Alltag stosse ich öfters auf Artikel oder Diskussionen welche die vor- oder nachgelagerten Phasen eines Reifegradmodells ausser Acht lassen. So versteifen sich Diskussionen auf ein Fragment des Diskussionsgegenstands und verpassen das, in grosse Anführungszeichen zu setzende, ‘Big Picture’. Das Modell ist keine wissenschaftliche Arbeit sondern eine ‘unfertige Idee’ welche etwas fertiger ist als sonstige Dinge die ich eher auf consumerized." />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Phillip Büchler" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2015-06-02T11:49:41&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2015-06-02T11:49:41&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Phillip Büchler</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Archiv</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Das Büchler Reifegradmodell</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2015-06-02</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>5 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <p><em>Das Büchler Reifegradmodell [1]</em> Oha, jetzt aber.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*OcbUEr0yjTGTOICC.png" alt=""></p>
+<p>Ein Reifegradmodell unter Berücksichtigung der Einstiegshürden und der Adaption. Der Einsatz dieses Modells soll der Erklärung von Phasen und damit verbundenen Rahmenbedingungen und Möglichkeiten dienen.</p>
+<p>Im Alltag stosse ich öfters auf Artikel oder Diskussionen welche die vor- oder nachgelagerten Phasen eines Reifegradmodells ausser Acht lassen. So versteifen sich Diskussionen auf ein Fragment des Diskussionsgegenstands und verpassen das, in grosse Anführungszeichen zu setzende, ‘Big Picture’. Das Modell ist keine wissenschaftliche Arbeit sondern eine ‘unfertige Idee’ welche etwas fertiger ist als sonstige Dinge die ich eher auf consumerized.net veröffentliche.</p>
+<h3 id="phasen-desmodells">Phasen des Modells</h3>
+<ol>
+<li>‘The age of exploration’: Die Entdeckung einer Möglichkeit, eines Produkts oder eines Services. Die Einstiegshürde zur Nutzung ist sehr hoch. Es bedarf Vorkenntnissen oder einer vertieften Auseinandersetzung mit dem Gegenstand um daraus Nutzen zu ziehen oder Output generieren zu können.</li>
+<li>‘The age of commoditization’: Der Nutzen ist erwiesen und es springen mehr Anbieter, Entwickler, Anwender auf den Gegenstand auf. Die Nutzung wird stark vereinfacht und die Einstiegshürde gesenkt. Der Preis für die Nutzung sinkt rapide. Die Nutzerzahlen steigen stark.</li>
+<li>‘The age of professionalisation’: Die Nutzung wird immer professioneller. Die Qualität der Ergebnisse immer besser. Durch dies wird die Einstiegshürde wieder höher. Obwohl Werkzeuge einfach zu beschaffen und benutzen sind, benötigt es Wissen und Zeit um Ergebnisse in annehmbarer Qualität zu erstellen. Die Qualitätsanforderungen des Publikums sind höher.</li>
+<li>‘The age of obsolescence’: Die Nutzung nimmt stark ab. Der Fokus und die Investitionen haben sich auf andere Bereiche verschoben. Einige Hartgesottene nutzen und produzieren weiterhin.</li>
+</ol>
+<h3 id="beispiele">Beispiele</h3>
+<p>Ich verbildliche diese unfertigen Gedanken am Besten anhand einiger Beispiele.</p>
+<h4 id="inhalte-im-internet-publizieren">Inhalte im Internet publizieren.</h4>
+<p>Ein populäres und recht aktuelles Beispiel ist das Internet. Während schon die reine Nutzung früher noch mit Hürden gespickt war, die Erstellung und Pflege von Inhalten für das Internet grenzte an eine Wissenschaft. Seiten wurden mittels Text-Editoren in Quelltext geschrieben und über FTP auf einen Server geladen. Eine Handvoll Leute hatte Adressen welche ein kleines Vermögen kosteten. Die Phase der ‘commoditization’ läuteten Dienste wie <a href="http://en.wikipedia.org/wiki/Blogger.com">Blogger</a> oder Anwendungen wie <a href="http://en.wikipedia.org/wiki/Movable_Type">Movable Type</a> und <a href="http://en.wikipedia.org/wiki/Wordpress">Wordpress</a> ein. Durch sie wurde es immer einfacher Inhalte im Internet zu publizieren. Blogs schossen wie Pilze aus dem Boden.</p>
+<p>Die Frage im Internet ist nun die aktuelle Phase. Befinden wir uns noch in der Professionalisierung oder steuern wir auf die Obsoleszenz zu? Blogs werden sicher immer professioneller, gibt es doch immer mehr Firmen und Einzelpersonen welche es ‘professionell’ (im Sinne von wirtschaftlich rentabel) betreiben. Es gibt aber auch eine Bewegung wo Einzelpersonen mit viel Euphorie Nischen bedienen und dies ohne primär wirtschaftliche Motivation. Der grosse Pulk an Leuten hat sich aber zu sozialen Netzwerken bewegt und findet und ‘erstellt’ seine Inhalte dort. Dort stehen wir eher im ‘age of commoditization’ und müssen den Lärm verwalten um die Perlen zu finden.</p>
+<h4 id="erstellung-von-multimedia-inhalten">Erstellung von Multimedia Inhalten</h4>
+<p>Podcasts und Youtube lassen mich denken, dass wir uns bei der Erstellung von Multimedia in der Phase der Kommodifizierung [2] sind. Mit wenig Geld lässt sich heute ansehnliches produzieren und leicht zur Verfügung stellen. Am Beispiel von Podcasts, und damit meine ich nicht Nebenproduktionen grösserer Medienhäuser, sieht man aber den Übergang zur Professionalisierung. Grössere Netzwerke wie <a href="http://5by5.tv/">5 by 5</a>, <a href="http://twit.tv/">Twit</a> oder <a href="http://www.muleradio.net/">Mule Radio</a> veröffentlichen Podcasts mit denen die Podcaster effektiv auch Geld verdienen können. In den deutschen Sprachraum scheint diese Phase aber noch nicht übergeschwappt. Meines Wissens populäre Vertreter wie <a href="http://www.geek-week.de/">Geek Week</a> mit dem Schweizer <a href="http://ifrick.ch/">Jean-Claude Frick</a> oder der <a href="https://soundcloud.com/neuland-podcast">Neuland Podcast</a> mit <a href="http://stadt-bremerhaven.de/">Caschy</a> und <a href="http://www.mobilegeeks.de/tag/neuland/">Sascha</a> scheinen noch eher auf reinem Interesse als wirtschaftlichen Absichten zu beruhen.</p>
+<p>Die Erstellung von Video ist meines Erachtens ein wenig weiter. So sehen wir im Einsatzzweck ‘Tutorials’ beispielsweise schon die ersten Anzeichen einer Professionalisierung. Während auf Youtube.com noch eine Vielzahl von Filmen erklärt wie man Schlagschatten hier oder Weichzeichnung da macht, gibt es mit lynda.com oder ähnlichen Seiten schon Profis mit sehr hoher Qualität und ungleich höheren Produktionsaufwänden.</p>
+<h4 id="konsum-vonmusik">Konsum von Musik</h4>
+<p>Der Konsum von Musik ist ein interessantes Beispiel weil er sehr durchmischt ist. Die Phasen sind in ihrer zeitlichen Abfolge schnell aufeinanderfolgend aber nie exklusiv. Toller Satz. Erklären wir das.</p>
+<p>Musik wurde anfänglich analog und stationär genossen. Mit den ersten Walkmans wurde es möglich auch unterwegs Musik zu hören. Das war eine Phase der Kommodifizierung. Viel mehr Leute konnten sich ein Abspielgerät kaufen und taten dies auch. Musik wurde dann digital und damit auch die Abspielgeräte. Der iPod ist sicher das soziokulturell bekannteste Phänomen. Ich möchte nicht behaupten die Anzahl der Anwender stieg rasant, doch sicherlich die Menge der Lieder die konsumiert wurden und die Häufigkeit. In einer weiteren ‘Neuerfindung’ unterstützen Smartphones und kommodifizierte Datenabonnemente die nächste Phase in der Musik nicht mehr besessen sondern gemietet wird. Spotify und Co. ersetzen hier das bisherige Modell des ‘Album kaufens’. Der Absatz von dedizierten Musikgeräten und wohl auch Verkäufe von Alben leiden darunter und rutschen vielleicht in Phase vier.</p>
+<h4 id="sport">Sport</h4>
+<p>Das Modell lässt sich aber auch für Computer-fremdere Bereiche anwenden.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/0*yZVFNHGu5p-bsrl5.jpg" alt=""></p>
+<p><a href="http://www.dartbeat.com/2010/02/04/basketball-star-mcguire-44-dies/">Bildquelle.</a></p>
+<p>Dick McGuire war siebenfacher All-Star in den Jahren 1951–1959. Er war 1.83 Meter gross und wog 82 Kilo.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*n4zNQlA1keTIkoCWiFz5zw.jpeg" alt=""></p>
+<p><a href="http://en.wikipedia.org/wiki/List_of_Chicago_Bulls_seasons">Bildquelle</a>.</p>
+<p>Michael Jordan war fünfmaliger ‘most valuable player’ der Basketballliga NBA zwischen 1988 und 1998. Er war 1.98 Meter gross und wog 98 Kilo.</p>
+<p>Nehmen wir das Beispiel Basketball, da ich dieses am ehesten beurteilen kann. Wenn das Schicksal der Erde davon abhängen würde ein Spiel gegen Aliens zu gewinnen, welchen dieser Stars ihrer Zeit hättest du lieber in deinem Team? Ähnlichkeiten mit Filmen aus den Neunzigern sind rein zufällig.</p>
+<p>Ich denke das Beispiel lässt sich auf weitere Sportarten ausweiten. Ein Fussballer von 1930 hätte wohl in einem heutigen Spiel kaum mehr eine Chance.</p>
+<p>Das Material wurde schneller, die Trainingspläne effizienter, der Alltag mehr auf den Sport ausgerichtet, die Spieler athletischer, Löhne und damit Anreiz höher, etc.</p>
+<p>[1] Der Name ist etwas anmassend und ist temporär bis ich auf ein Modell aufmerksam gemacht werde welches das gleiche unter anderem Namen und vielleicht mit einigen Detailunterschieden aussagt. Also ein ‘working title’ ☺</p>
+<p>[2] Nun wisst ihr auch weshalb ich für die Graphik eine englische Beschriftung gewählt habe.</p>
+
+        </div>
+        
+        
+        
+
+
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+        <span class="block font-bold">Previous</span>
+        <a href="/posts/2015-06-03_sind-unternehmen-f-r-consumer-hw-hersteller-noch-relevant/" class="block">Sind Unternehmen für Consumer-HW-Hersteller noch relevant?</a>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">Next</span>
+        <a href="/posts/2015-06-02_die-3-reiter-der-itkalypse/" class="block">Die 3 Reiter der ITkalypse</a>
+        
+    </div>
+</div>
+
+        
+
+
+
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://philipbuechler.ch/">Fime</a> 
+ &middot;  </p>
+</div></div>
+  </footer>
+</body>
+
+</html>

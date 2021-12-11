@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IoT on Phillip Büchler</title>
+    <link>/tags/iot/</link>
+    <description>Recent content in IoT on Phillip Büchler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2021 &lt;a href=&#34;https://philipbuechler.ch/&#34;&gt;Fime&lt;/a&gt; 
+</copyright>
+    <lastBuildDate>Thu, 23 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Weekend Reader Woche 17</title>
+      <link>/posts/weekendreader2015-17/</link>
+      <pubDate>Thu, 23 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/weekendreader2015-17/</guid>
+      <description>![]({{ &amp;ldquo;wr17.png&amp;rdquo; | asset_url }})
+Produktivitätsguru Kennt ihr Inbox Zero? Erfunden und verbreitet hat dies Merlin Mann. Bekannt auch von der Seite 43folders, einem Ablagesystem angelehnt an GTD und Erfinder des Hipster PDA, eine lose Sammlung Zettel zur Sammlung von Gedanken und Pendenzen. Ein verdienter Produktivitätsguru. Womit der wohl seine Zeit auf dem iPhone verbringt?
+Strategische Partnerschaft Die beliebte Android-Variante Cyanogen und Microsoft haben eine strategische Partnerschaft angekündigt. Auf Cyanogen werden nun Microsoft Apps vorinstalliert sein.</description>
+    </item>
+    
+  </channel>
+</rss>

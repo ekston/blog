@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Was macht den modernen Client denn modern? | Phillip Büchler</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Jede Veränderung in der Informatik1 wird begleitet von neuen Begrifflichkeiten. Das Heer an Beratern und Produktherstellern muss ja Futter haben um auf Kundenfang zu geben. Ein sehr häufiger Begriff in meinem Alltag ist der &ldquo;moderne Client&rdquo;. Sei dies bezogen auf die Verwaltung von Endgeräten, Verteilung von Anwendungen oder die Kontrolle und Durchsetzung von Richtlinien - alles muss heute modern sein. Doch was macht denn den Kübel auf dem Tisch plötzlich modern? Das ich darauf mit einem Stift kritzeln kann?">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Blog",
+      "item":"/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Was macht den modernen Client denn modern?",
+      "item":"/posts/modern-client/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/posts/modern-client/"
+    },
+    "headline": "Was macht den modernen Client denn modern? | Phillip Büchler","datePublished": "2020-05-25T00:00:00+00:00",
+    "dateModified": "2020-05-25T00:00:00+00:00",
+    "wordCount":  390 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Phillip Büchler",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.png"
+        }
+        },
+    "description": "Jede Veränderung in der Informatik1 wird begleitet von neuen Begrifflichkeiten. Das Heer an Beratern und Produktherstellern muss ja Futter haben um auf Kundenfang zu geben. Ein sehr häufiger Begriff in meinem Alltag ist der \u0026ldquo;moderne Client\u0026rdquo;. Sei dies bezogen auf die Verwaltung von Endgeräten, Verteilung von Anwendungen oder die Kontrolle und Durchsetzung von Richtlinien - alles muss heute modern sein. Doch was macht denn den Kübel auf dem Tisch plötzlich modern? Das ich darauf mit einem Stift kritzeln kann?"
+}
+</script><meta property="og:title" content="Was macht den modernen Client denn modern? | Phillip Büchler" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/posts/modern-client/" />
+
+
+
+
+<meta property="og:description" content="Jede Veränderung in der Informatik1 wird begleitet von neuen Begrifflichkeiten. Das Heer an Beratern und Produktherstellern muss ja Futter haben um auf Kundenfang zu geben. Ein sehr häufiger Begriff in meinem Alltag ist der &ldquo;moderne Client&rdquo;. Sei dies bezogen auf die Verwaltung von Endgeräten, Verteilung von Anwendungen oder die Kontrolle und Durchsetzung von Richtlinien - alles muss heute modern sein. Doch was macht denn den Kübel auf dem Tisch plötzlich modern? Das ich darauf mit einem Stift kritzeln kann?" />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Phillip Büchler" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2020-05-25T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2020-05-25T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Phillip Büchler</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Archiv</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Was macht den modernen Client denn modern?</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-05-25</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <p>Jede Veränderung in der Informatik<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> wird begleitet von neuen Begrifflichkeiten. Das Heer an Beratern und Produktherstellern muss ja Futter haben um auf Kundenfang zu geben. Ein sehr häufiger Begriff in meinem Alltag ist der &ldquo;moderne Client&rdquo;. Sei dies bezogen auf die Verwaltung von Endgeräten, Verteilung von Anwendungen oder die Kontrolle und Durchsetzung von Richtlinien - alles muss heute <strong>modern</strong> sein. Doch was macht denn den Kübel auf dem Tisch plötzlich modern? Das ich darauf mit einem Stift kritzeln kann? Oder reicht es schon ohne LAN-Kabel mit dem Internet verbunden zu sein? Und wenn ich jetzt meine Geräteflotte mit MobileIron, Airwatch oder Intune verwalte, bin ich dann schon modern?</p>
+<p>Aus meiner Sicht nicht. Der Irrglaube nahm vor ca. drei Jahren seinen Lauf als Gartner den Begriff Unified Endpoint Management und Microsoft den Begriff Modern Client Management propagierten. Das ist aber nur die halbe Wahrheit. Für mich ist modernes Management auf drei Säulen aufgestellt:</p>
+<h2 id="flexibilität">Flexibilität</h2>
+<p>Modern geht einher mit Flexibilität. Die Fähigkeit rasch zu reagieren wenn neue Anforderungen auftreten. Sei dies aus Anwenderbedürfnissen neue Formfaktoren einzuführen oder aus Sicherheitsgründen die gesamte Flotte zu aktualisieren - beides ist dies Basis modernen Managements. Auf Seite der Anwender kommen Anforderungen an Gerätewahl, Mobilität und Zeitunabhängigkeit hinzu. Egal wo auf der Welt, modernes Management kann die relevanten Verwaltungstätigkeiten wie Inventarisierung, Sicherheitsprüfung, Anwendungs- und Richtlinienverteilung unabhängig vom Firmenstandort wahrnehmen.</p>
+<h2 id="transparenz">Transparenz</h2>
+<p>Daten sind der Treibstoff modernen Managements. Entscheide können auf Basis von Inventar- und Nutzungsdaten gefällt werden. Der Einfluss von Veränderungen kann anhand vorhandener Daten abgeschätzt werden. Jede Tätigkeit hinterlässt eine auswertbare Datenspur. Diese Daten sind selbstverständlich sauber geschützt und werden nur wo unbedingt nötig und anonymisiert ausgewertet und zur Verfügung gestellt. Daten sind aber auch aufbereitet so das man rasch Überblick über die Flotte, die Ausrüstung, die Anwender und die Anwendungs- und Abhängigkeitslandschaft hat. Nur diese Übersicht garantiert die Möglichkeit flexibel zu sein.</p>
+<h2 id="effizienz">Effizienz</h2>
+<p>Man geht weg von der schwerfälligen Vorbereitung sämtlicher Endgeräte. Man nutzt den Zustand den Endgeräte in der Auslieferung haben und erweitert diesen mit Anwendungen und Richtlinien gezielt. Man nutzt Betriebssystemfunktionen und Standards und versucht nicht jede Detailanforderung erfüllen zu können. Man ist in kleinen Teams unterwegs die eine breite Verantwortung abdecken können und rege in Kommunikation stehen.</p>
+<p>Das ist für mich modernes Client Management. Weit ab von Schlagworten wie Cloud, etc. Ergänzungen eurerseits?</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Ach, vermutlich generell und alles, aber Informatik kann ich beurteilen.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        </div>
+        
+        
+        
+
+
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+        <span class="block font-bold">Previous</span>
+        <a href="/posts/remote-work/" class="block">Remote Work &gt; Videokonferenzen</a>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">Next</span>
+        <a href="/posts/sensitivity-group/" class="block">Sensitivity Labels für Microsoft Teams</a>
+        
+    </div>
+</div>
+
+        
+
+
+
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://philipbuechler.ch/">Fime</a> 
+ &middot;  </p>
+</div></div>
+  </footer>
+</body>
+
+</html>

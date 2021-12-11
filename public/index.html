@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Phillip Büchler</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Forged in the fires of Enterprise IT">
+
+
+
+<meta property="og:title" content="Phillip Büchler" />
+<meta property="og:type" content="website" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/" />
+
+
+
+
+
+<meta property="og:description" content="Forged in the fires of Enterprise IT" />
+
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Phillip Büchler" />
+
+
+
+
+
+
+<meta property="og:updated_time" content="2021-03-21T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="" />
+
+
+<link rel="alternate" type="application/rss+xml" href="/index.xml" title="Phillip Büchler" />
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Phillip Büchler</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  border-transparent  mr-4">Archiv</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+  
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-fixed" 
+     style="background-image: url(/images/boye2.jpg);" >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="about" class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+    <div class="flex flex-col md:flex-row items-center justify-center mb-12">
+  
+  
+    <div class="flex-none w-48 mx-auto md:ml-0 md:mr-8 md:pr-8 md:border-r">
+      <img src="/images/profile.jpg" class="rounded-full" alt="Avatar">
+    </div>
+  
+  <div class="flex-grow mt-4 md:mt-0">
+    <div class="text-3xl py-4">Phillip Büchler</div>
+    <div class="w-3/12 xl:w-2/12 border-b"></div>
+
+    <div class="flex items-center pt-4">
+      
+        <i class="fas fa-user"></i>
+      
+      <div class="flex flex-wrap">
+        
+          <span class="pl-4">Solution Architect Workplace</span>
+        
+
+        
+      </div>
+
+    </div>
+
+    
+      <div class="py-8 text-lg leading-normal">
+        Forged in the fires of Enterprise IT.
+      </div>
+    
+  </div>
+  <div class="flex md:flex-col justify-center items-end ml-8">
+    
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://twitter.com/ekston"><i class="fab fa-twitter"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://www.linkedin.com/in/philipbuechler"><i class="fab fa-linkedin"></i></a>
+      </div>
+    
+      
+      
+      
+      
+      
+      <div class="pb-2 pr-4 md:pr-0 pt-4 md:pt-0">
+        <a href="https://flipboard.com/@ekston"><i class="fab fa-flipboard"></i></a>
+      </div>
+    
+  </div>
+</div>
+<div class="content">
+  
+</div>
+
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+      
+      
+    
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-primary-bg" 
+    >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="pages" class="lg:w-4/5 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+    
+  <h2 class=" font-bold text-3xl my-4">Blog</h2>
+
+
+  
+  
+  <div class="overflow-hidden divide-y">
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/2021-03-22_zertifizierungsparadox/" class="font-bold text-xl hover:text-eureka">Das Zertifizierungsparadox</a>
+</div>
+<div class="content">
+  
+    In 20 Jahren Enterprise IT kaum ein Thema, in 2 Jahren Dienstleister ein Dauerthema. Zertifizierungen. Ich bin ähnlich zertifiziert wie Gesichtsbehaart, kaum. Kenne ich mich deshalb weniger mit XY aus? Willkommen zum Zertifizierungsparadox.
+Paradox, weil ich die Vorzüge von Zertifizierungen durchaus sehe. Sie geben den Herstellern die Möglichkeit, einen gewissen Kenntnisstand abzufragen und damit ein Qualitätsminimum für Vertrieb und Services rund um ihre Produktpalette vorzugeben. Zertifizierungen geben Mitarbeitenden die Möglichkeiten, angeeignete Kenntnisse zu prüfen und gegenüber Dritten auszuweisen.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2021-03-21</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>4 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/transparenz-hilfe/" class="font-bold text-xl hover:text-eureka">Inventarisierung als Basis für Agilität und Sicherheit</a>
+</div>
+<div class="content">
+  
+    Zwei Diskussionen sind weit oben auf der Tagesordnung jeder Informatik - ach generalisieren wir - Unternehmung.
+Agilität um auf neue Geschäftsanforderungen reagieren zu können und die Sicherstellung der Informations- und Datensicherheit im Unternehmen.
+Glaubt man der Berater- und Artikelschar, muss dazu nur ganz viel neues getan werden um in beiden Themen zu reüssieren. Persönlich halte ich aber eine recht altmodische Disziplin im Bereich Informatik für einen grundlegenden Erfolgsfaktor für beides: Inventarisierung.
+Viele Jahre ist es her, da wurde dem jungen Architekten Philip Büchler die Software- und Systemkartographie nahe gebracht.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-08-13</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>4 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/remote-work/" class="font-bold text-xl hover:text-eureka">Remote Work &gt; Videokonferenzen</a>
+</div>
+<div class="content">
+  
+    Passend zu meinen Gedanken beim Konsum des Interviews zwischen Kara Swisher und Jason Fried im Recode Decode Podcast, publiziert Inside IT einen Beitrag über die Homeoffice Umfrage bei Swisscom.
+Dort sind eine Mehrzahl der Angestellten der Meinung, dass Homeoffice mehr Vorteile als Nachteile hat. Die Situation wird bei den meisten Firmen so sein und auch ich persönlich habe als langjähriger Homeoffice-Vergesser gewisse Vorzüge erleben dürfen. Für Firmen würden sich weitere Vorzüge ergeben. Spontan fallen mir die Einsparungs- resp.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-06-16</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/modern-client/" class="font-bold text-xl hover:text-eureka">Was macht den modernen Client denn modern?</a>
+</div>
+<div class="content">
+  
+    Jede Veränderung in der Informatik1 wird begleitet von neuen Begrifflichkeiten. Das Heer an Beratern und Produktherstellern muss ja Futter haben um auf Kundenfang zu geben. Ein sehr häufiger Begriff in meinem Alltag ist der “moderne Client”. Sei dies bezogen auf die Verwaltung von Endgeräten, Verteilung von Anwendungen oder die Kontrolle und Durchsetzung von Richtlinien - alles muss heute modern sein. Doch was macht denn den Kübel auf dem Tisch plötzlich modern? Das ich darauf mit einem Stift kritzeln kann?
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-05-25</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/sensitivity-group/" class="font-bold text-xl hover:text-eureka">Sensitivity Labels für Microsoft Teams</a>
+</div>
+<div class="content">
+  
+    Als SBB 2018 Microsoft Teams fürs ganze Unternehmen einführte, hatte man mittels PowerShell Magie zwei verschiedene Arten Teams erstellt. Teams für vertrauliche Dokumente und Teams für maximal intern klassifizierte Dokumente. Diese Einstellung hatte unter anderem zur Folge ob externe Gäste hinzugefügt werden konnten oder nicht. Eine der Säulen der Microsoft 365 Sicherheit ist nämlich der Umgang mit Externen.
+Heute ist dies im Standardumfang von Microsoft 365 enthalten und ich möchte kurz zeigen wie man es macht.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-04-27</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/smartphone-screensharing/" class="font-bold text-xl hover:text-eureka">Screensharing vom Smartphone mit Microsoft Teams</a>
+</div>
+<div class="content">
+  
+    Mein beinahe täglich Brot sind irgendwelche Konzepte oder Einstellungen auf mobilen Geräten vorzunehmen, zu testen und zu dokumentieren. Dabei sind Screenshots oder Screencasts natürlich ein sehr wichtiger Bestandteil der Dokumentation des Einfluss auf Enduser. Screenshots oder Aufzeichnungen auf dem Smartphone machen und dann auf den PC transferieren um es im Wiki oder in Dokumenten zu erfassen ist sowas von 2019. Weil man im Umfeld von Kunden aber nicht immer auf Desktops unterwegs ist, die frei Software installieren können, ist mir folgender Tipp schon oft zur Hilfe gekommen.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-04-14</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>1 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/webcam/" class="font-bold text-xl hover:text-eureka">Smartphone als Webcam in Microsoft Teams</a>
+</div>
+<div class="content">
+  
+    In der Photographie gibt es das Sprichwort: “Die beste Kamera ist die die du dabei hast”. Denn die Vollformat-Spiegelreflex zuhause im Schrank schiesst keine guten Bilder.
+In der ersten Woche des verschärften Homeoffice machte ich mir recht viele Gedanken über meine Ausrüstung. Heute hat zwar jedes Notebook eine Webcam eingebaut, aber man möchte das Notebook ja vielleicht auch vor sich verwenden um zu zeichnen/skizzieren. Oder man findet es nicht optimal wie man von unten in die Nase gefilmt wird.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-04-08</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/remote_brainstorming/" class="font-bold text-xl hover:text-eureka">Remote Brainstorming</a>
+</div>
+<div class="content">
+  
+    Auf Twitter fragte Nicola v. Greyerz nach einer Lösung für digitale Brainstormings. Unsere Quarantäne dürfte mit reduziertem Post-It Verbrauch deutlich zur Besserung von Waldbeständen beitragen.
+Doch wie lösen wir die physische Distanz? Während sie in Meetings heute mehr oder weniger einfach überbrückt werden kann, ist es in Workshops durchaus schwieriger.
+Es gibt sicher haufenweise “best of breed” Ansätze. Ich finde es aber immer charmant wenn man etwas nutzt, was fast alle zur Verfügung haben. Eine Möglichkeit ist deshalb “Sticky Notes” von Microsoft.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-04-01</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/dogfooding/" class="font-bold text-xl hover:text-eureka">Von schlechtem Hundefutter</a>
+</div>
+<div class="content">
+  
+    Der Begriff “Dogfooding” kommt aus dem englischen Sprachgebrauch und beschreibt die Nutzung der eigenen Produkte durch Mitarbeitende. Eine äusserst löbliche Absicht um offensichtliche Versäumnisse des eigenen Produkts oder verwandter Prozesse zu erkennen.
+Die Diskussionen rund um Heimarbeit und Videokonferenzen weckten aber Erinnerungen an eine Zeit, wo die Produktfirma deren Produkte meinen Lohn bezahlen ein nicht so löbliches Verhalten hatte.
+Erlaubt mir etwas auszuholen. Wir schrieben die Jahre vor 2014. Steve Ballmer war CEO von Microsoft und Philip Büchler war Verfechter von Consumer-Produkten im Unternehmenseinsatz1.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-03-24</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>3 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+  <div class="py-6">
+    <div class="flex flex-col-reverse lg:flex-row justify-between">
+  
+  <div class="w-full ">
+    <div class="mb-4">
+  <a href="/posts/productivity-apps/" class="font-bold text-xl hover:text-eureka">Produktivitäts Apps</a>
+</div>
+<div class="content">
+  
+    Artikel über kleine Helferlein auf dem Computer, gibt es fast genau so viele wie Bilder von Katzen. Aber ich möchte es doch nicht verpassen, euch auf vier kleine Helferlein hinzuweisen1, welche ich noch als Geheimtipps erachte.
+Phrase Express Wer mit Text arbeitet, und sind wir ehrlich, dass sind wir alle, wird von Phrase Express profitieren können.
+ Definition von Bausteinen   Phrase Express ist eine Textbausteinverwaltung. Ich nutze hiervon sicher nur einen Kleinstteil, aber es ist enorm hilfreich um wiederkehrende und längere Text-Elemente zu automatisieren.
+  
+</div>
+
+<div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-03-17</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>4 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+
+  </div>
+
+  
+</div>
+  </div>
+  
+</div>
+
+
+  <div class="pt-2 hover:text-eureka">
+    
+  <a href="/posts/" class="font-semibold">(ノ ゜o゜)ノAuf ins Archiv!</a>
+  <i class="fas fa-caret-right ml-1"></i>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+    
+      
+  
+
+  
+
+  
+  
+  
+
+  
+    
+    
+    
+    
+    
+    
+      
+      
+        
+      
+    
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+
+  
+
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+
+    
+    
+    
+    
+    
+  
+
+  <div class="pl-scrollbar bg-auto" 
+     style="background-image: url(/images/boye2.jpg);" >
+    <div class="max-w-screen-xl mx-auto">
+      <div id="blank" class="lg:w-3/4 mx-auto px-6 md:px-8 xl:px-12 py-12">
+        
+  
+
+  
+
+    
+    
+    
+    
+    
+      
+    
+    <div class="flex flex-col lg:flex-row-reverse">
+      <div class="flex-none lg:w-1/4 lg:ml-4">
+        <h2 class="font-bold text-3xl my-4">fime</h2>
+      </div>
+      <div class="flex-grow lg:mr-4">
+        
+<div style="text-align:right">
+  <p>cheers, </p>
+</div>
+      </div>
+    </div>
+  
+
+      </div>
+    </div>
+  </div>
+
+    
+
+  
+  
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://philipbuechler.ch/">Fime</a> 
+ &middot;  </p>
+</div></div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Azure Information Protection lokalisieren | Phillip Büchler</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Die Klassifizierung von Dokumenten ist schon eine Wissenschaft für sich. Stellt man dann Software zur Verfügung die nicht völlig selbsterklärend ist, wird es unlösbar respektive schlicht nicht verwendet.
+Mit Azure Information Protection ist es Microsoft gelungen, die meiner Erfahrung nach erste vollumfägliche (sprich inkl. Mobile) und sauber in die Anwendungen integriert (wo Dokumente entstehen, sprich Office) Klassifikationslösung einzuführen.
+Zentral werden(noch) im Azure-Portal die Labels und Sub-Labels definiert. Diese Labels werden Gruppen/Anwendern zugeteilt und erscheinen dann in ihrem Office, wenn der “Azure Information Protection“-”Client verteilt wurde.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Blog",
+      "item":"/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Azure Information Protection lokalisieren",
+      "item":"/posts/2018-11-27_azure-information-protection-lokalisieren/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/posts/2018-11-27_azure-information-protection-lokalisieren/"
+    },
+    "headline": "Azure Information Protection lokalisieren | Phillip Büchler","datePublished": "2018-11-27T00:00:00+00:00",
+    "dateModified": "2018-11-27T00:00:00+00:00",
+    "wordCount":  243 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Phillip Büchler",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.png"
+        }
+        },
+    "description": "Die Klassifizierung von Dokumenten ist schon eine Wissenschaft für sich. Stellt man dann Software zur Verfügung die nicht völlig selbsterklärend ist, wird es unlösbar respektive schlicht nicht verwendet.\nMit Azure Information Protection ist es Microsoft gelungen, die meiner Erfahrung nach erste vollumfägliche (sprich inkl. Mobile) und sauber in die Anwendungen integriert (wo Dokumente entstehen, sprich Office) Klassifikationslösung einzuführen.\nZentral werden(noch) im Azure-Portal die Labels und Sub-Labels definiert. Diese Labels werden Gruppen\/Anwendern zugeteilt und erscheinen dann in ihrem Office, wenn der “Azure Information Protection“-”Client verteilt wurde."
+}
+</script><meta property="og:title" content="Azure Information Protection lokalisieren | Phillip Büchler" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/posts/2018-11-27_azure-information-protection-lokalisieren/" />
+
+
+
+
+<meta property="og:description" content="Die Klassifizierung von Dokumenten ist schon eine Wissenschaft für sich. Stellt man dann Software zur Verfügung die nicht völlig selbsterklärend ist, wird es unlösbar respektive schlicht nicht verwendet.
+Mit Azure Information Protection ist es Microsoft gelungen, die meiner Erfahrung nach erste vollumfägliche (sprich inkl. Mobile) und sauber in die Anwendungen integriert (wo Dokumente entstehen, sprich Office) Klassifikationslösung einzuführen.
+Zentral werden(noch) im Azure-Portal die Labels und Sub-Labels definiert. Diese Labels werden Gruppen/Anwendern zugeteilt und erscheinen dann in ihrem Office, wenn der “Azure Information Protection“-”Client verteilt wurde." />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Phillip Büchler" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2018-11-27T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2018-11-27T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Phillip Büchler</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Archiv</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Azure Information Protection lokalisieren</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2018-11-27</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <p><img src="https://cdn-images-1.medium.com/max/1200/1*3E8jXFS3Jamz79OartXkSA.png" alt=""></p>
+<p>Die Klassifizierung von Dokumenten ist schon eine Wissenschaft für sich. Stellt man dann Software zur Verfügung die nicht völlig selbsterklärend ist, wird es unlösbar respektive schlicht nicht verwendet.</p>
+<p>Mit Azure Information Protection ist es Microsoft gelungen, die meiner Erfahrung nach erste vollumfägliche (sprich inkl. Mobile) und sauber in die Anwendungen integriert (wo Dokumente entstehen, sprich Office) Klassifikationslösung einzuführen.</p>
+<p>Zentral werden(noch) im Azure-Portal die Labels und Sub-Labels definiert. Diese Labels werden Gruppen/Anwendern zugeteilt und erscheinen dann in ihrem Office, wenn der “Azure Information Protection“-”Client verteilt wurde.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2560/1*wdAly8jEJ6W3FFSocy_a8Q.png" alt="Anzeige der Labels in Microsoft Word.">
+Anzeige der Labels in Microsoft Word.</p>
+<p>Dabei kann zwischen generellen Labels für alle Anwender und “scoped Labels” für bestimmte Gruppen/Anwender unterschieden werden.</p>
+<p><img src="https://cdn-images-1.medium.com/max/2560/1*4nsw91IPh1OWpyB6al8z2Q.png" alt="Anzeige von generellen und “scoped” und Sub Labels in Office">
+Anzeige von generellen und “scoped” und Sub Labels in Office</p>
+<h3 id="mehrsprachigkeit">Mehrsprachigkeit</h3>
+<p>Die Schweizer Eigenheit schlechthin ist in der Informatik immer die Mehrsprachigkeit. Sie bezieht sich nicht auf die Unterstützung mehrer Sprachen, wie zum Beispiel bei Autokonzernen wo Deutschland deutsche Texte erfassen will, Frankreich aber französische. In der Schweiz ist es meist der gleiche Inhalt in den drei grossen Landessprachen ( perdunai!).</p>
+<p>Dies unterstützt AIP mit einem etwas umständlichen Prozess.</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*C2PQOIsXNgQgpGZGDQ6-Ig.png" alt="Beschreibungen für Labels">
+Beschreibungen für Labels</p>
+<p>Die drei Klassifikationsstufen in diesem Beispiel haben die Texte aus der Klassifikationsweisung der Firma direkt in der Beschreibung die beim “mouse over” erscheint. Die Information ist also genau da, wo sie benötigt wird. Doch die Information hilft nichts, wenn sie nur in einer Sprache zur Verfügung steht.</p>
+<p>Also übersetzen wir die Texte in die gewünschten Sprachen. Diese Schritte sind in folgendem Sway erläutert:</p>
+<p><a href="https://sway.office.com/3F8dMYSEMsGQreOY?ref=Link">https://sway.office.com/3F8dMYSEMsGQreOY?ref=Link</a></p>
+
+        </div>
+        
+        
+        
+
+
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+        <span class="block font-bold">Previous</span>
+        <a href="/posts/2019-03-25_aufgabenmanagement-mittels-e-mails/" class="block">Aufgabenmanagement mittels E-Mails</a>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">Next</span>
+        <a href="/posts/2018-11-19_sorry-ich-versuchs/" class="block">Sorry. Ich versuchs.</a>
+        
+    </div>
+</div>
+
+        
+
+
+
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://philipbuechler.ch/">Fime</a> 
+ &middot;  </p>
+</div></div>
+  </footer>
+</body>
+
+</html>

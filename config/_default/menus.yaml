@@ -1,0 +1,4 @@
+main:
+  - name: Archiv
+    url: /posts/
+    weight: 1

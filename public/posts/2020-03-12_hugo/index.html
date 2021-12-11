@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Mein Blog Setup | Phillip Büchler</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Blogs sind eine meiner längsten Liebe. Schon als die dahinterliegenden Anwendungen noch Newsscripts hiessen, habe ich regelmässig Blogs gelesen. Wenig später reizte es mich dann auch selber ins Internet zu publizieren. Versierte Internet-Benutzer finden diese Jugendsünden noch. Mit dem Weekend Reader habe ich dann 2013 - 2015 regelmässig eine Wochenzusammenfassung publiziert. Im Nachhinein eigentlich beeindruckend beständig. Das war jedoch der Anfang des Endes. Die Blog-Aktivität nahm immer mehr ab.
+Im Hintergrund habe ich immer mal wieder den Unterbau gewechselt.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Blog",
+      "item":"/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Mein Blog Setup",
+      "item":"/posts/2020-03-12_hugo/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/posts/2020-03-12_hugo/"
+    },
+    "headline": "Mein Blog Setup | Phillip Büchler","datePublished": "2020-03-12T00:00:00+00:00",
+    "dateModified": "2020-03-12T00:00:00+00:00",
+    "wordCount":  920 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Phillip Büchler",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.png"
+        }
+        },
+    "description": "Blogs sind eine meiner längsten Liebe. Schon als die dahinterliegenden Anwendungen noch Newsscripts hiessen, habe ich regelmässig Blogs gelesen. Wenig später reizte es mich dann auch selber ins Internet zu publizieren. Versierte Internet-Benutzer finden diese Jugendsünden noch. Mit dem Weekend Reader habe ich dann 2013 - 2015 regelmässig eine Wochenzusammenfassung publiziert. Im Nachhinein eigentlich beeindruckend beständig. Das war jedoch der Anfang des Endes. Die Blog-Aktivität nahm immer mehr ab.\nIm Hintergrund habe ich immer mal wieder den Unterbau gewechselt."
+}
+</script><meta property="og:title" content="Mein Blog Setup | Phillip Büchler" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/posts/2020-03-12_hugo/" />
+
+
+
+
+<meta property="og:description" content="Blogs sind eine meiner längsten Liebe. Schon als die dahinterliegenden Anwendungen noch Newsscripts hiessen, habe ich regelmässig Blogs gelesen. Wenig später reizte es mich dann auch selber ins Internet zu publizieren. Versierte Internet-Benutzer finden diese Jugendsünden noch. Mit dem Weekend Reader habe ich dann 2013 - 2015 regelmässig eine Wochenzusammenfassung publiziert. Im Nachhinein eigentlich beeindruckend beständig. Das war jedoch der Anfang des Endes. Die Blog-Aktivität nahm immer mehr ab.
+Im Hintergrund habe ich immer mal wieder den Unterbau gewechselt." />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Phillip Büchler" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2020-03-12T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2020-03-12T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Phillip Büchler</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Archiv</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Mein Blog Setup</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2020-03-12</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>5 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <p>Blogs sind eine meiner längsten Liebe. Schon als die dahinterliegenden Anwendungen noch Newsscripts hiessen, habe ich regelmässig Blogs gelesen. Wenig später reizte es mich dann auch selber ins Internet zu publizieren. Versierte Internet-Benutzer finden diese Jugendsünden noch.
+Mit dem Weekend Reader habe ich dann 2013 - 2015 regelmässig eine Wochenzusammenfassung publiziert. Im Nachhinein eigentlich beeindruckend beständig. Das war jedoch der Anfang des Endes. Die Blog-Aktivität nahm immer mehr ab.</p>
+<p>Im Hintergrund habe ich immer mal wieder den Unterbau gewechselt. Von Podcasts beständig darauf hingewiesen, probierte ich ein Jahr lang <a href="https://www.squarespace.com/">Squarespace</a>. Das war toll, aber um nichts zu schreiben, musste ich nicht noch Geld zahlen. Also begab ich mich in die Welt von &ldquo;Static Site Generators&rdquo; und blieb bei Mixture hängen. Das war allerdings zu stark an ein Device gebunden und man hatte Arbeit mit der Publikation von Blog Posts. Ausserdem propagierte ich geschäftlich ja den Einsatz von &ldquo;Software as a Service&rdquo; - weshalb also den eigenen Blog bauen? Das war der Zeitpunkt wo vieles auf <a href="https://medium.com/">Medium</a> migriert wurde.</p>
+<p>Medium ist an sich toll. Das Lese- und Schreiberlebnis sind grossartig. Viele gute Artikel sind auf Medium. Was mich aber im Hinterkopf immer etwas schmerzte, sind die Gedanken des unabhängigen Internets. Während Inhalt früher frei konsumiert werden konnte, wird er immer stärker in die Silos grosser Unternehmen eingesperrt. Facebook, Twitter und Co. Nicht das die geistigen Ergüsse des Philip Büchler hier einen grossen Einfluss hätten, aber trotzdem. So ging letztes Jahr die Suche nach etwas neuem los. Die erste logische Station ist Wordpress. Habe ich früher oft verwendet, hätte ich innert Minuten lauffähig, doch dann gehts los. Welches Theme? Welche Plugins? Das Angebot ist so riesig, man verliert sich komplett darin und kümmert sich schlussendlich mehr um das <em>Blog</em> als um den <em>Inhalt</em>. Ich hatte kurz ein Wordpress Blog auf Azure hochgezogen und sah das Verhalten schon wieder. Das konnte es nicht sein. Wordpress als SaaS wäre möglich gewesen aber hätte die selben Probleme gehabt und wer weiss in welche Richtung sich dies entwickelt. Ausserdem habe ich mit Azure ja eine pflegeleichte Hosting-Infrastruktur quasi in der Nachbarschaft. Ich entschied mich daher wieder für einen statischen Blog. Mit den Jahren die ins Land und der Erfahrung die in meinen Kopf geflossen ist, könnte ich vielleicht was besseres auf die Beine stellen als damals mit Mixture<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>. Nach einiger Recherche blieb ich auf <a href="https://gohugo.io/">Hugo</a> hängen. &ldquo;Das schnellste Blog Framework der Welt&rdquo; tönte stark nach meinen Anforderungen 😂
+Hugo ist sehr gut dokumentiert und vergleichweise einfach zu installieren. Mit Markdown deckte es eine weitere Anforderung von mir ab und ich fand mich auch mit der Funktionsweise und dem Templating gut zurecht. Auch wenn ich von Go oder TOML keine Ahnung habe. Lokal lief die Seite also rasch und sah so aus wie ich mir das vorstellte.</p>
+<figure><img src="/img/hugo.png"/><figcaption>
+            <h4>Mein Blog Workflow</h4>
+        </figcaption>
+</figure>
+
+<p>Doch lokal war ja noch nicht genau was ich wollte. Also suchte ich nach Möglichkeiten das generierte HTML dann zu publizieren. Händisch oder per FTP auf einen Server stellen fand ich irgendwie zu retro. Ich wollte ein wenig DevOps und CI/CD<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> Luft schnuppern. Hier eine kurze Erläuterung der Schritte:</p>
+<h3 id="lokales-git-repository">Lokales GIT Repository</h3>
+<p>Auf dem Notebook habe ich ein lokales GIT worin sich all die Dateien befinden.</p>
+<p>Mittels Visual Studio Code öffne ich das Repository und erstelle / verändere Files.</p>
+<figure><img src="/img/vscode.png"/><figcaption>
+            <h4>Etwas Blog im Blog</h4>
+        </figcaption>
+</figure>
+
+<p>Ist der Artikel erstellt, das Bild hochgeladen oder die Konfig angepasst, können die Changes &ldquo;staged&rdquo; werden.</p>
+<figure><img src="/img/stage-changes.png"/>
+</figure>
+
+<h3 id="azure-devops">Azure DevOps</h3>
+<p>Die Entdeckung des letzten Jahres. Azure DevOps (welches <a href="https://azure.microsoft.com/de-de/services/devops/">kostenlos benutzt werden kann</a>) bietet agile Boards, Repositories, Pipelines und ganz viel Dinge die ich nicht verstehe. Für mich sind die Funktionen des Repo und der Pipelines relevant.</p>
+<figure><img src="/img/devops-1.png"/><figcaption>
+            <h4>Azure DevOps Projekt</h4>
+        </figcaption>
+</figure>
+
+<p>Was für den geneigten Entwickler vermutlich wirkt als würde ein Kind zum ersten Mal die Sonne sehen, ist für mich als &ldquo;IT Pro&rdquo; eine spannende neue Welt.</p>
+<figure><img src="/img/devops-2.png"/><figcaption>
+            <h4>Das Remote Repo</h4>
+        </figcaption>
+</figure>
+
+<p>Wann immer eine Veränderung ins Repo geladen wird, lösen die Pipelines einen neuen &ldquo;Build&rdquo;-Prozess aus:</p>
+<figure><img src="/img/devops-3.png"/><figcaption>
+            <h4>Übersicht der Builds</h4>
+        </figcaption>
+</figure>
+
+<p>Die Build-Pipeline besteht aus dem Hugo Modul, welches schlussendlich nichts anderes macht als die Hugo Installation auf dem Notebook. Sie nimmt all die Files, schüttelt sie dreimal fest und spuckt HTML, CSS und Co. aus.</p>
+<figure><img src="/img/devops-4.png"/><figcaption>
+            <h4>Innereien der Build Pipeline</h4>
+        </figcaption>
+</figure>
+
+<p>Die Inhalte des Verzeichnis &ldquo;Public&rdquo; werden dann in die Pipelines publiziert. Hier nehmen wir sie mit einer Release-Pipeline wieder auf.</p>
+<figure><img src="/img/devops-5.png"/><figcaption>
+            <h4>Schritte in der Build-Pipeline</h4>
+        </figcaption>
+</figure>
+
+<p>In der Release-Pipeline wird ein Container gestartet, auf welchem die diversen, oder wie in meinem Fall eine Aufgabe erledigt werden kann. In meinem Fall werden die Inhalte des Verzeichnis &ldquo;Public&rdquo; auf den vorbereiteten Azure Storage Blob, der als Static Website konfiguriert ist, kopiert. Da liegt aber die grosse Macht von Pipelines. Es gibt unzählige Möglichkeiten, was mit ihnen automatisch ausgeführt werden kann.</p>
+<figure><img src="/img/devops-6.png"/><figcaption>
+            <h4>Konfiguration des File Copy Schritts</h4>
+        </figcaption>
+</figure>
+
+<h3 id="cloudflare">Cloudflare</h3>
+<p>Auf Azure habe ich einen simplen Storage Account, welches als Static Website konfiguriert ist. Dies beschreibt <a href="https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website">Microsoft sehr gut</a>. Die Konfiguration umfasst auch eine eigene Domain. Mit dieser Funktion sind aber nur Sub-Domains über https ansprechbar. Ich wollte kein blog.philipbuechler.ch weshalb ich eine letzte Abklärung vor mir hatte. Die Azure Welt würde die Funktion mit dem CDN bieten. Ich stiess aber immer mehr auf Hinweise zu Cloudflare, weshalb ich mir das auch noch ansehen wollte.</p>
+<figure><img src="/img/cloudflare.png"/><figcaption>
+            <h4>cloudflare Services im Free Account</h4>
+        </figcaption>
+</figure>
+
+<p>Obwohl mein Architekten-Teufel auf der Schulter die zusätzliche Komponente nicht super findet, fahre ich aktuell in diesem Setup.</p>
+<p>Und was fahrt ihr für Blog Setups?</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>Welches man anscheinend schon gar nicht mehr herunterladen kann.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>Continuous Integration und Continuous Deployment - Nicht das CI/CD das dir auf die Finger klopft wenn du PowerPoint-Templates etwas an den persönlichen Geschmack anpasst.&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        </div>
+        
+        
+        
+
+
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+        <span class="block font-bold">Previous</span>
+        <a href="/posts/productivity-apps/" class="block">Produktivitäts Apps</a>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">Next</span>
+        <a href="/posts/2020-03-10_zero-trust/" class="block">Zero Trust</a>
+        
+    </div>
+</div>
+
+        
+
+
+
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://philipbuechler.ch/">Fime</a> 
+ &middot;  </p>
+</div></div>
+  </footer>
+</body>
+
+</html>

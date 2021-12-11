@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang='en' ><meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+
+<title>Office Custiomization Tool und eine Empfehlung zum Configuration Management | Phillip Büchler</title>
+
+<meta name="generator" content="Hugo Eureka 0.8.4" />
+<link rel="stylesheet" href="/css/eureka.min.css">
+<script defer src="/js/eureka.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+  href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Noto+Serif+SC:wght@400;600;700&display=swap"
+  as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/styles/solarized-light.min.css"
+   media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/highlight.min.js"
+   crossorigin></script>
+
+  <script defer src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.1.0/build/languages/dart.min.js"
+     crossorigin></script>
+
+<script defer src="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/js/all.min.js"
+   integrity="sha256-uNYoXefWRqv&#43;PsIF/OflNmwtKM4lStn9yrz2gVl6ymo="  crossorigin></script>
+
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+   integrity="sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3&#43;Aro6EYUG4&#43;cU&#43;KJWu/X"  media="print"
+  onload="this.media='all';this.onload=null" crossorigin>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js" 
+  integrity="sha384-g7c&#43;Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI&#43;sEnkvrMWph2EDg4"  crossorigin></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js"
+   integrity="sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC&#43;Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa"  crossorigin></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    renderMathInElement(document.body, {
+      delimiters: [
+        { left: "$$", right: "$$", display: true },
+        { left: "$", right: "$", display: false },
+        { left: "\\(", right: "\\)", display: false },
+        { left: "\\[", right: "\\]", display: true }
+      ],
+    });
+  });
+</script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/mermaid@8.9.2/dist/mermaid.min.js" 
+  integrity="sha256-Zmpaaj&#43;GXFsPF5WdPArSrnW3b30dovldeKsW00xBVwE="  crossorigin></script>
+
+
+<link rel="icon" type="image/png" sizes="32x32" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_32x32_fill_box_center_3.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/icon_hu64421c6c7700f606f0ad45d807017b09_5843_180x180_fill_box_center_3.png">
+
+<meta name="description"
+  content="Unternehmen haben beim Umstieg auf moderne Client Verwaltung oftmals Bedenken bei der Anpassung von Office. Klassischerweise werden viele Richtlinien im Office-Paket mitgegeben um es an die Anforderungen der Unternehmen anzupassen.
+Dabei gibt es in der modernen Client Verwaltung ein unbekannts Juwel — das “Office Customization Tool”. In der Weboberfläche werden die verschiedenen Konfiguration direkt vorgenommen. Diese Konfigurationen werden in einer XML-Datei gespeichert und können beim Setup so mitgegeben werden.
+Schauen wir uns das doch mal näher an.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1 ,
+      "name":"Blog",
+      "item":"/posts/"},{
+      "@type": "ListItem",
+      "position": 2 ,
+      "name":"Office Custiomization Tool und eine Empfehlung zum Configuration Management",
+      "item":"/posts/2019-04-15_office-custiomization-tool-und-eine-empfehlung-zum-configuration-management-efc4e6b9c9d3/"}]
+}
+</script>
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "/posts/2019-04-15_office-custiomization-tool-und-eine-empfehlung-zum-configuration-management-efc4e6b9c9d3/"
+    },
+    "headline": "Office Custiomization Tool und eine Empfehlung zum Configuration Management | Phillip Büchler","datePublished": "2019-04-15T00:00:00+00:00",
+    "dateModified": "2019-04-15T00:00:00+00:00",
+    "wordCount":  408 ,
+    "publisher": {
+        "@type": "Person",
+        "name": "Phillip Büchler",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "/images/icon.png"
+        }
+        },
+    "description": "Unternehmen haben beim Umstieg auf moderne Client Verwaltung oftmals Bedenken bei der Anpassung von Office. Klassischerweise werden viele Richtlinien im Office-Paket mitgegeben um es an die Anforderungen der Unternehmen anzupassen.\nDabei gibt es in der modernen Client Verwaltung ein unbekannts Juwel — das “Office Customization Tool”. In der Weboberfläche werden die verschiedenen Konfiguration direkt vorgenommen. Diese Konfigurationen werden in einer XML-Datei gespeichert und können beim Setup so mitgegeben werden.\nSchauen wir uns das doch mal näher an."
+}
+</script><meta property="og:title" content="Office Custiomization Tool und eine Empfehlung zum Configuration Management | Phillip Büchler" />
+<meta property="og:type" content="article" />
+
+
+<meta property="og:image" content="/images/icon.png">
+
+
+<meta property="og:url" content="/posts/2019-04-15_office-custiomization-tool-und-eine-empfehlung-zum-configuration-management-efc4e6b9c9d3/" />
+
+
+
+
+<meta property="og:description" content="Unternehmen haben beim Umstieg auf moderne Client Verwaltung oftmals Bedenken bei der Anpassung von Office. Klassischerweise werden viele Richtlinien im Office-Paket mitgegeben um es an die Anforderungen der Unternehmen anzupassen.
+Dabei gibt es in der modernen Client Verwaltung ein unbekannts Juwel — das “Office Customization Tool”. In der Weboberfläche werden die verschiedenen Konfiguration direkt vorgenommen. Diese Konfigurationen werden in einer XML-Datei gespeichert und können beim Setup so mitgegeben werden.
+Schauen wir uns das doch mal näher an." />
+
+
+
+
+<meta property="og:locale" content="en" />
+
+
+
+
+<meta property="og:site_name" content="Phillip Büchler" />
+
+
+
+
+
+
+<meta property="article:published_time" content="2019-04-15T00:00:00&#43;00:00" />
+
+
+<meta property="article:modified_time" content="2019-04-15T00:00:00&#43;00:00" />
+
+
+
+<meta property="article:section" content="posts" />
+
+
+
+
+<body class="flex flex-col min-h-screen">
+  <header class="fixed flex items-center w-full min-h-16 pl-scrollbar z-50 bg-secondary-bg shadow-sm">
+    <div class="w-full max-w-screen-xl mx-auto"><script>
+    let storageColorScheme = localStorage.getItem("lightDarkMode")
+    if ((storageColorScheme == 'Auto' && window.matchMedia("(prefers-color-scheme: dark)").matches) || storageColorScheme == "Dark") {
+        document.getElementsByTagName('html')[0].classList.add('dark')
+    }
+</script>
+<nav class="flex items-center justify-between flex-wrap px-4 py-4 md:py-0">
+    <a href="/" class="mr-6 text-primary-text text-xl font-bold">Phillip Büchler</a>
+    <button id="navbar-btn" class="md:hidden flex items-center px-3 py-2" aria-label="Open Navbar">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div id="target"
+        class="hidden block md:flex md:flex-grow md:justify-between md:items-center w-full md:w-auto text-primary-text z-20">
+        <div class="md:flex md:h-16 text-sm md:flex-grow pb-4 md:pb-0 border-b md:border-b-0">
+            <a href="/posts/" class="block mt-4 md:inline-block md:mt-0 md:h-(16-4px) md:leading-(16-4px) box-border md:border-t-2 md:border-b-2  selected-menu-item  mr-4">Archiv</a>
+        </div>
+
+        <div class="flex">
+            <div class="relative pt-4 md:pt-0">
+                <div class="cursor-pointer hover:text-eureka" id="lightDarkMode">
+                    <i class="fas fa-sun"></i>
+                </div>
+                <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-30" id="is-open">
+                </div>
+                <div class="absolute flex flex-col left-0 md:left-auto right-auto md:right-0 hidden bg-secondary-bg w-48 rounded py-2 border border-tertiary-bg cursor-pointer z-40"
+                    id='lightDarkOptions'>
+                    <span class="px-4 py-1 hover:text-eureka" name="Light">Light</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Dark">Dark</span>
+                    <span class="px-4 py-1 hover:text-eureka" name="Auto">Auto</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fixed hidden inset-0 opacity-0 h-full w-full cursor-default z-0" id="is-open-mobile">
+    </div>
+
+</nav>
+<script>
+    
+    let element = document.getElementById('lightDarkMode')
+    if (storageColorScheme == 'Auto') {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'adjust')
+        element.firstElementChild.classList.add('fa-adjust')
+        document.addEventListener('DOMContentLoaded', () => {
+            window.matchMedia("(prefers-color-scheme: dark)").addEventListener('change', switchDarkMode)
+        })
+    } else if (storageColorScheme == "Dark") {
+        element.firstElementChild.classList.remove('fa-sun')
+        element.firstElementChild.setAttribute("data-icon", 'moon')
+        element.firstElementChild.classList.add('fa-moon')
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        getcolorscheme();
+        switchBurger();
+    });
+</script>
+</div>
+  </header>
+  <main class="flex-grow pt-16">
+    <div class="pl-scrollbar">
+      <div class="w-full max-w-screen-xl lg:px-4 xl:px-8 mx-auto">
+
+
+<div class="grid grid-cols-2 lg:grid-cols-8 gap-4 lg:pt-12">
+    <div
+        class="col-span-2 lg:col-start-2 lg:col-span-6 bg-secondary-bg rounded px-6 py-8">
+        <h1 class="font-bold text-3xl text-primary-text">Office Custiomization Tool und eine Empfehlung zum Configuration Management</h1>
+        <div class="flex flex-wrap flex-row items-center mt-2 text-tertiary-text">
+    <div class="mr-6 my-2">
+        <i class="fas fa-calendar mr-1"></i>
+        <span>2019-04-15</span>
+    </div>
+    <div class="mr-6 my-2">
+        <i class="fas fa-clock mr-1"></i>
+        <span>2 min read</span>
+    </div>
+    
+    
+
+    
+</div>
+        
+        
+        
+
+        <div class="content">
+            <p>Unternehmen haben beim Umstieg auf moderne Client Verwaltung oftmals Bedenken bei der Anpassung von Office. Klassischerweise werden viele Richtlinien im Office-Paket mitgegeben um es an die Anforderungen der Unternehmen anzupassen.</p>
+<p>Dabei gibt es in der modernen Client Verwaltung ein unbekannts Juwel — das “<a href="https://config.office.com/">Office Customization Tool</a>”. In der Weboberfläche werden die verschiedenen Konfiguration direkt vorgenommen. Diese Konfigurationen werden in einer XML-Datei gespeichert und können beim Setup so mitgegeben werden.</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*M9Q9zbj6hznBAyk_o9IoSA.png" alt=""></p>
+<p>Schauen wir uns das doch mal näher an. Im Minimum, und dies bietet das Tool schon länger, besteht die Konfiguration aus den Produkten die Office installieren soll (bspw. Access integriert oder nicht, etc.). Dann wählt man die Architektur (32 oder 64bit) und in welcher Häufigkeit die Updates aus welcher Quelle installiert werden sollen.</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*TpnGzU9rmuc15MWf101FaQ.png" alt=""></p>
+<p>Danach wird es aber etwas schwieriger. Unter den Einstellungen für die Anwendungen begrüsst einen eine schier nicht enden wollende Liste:</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*5uXJ6BHkdpM-bIyhW9s4Rg.png" alt=""></p>
+<p>Suchfeld und Tags helfen zielgerichtet zu konfigurieren und seine vermutlich bestehenden Richtlinien in die moderne Welt zu übertragen. Jede Richtlinien ist auch mit einem Hilfetext kurz erklärt:</p>
+<p><img src="https://cdn-images-1.medium.com/max/800/1*HSO0Q0GbuI5ksrKfiTqaig.png" alt=""></p>
+<h3 id="export-und-verwaltung-der-konfiguration">Export und Verwaltung der Konfiguration</h3>
+<p>Hat man die Konfiguration abgeschlossen, lässt sich die XML-Datei exportieren:</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*ybwQfGJHehonLTYKOhybMg.png" alt=""></p>
+<p>Damit hat man aber erst die erste Hälfte des Spiels gewonnen. Die Weboberfläche bietet keine Versionierung oder gemeinsame Bearbeitung. Die XML-Datei muss also anderweitig gesichert und verwaltet werden.</p>
+<p>Ich empfehle hierzu ein Werkzeug zur Verwaltung von Sourcecode, wie <a href="https://azure.microsoft.com/en-us/services/devops/">Azure DevOps</a> oder <a href="https://github.com/">Github</a>. Beide bieten kostenlose Accounts mit genügendem Funktionsumfang an und beide lassen sich viel stärker in allfällig vorhandene Entwicklungs- und Verwaltungsworkflows einbinden.</p>
+<p>Ich erstelle für die Verwaltung der Konfiguration ein neues Projekt, in meinem Beispiel in Azure DevOps:</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*vAsC6gIe9EjUEWvM-CiRsw.png" alt=""></p>
+<p>In diesem Projekt importiere ich dann die im “Office Customization Tool” erstellte XML-Datei:</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*D69RZiTG1RKUdXPZujWcnA.png" alt=""></p>
+<p>Diese Datei ist dann der Master unseres “Codes”. Mittels ebenfalls integriertem “Board” können Aufgaben zur Veränderung des Codes erstellt und zugeteilt werden:</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*TuOJGZYarx8ycFxHZC3uHA.png" alt=""></p>
+<p>Die Anpassung an der XML-Datei kann direkt im Browser erfolgen oder wieder im “Office Customization Tool”. Ist man sich die Arbeit mit Code und Versionsverwaltung etwas gewöhnt, hat man vermutlich auch schon andere Werkzeuge mit entsprechender Integration (Visual Studio Code, o.ä.).</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*AdxkpFEFs6S4W6QADaxb-w.png" alt=""></p>
+<p>Wird die Aufgabe dann erledigt, hat man eine nachvollziehbare Veränderung an der Konfiguration:</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*3LVvDeosf8UGPanBTcyh0Q.png" alt=""></p>
+<p>Diese Konfiguration kann dann in Werkzeuge zur Office-Verteilung integriert werden. Sei dies ganz einfach das <a href="https://docs.microsoft.com/en-us/deployoffice/overview-of-the-office-2016-deployment-tool">Office Deployment Tool</a> oder bereits ausgereifter Intune:</p>
+<p><img src="https://cdn-images-1.medium.com/max/1200/1*3Viyyu0inQkR5UiDxXvgJQ.png" alt=""></p>
+<p>Die Lösung zur Verwaltung der Konfiguration ist noch nicht perfekt, aber schon viel besser als im Büro rumzurufen ob jetzt schon jemand Access aus der Suite genommen hat oder wer die Änderung vorgenommen habe.</p>
+
+        </div>
+        
+        
+        
+
+
+        
+        
+        
+        
+<div class="flex flex-col md:flex-row md:justify-between -mx-2 mt-4 px-2 pt-4 border-t">
+    <div>
+        
+        <span class="block font-bold">Previous</span>
+        <a href="/posts/2019-05-14_in-vino-veritas-autem-in-cervisiam-sapientia/" class="block">In vino veritas autem in cervisiam sapientia.</a>
+        
+    </div>
+    <div class="md:text-right mt-4 md:mt-0">
+        
+        <span class="block font-bold">Next</span>
+        <a href="/posts/2019-04-11_office-365-message-encryption-d53a250d1497/" class="block">Office 365 Message Encryption</a>
+        
+    </div>
+</div>
+
+        
+
+
+
+    </div>
+    
+
+    
+    
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', ()=>{
+        hljs.initHighlightingOnLoad();
+    })
+</script>
+
+      </div>
+    </div>
+    
+  </main>
+  <footer class="pl-scrollbar">
+    <div class="w-full max-w-screen-xl mx-auto"><div class="text-center p-6 pin-b">
+    <p class="text-sm text-tertiary-text">&copy; 2021 <a href="https://philipbuechler.ch/">Fime</a> 
+ &middot;  </p>
+</div></div>
+  </footer>
+</body>
+
+</html>
