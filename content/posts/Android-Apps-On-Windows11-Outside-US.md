@@ -24,5 +24,5 @@ Voilà.
 
 **Disclaimer** You are now downloading software from Aurora OSS. Decide for yourself if you trust them, or want to wait for the official version with Amazon outside of the U.S. 
 
-[^1]: This guide worked in my case and adds a bit more context and screenshots to the process.
+[^1]: [This guide](https://www.windowscentral.com/how-sideload-android-apps-using-wsa-windows-11) worked in my case and adds a bit more context and screenshots to the process.
 [^2]: Maybe also use a browser with some ad blocking.
