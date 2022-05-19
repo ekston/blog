@@ -13,7 +13,7 @@ Nevertheless, certain aspects of it I find very interesting. Out of professional
 3. Start PowerShell as admin and run Add-AppxPackage -Path "path-to-the-downloaded-appx"
 4. Download and extract [the latest Android platform tools for Windows](https://dl.google.com/android/repository/platform-tools-latest-windows.zip)
 5. Start Windows Subsystem for Android - activate the developer options, start the files app and copy the IP of the WSA.
-6. Go to [AuroraOSS](https://auroraoss.com/) and download the AuroraDroid store to the platform-tools (folder of the Android platform-tools you extracted in step 4).
+6. Go to [f-droid.org](https://f-droid.org/packages/com.aurora.store/) and download the AuroraDroid store to the platform-tools (folder of the Android platform-tools you extracted in step 4).
 7. Start CMD as admin and cd into the platform-tools directory. Connect to Android with the command *adb connect IP-from-step-5*
 8. Install the apk file with the command *adb install apk-name*
 
